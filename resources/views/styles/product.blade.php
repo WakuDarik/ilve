@@ -17,6 +17,7 @@
             <div class="p-small">{{ $prod->category->name }}</div>
         </a>
         <h1 class="title-product">{{ $prod->name }}</h1>
+        <div class="price">Від {{number_format($prod->price, 0, '.', ' ')}} грн.</div>
         <p>{{ $prod->short_text }}</p>
 
         <a href="https://www.ilve.it/en/product-info?product=645SNZT4" rel="nofollow" class="button w-inline-block"

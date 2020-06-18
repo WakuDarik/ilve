@@ -300,16 +300,16 @@
                 </a>
                 <div class="title-small">Якість</div>
                 <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="link-nav grid w-inline-block">
-                    <div>Technologies of ovens</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Технології духовок</div><img src="" width="12" alt="" class="ico-link">
                 </a>
                 <a href="/hob-technologies" class="link-nav grid w-inline-block">
-                    <div>Hob Technologies</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Поверхні та комфорки</div><img src="" width="12" alt="" class="ico-link">
                 </a>
                 <a href="/blast-chill-and-store" class="link-nav grid w-inline-block">
-                    <div>Blast chill and store</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Охолодження та зберігання</div><img src="" width="12" alt="" class="ico-link">
                 </a>
                 <a href="/colours-and-finishes" class="link-nav grid w-inline-block">
-                    <div>Colours and finishes</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Кольори та оздоблення</div><img src="" width="12" alt="" class="ico-link">
                 </a>
             </div>
             <div class="col-menu-azienda w-col w-col-4">
@@ -340,18 +340,18 @@
                 </a>
             </div>
             <div class="col-menu-azienda w-col w-col-4">
-                <div class="title-small">Послуги</div>
+                {{-- <div class="title-small">Послуги</div>
                 <a href="/distributors" class="link-nav grid w-inline-block">
                     <div>Дистриб'ютори</div><img src="" width="12" alt="" class="ico-link">
-                </a>
+                </a> --}}
                 <div class="title-small">Ilve</div>
                 <a href="/company" class="link-nav grid w-inline-block">
                     <div>Компанія</div><img src="" width="12" alt="" class="ico-link">
                 </a>
-                <div class="title-small">Завантажити</div>
+                {{-- <div class="title-small">Завантажити</div>
                 <a href="/reserved-area" class="link-nav grid w-inline-block">
                     <div>Reserved area</div><img src="" width="12" alt="" class="ico-link">
-                </a>
+                </a> --}}
             </div>
         </div>
 

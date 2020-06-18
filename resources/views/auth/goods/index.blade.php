@@ -25,7 +25,7 @@
                     <div class="item">Код</div>
                     <div class="item">Категория</div>
                     <div class="item">Цена</div>
-                    <div class="item">Действия</div>
+                    <div class="item">Стиль</div>
                     <div class="item">Действия</div>
                     <div class="item">Действия</div>
                     @foreach ($goods as $good)
@@ -35,8 +35,7 @@
                     <div class="item">{{ $good->category->name }}</div>
                     <div class="item">{{ $good->price }}</div>
 
-                    <div class="item"><a class="btn btn-success" href="{{ route('products.show', $good) }}">Открыть</a>
-                    </div>
+                    <div class="item">{{ $good->style->name }}</div>
 
                     <div class="item"><a class="btn btn-success"
                             href="{{ route('products.edit', $good) }}">Редактировать</a>

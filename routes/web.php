@@ -43,19 +43,39 @@ Route::get('/majestic', function () {
 
 Route::get('/nostalgie', function () {
     return view('nostalgie');
-});
+})->name('nostalgie');
 
 Route::get('/panoramagic', function () {
     return view('panoramagic');
-});
+})->name('nostalgie');
 
 Route::get('/professional-plus', function () {
     return view('professional-plus');
-});
+})->name('professional-plus');
 
 Route::get('/pro-line', function () {
     return view('pro-line');
-});
+})->name('pro-line');
+
+Route::get('/technologies-of-ovens-and-cooking-and-storage-systems', function () {
+    return view('technologies-of-ovens-and-cooking-and-storage-systems');
+})->name('technologies-of-ovens');
+
+Route::get('/hob-technologies', function () {
+    return view('hob-technologies');
+})->name('hob-technologies');
+
+Route::get('/blast-chill-and-store', function () {
+    return view('blast-chill-and-store');
+})->name('blast-chill-and-store');
+
+Route::get('/colours-and-finishes', function () {
+    return view('colours-and-finishes');
+})->name('colours-and-finishes');
+
+Route::get('/company', function () {
+    return view('company');
+})->name('company');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
