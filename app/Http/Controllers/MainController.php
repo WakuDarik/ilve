@@ -6,6 +6,8 @@ use App\Category;
 use App\Product;
 use App\Style;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Router;
+use Illuminate\Support\Facades\Mail;
 
 class MainController extends Controller
 {
@@ -30,5 +32,32 @@ class MainController extends Controller
         $styles = Style::get();
         $thisStyle = Style::where('code', $style)->first();
         return view('category', compact('category', 'styles', 'thisStyle'));
+    }
+
+    public function productInfo($code)
+    {
+        $prod = Product::where('code', $code)->first();
+        return view('product-info', compact('prod'));
+    }
+    public function sendEmailReminder(Request $request, $id)
+    {
+
+        // Mail::send('emails.reminder', ['user' => $user], function ($m) use ($user) {
+        //     $m->from('hello@app.com', 'Your Application');
+
+        //     $m->to($user->email, $user->name)->subject('Your Reminder!');
+        // });
+    }
+    public function order(Request $request, $code)
+    {
+        $prod = Product::where('code', $code)->first();
+        Mail::send('mail', ['prodName' => $prod->name,  'body' => 'A test mail'], function ($m) use ($prod) {
+
+            $m->from('pankratiev@chlen.com', 'Your Application');
+
+            $m->to('waku108@gmail.com')->subject('Your Reminder!');
+        });
+        session()->flash('status', 'Запит відправлено. Дякуємо!');
+        return redirect()->route('index');
     }
 }

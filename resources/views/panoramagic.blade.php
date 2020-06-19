@@ -13,7 +13,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
     </div>
     <div class="content-title">
-        <h1 class="title-heder-line" data-ix="title">Panoramagic</h1>
+        <h1 class="title-heder-line" >Panoramagic</h1>
     </div>
 </div>
 <div id="ilvetext50-block_5eb044950d9ec" class="block-01 w-row">
@@ -53,7 +53,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             до точного контролю температури та відводу пари для більш-менш вологого приготування.
             Електронний сенсорний дисплей TFT поєднується з великою ручкою із вбудованим світлодіодом, безпомилковим
             естетичним підписом колекції Panoramagic.</p>
-        <a href="/en/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block"
+        <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block"
             data-ix="button">
             <div>Дізнатися більше</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
@@ -89,7 +89,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 Panoramagic плити випускаються в трьох моделях: 120<br />
                 120 см з подвійною духовкою і 90 см з 6 конфорками<br />
                 або з індукційною варильною поверхнею. </p>
-            <a href="/en/range-cookers/panoramagic" class="button dark small w-inline-block" data-ix="button">
+            <a href="/range-cookers/panoramagic" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дивитися плити Panoramagic</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
@@ -105,7 +105,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <p class="paragraph-7 white">
                 Panoramagic витяжки мають дизайн відповідно до плит. Випускається в розмірах 90 і 120 см
                 з відсмоктуванням 1000 м3 / год. </p>
-            <a href="/en/hoods/panoramagic" class="button dark small w-inline-block" data-ix="button">
+            <a href="/hoods/panoramagic" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дізнатися про витяжки Panoramagic</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
@@ -123,7 +123,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 дюймів
                 і 90 см місткістю 110 літрів. Всі вони оснащені TFT-дисплеєм і можуть
                 досягти максимальної температури 320 °. </p>
-            <a href="/en/ovens-and-cooking-and-storage-systems" class="button dark small w-inline-block"
+            <a href="/ovens-and-cooking-and-storage-systems" class="button dark small w-inline-block"
                 data-ix="button">
                 <div class="white">Дізнатися про духові шафи Panoramagic</div>
                 <div class="line-link"></div>

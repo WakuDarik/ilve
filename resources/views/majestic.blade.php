@@ -15,7 +15,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
     </div>
     <div class="content-title">
-        <h1 class="title-heder-line" data-ix="title">Majestic</h1>
+        <h1 class="title-heder-line" >Majestic</h1>
     </div>
 </div>
 <div id="ilvetext-block_5e5e6f2d1da2e" class="block-01 w-row ilve-text">
@@ -49,7 +49,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             бажаннями, з професійними технологіями: багатогалузеві газові пальники потужністю від 1,8 до 5 кВт, газові
             конфорки із товстою пластиною
             з нержавіючої сталі, чавунною пластиною Coup de Feu з кільцями та електричним керамічним склом.</p>
-        <a href="/en/hob-technologies" class="button w-inline-block" data-ix="button">
+        <a href="/hob-technologies" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
                 class="arrow">
@@ -72,8 +72,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <li>Доступна подвійна піч</li>
             <li>Електронний контроль температури</li>
         </ul>
-        <a href="/en/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block"
-            data-ix="button">
+        <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
                 class="arrow">
@@ -307,8 +306,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 замовлення в
                 різноманітних кольорах або відтінках RAL. Широкий асортимент
                 розмірів (від 70 см до 150 см) і установок. </p>
-            <a href="/en/range-cookers/majestic" class="button dark small w-inline-block" data-ix="button">
-                <div class="white">Відкрийте для себе кухонні плити Majestic</div>
+            <a href="/range-cookers/majestic" class="button dark small w-inline-block" data-ix="button">
+                <div class="white">Відкрийте для себе плити Majestic</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
             </a>
@@ -323,7 +322,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <p class="paragraph-7 white">
                 Дизайн витяжок Majestic відповідає плитам за кольорами та металевою обробкою.
                 Крім фільтрації та очищення повітря, в них влаштовані інфрачервоні лампи, щоб зберігати їжу теплою. </p>
-            <a href="/en/hoods/majestic" class="button dark small w-inline-block" data-ix="button">
+            <a href="/hoods/majestic" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дізнатися про витяжки Majestic</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">

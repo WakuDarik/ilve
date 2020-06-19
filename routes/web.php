@@ -77,9 +77,17 @@ Route::get('/company', function () {
     return view('company');
 })->name('company');
 
+Route::get('/colonna-stellata', function () {
+    return view('colonna-stellata');
+})->name('colonna-stellata');
+
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::post('/order/{code}', 'MainController@order')->name('order');
+
 Route::get('/{category}', 'MainController@category')->name('category');
+
+Route::get('/product-info/{product}', 'MainController@productInfo')->name('product-info');
 
 Route::get('/{category}/{style}', 'MainController@categoryStyle')->name('category-style');
 

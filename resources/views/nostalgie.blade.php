@@ -14,7 +14,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
     </div>
     <div class="content-title">
-        <h1 class="title-heder-line" data-ix="title">Nostalgie</h1>
+        <h1 class="title-heder-line" >Nostalgie</h1>
     </div>
 </div>
 <div id="ilvetext50-block_5e5f8b46b2ec2" class="block-01 w-row">
@@ -56,7 +56,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             бажань, за допомогою професійних технологій якості: багатогалузеві газові пальники з <strong> потужністю від
                 1,8 до 5 кВт, </strong> газовий FryTop зроблений з нержавіючої сталі, плита із чавуну Coup de Feu з
             індукційними кільцями та кермічним покриттям.</p>
-        <a href="/en/hob-technologies" class="button w-inline-block" data-ix="button">
+        <a href="/hob-technologies" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
                 class="arrow">
@@ -80,7 +80,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <li>Внутрішні порожнини духовки, покриті емаллю «Easy Clean»</li>
             <li>Складний нагрівальний елемент гриля для легшого очищення</li>
         </ul>
-        <a href="/en/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block"
+        <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block"
             data-ix="button">
             <div>Дізнатися більше</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
@@ -109,7 +109,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <h2>Зіркова колона</h2>
         <p>Як готувати, мов справжній шеф-кухар та зекономити просторі?<br />
             Це просто з ILVE’s Зіркова колона.</p>
-        <a href="/en/styles/nostalgie-en/colonna-stellata-cstarn" class="button w-inline-block" data-ix="button">
+        <a href="/styles/nostalgie-en/colonna-stellata-cstarn" class="button w-inline-block" data-ix="button">
             <div>Дізнаится більше</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
                 class="arrow">
@@ -329,7 +329,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 Кухонні плити Nostalgie мають класичний стиль, завдяки якому ви не втомлюєтесь готувати щодня.Можна
                 замовити у будь-якому із запропонованих кольорів або відтінках RAL з різноманітними обробками,
                 аксесуарами та додатковими функціями, такими як обробка Noblesse. </p>
-            <a href="/en/range-cookers/nostalgie" class="button dark small w-inline-block" data-ix="button">
+            <a href="/range-cookers/nostalgie" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути плити Nostalgie </div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
@@ -344,7 +344,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <h2 class="white">Витяжка</h2>
             <p class="paragraph-7 white">
                 Витяжки Nostalgie нагадують старі кухні, але вони оснащені найсучаснішими технологіями. Сталевий фільтр
-                ефективно утримує жирові частинки. </p><a href="/en/hoods/nostalgie"
+                ефективно утримує жирові частинки. </p><a href="/hoods/nostalgie"
                 class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути витяжки Nostalgie</div>
                 <div class="line-link"></div>
@@ -361,7 +361,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <p class="paragraph-7 white">
                 Трирівнева колона Nostalgie поєднує в одній системі ультракомбіновану духовку, чиллер і вакуумну
                 систему, щоб надати професійні можливості у найбільш ефективному використанні простору та привабливому
-                дизайні. </p><a href="/en/styles/nostalgie-en/colonna-stellata-cstarn"
+                дизайні. </p><a href="/styles/nostalgie-en/colonna-stellata-cstarn"
                 class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути трирівневі колони Nostalgie</div>
                 <div class="line-link"></div>
@@ -379,7 +379,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 Печі Nostalgie мають різні розміри і забезпечують професійну ефективність. За допомогою чиллера ви
                 можете зберігати їжу від 3 ° C до 20 ° C, щоб забезпечити зберігання їжі та уникати відходів. Функція
                 вакууму додає ще один спосіб консервування та дозволяє готувати соус у вакуумі. </p><a
-                href="/en/ovens-and-cooking-and-storage-systems/nostalgie" class="button dark small w-inline-block"
+                href="/ovens-and-cooking-and-storage-systems/nostalgie" class="button dark small w-inline-block"
                 data-ix="button">
                 <div class="white">Переглянути печі Nostalgie</div>
                 <div class="line-link"></div>
@@ -396,7 +396,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <p class="paragraph-7 white">
                 Газові панелі Nostalgie мають ручки, як на традиційній кухні та коморки з латуні із технологічною
                 обробкою Total Black. Доступні у багатьох розміріах та налаштуваннях. </p><a
-                href="/en/gas-hobs/nostalgie" class="button dark small w-inline-block" data-ix="button">
+                href="/gas-hobs/nostalgie" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути газові поверхні Nostalgie</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
@@ -411,7 +411,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <h2 class="white">Індукційні панелі</h2>
             <p class="paragraph-7 white">
                 Індукційний панелі Nostalgie, з ручками традиційного вигляду, забезпечує загальний контроль температури
-                та максимальну безпеку використання. </p><a href="/en/induction-hobs/nostalgie"
+                та максимальну безпеку використання. </p><a href="/induction-hobs/nostalgie"
                 class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути індукційні панелі Nostalgie</div>
                 <div class="line-link"></div>

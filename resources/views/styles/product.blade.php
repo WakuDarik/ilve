@@ -20,8 +20,7 @@
         <div class="price">Від {{number_format($prod->price, 0, '.', ' ')}} грн.</div>
         <p>{{ $prod->short_text }}</p>
 
-        <a href="https://www.ilve.it/en/product-info?product=645SNZT4" rel="nofollow" class="button w-inline-block"
-            data-ix="button">
+        <a href="{{route('product-info', $prod->code)}}" rel="nofollow" class="button w-inline-block" data-ix="button">
             <div>Бажаєте придбати або співпрацювати?</div>
             <div class="line-link dark"></div>
             <img src="{{ Storage::url('static/') }}arrow.svg" width="18" alt="" class="arrow">

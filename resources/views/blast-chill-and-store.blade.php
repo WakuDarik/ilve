@@ -16,7 +16,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
     </div>
     <div class="content-title">
-        <h1 class="title-heder-line" data-ix="title">Охолодження та збереження</h1>
+        <h1 class="title-heder-line" >Охолодження та збереження</h1>
     </div>
 </div>
 <h2 class="has-text-align-center">Функції холодження</h2>

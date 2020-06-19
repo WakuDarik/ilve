@@ -14,7 +14,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
     </div>
     <div class="content-title">
-        <h1 class="title-heder-line" data-ix="title">Pro Line</h1>
+        <h1 class="title-heder-line" >Pro Line</h1>
     </div>
 </div>
 <div id="ilvetext-block_5e70ace8ad30f" class="block-01 w-row ilve-text">
@@ -47,7 +47,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <h2>Налаштування.</h2>
         <p>Різні комбінації плит: 90 см, 100 см і 120 см. Крім того, 90 см конфігурація також може бути обладнана
             індукційною системою.</p>
-        <a href="/en/hob-technologies" class="button w-inline-block" data-ix="button">
+        <a href="/hob-technologies" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
                 class="arrow">
@@ -69,9 +69,9 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <li>Внутрішні порожнини духовки, покриті емаллю «Easy Clean»</li>
             <li>Складний нагрівальний елемент гриля для легшого очищення</li>
         </ul>
-        <a href="/en/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block"
+        <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block"
             data-ix="button">
-            <div>Discover more</div>
+            <div>Дізнатися більше</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
                 class="arrow">
         </a>
@@ -150,7 +150,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 Кухонні плити Pro Line пропонують безкомпромісну продуктивність, орієнтуючись на найважливіше: диззайн.
                 Вони відрізняються сучасними кольорами і випускаються в різних варіаціях, розміром від 60 см до 120 см.
             </p>
-            <a href="/en/range-cookers/pro-line" class="button dark small w-inline-block" data-ix="button">
+            <a href="/range-cookers/pro-line" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути плити Pro Line</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
@@ -166,7 +166,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <p class="paragraph-7 white">
                 Витяжки Pro Line покращують якість повітря та прикрашають кухню. Ефективні, безшумні і з низьким
                 споживанням енергії, оснащені світлодіодним освітленням. </p>
-            <a href="/en/hoods/pro-line" class="button dark small w-inline-block" data-ix="button">
+            <a href="/hoods/pro-line" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дізнатися більше про витяжки Pro Line</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
@@ -182,7 +182,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <p class="paragraph-7 white">
                 Печі Pro Line задовольняють будь-які потреби в декорі та використанні. Програмування відбувається за
                 допомогою зручної панелі кнопок та легко читабельного дисплея. ПЛита забезпечує постійну температуру для
-                рівномірного приготування їжі. </p><a href="/en/ovens-and-cooking-and-storage-systems/pro-line"
+                рівномірного приготування їжі. </p><a href="/ovens-and-cooking-and-storage-systems/pro-line"
                 class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дізнатися більше про печі Pro Line</div>
                 <div class="line-link"></div>
@@ -200,7 +200,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 Газові панелі Pro Line виготовлені з суцільної сталевої пластини, довговічні та прості в чищенні.
                 Завдяки їх тонкому профілю вони ідеально підходять під будь які умови.
                 Підставки з чавуну утворюють єдину і безпечну опорну поверхню для посуду.
-                Пальники високої ефективності гарантують ідеальний розподіл тепла. </p><a href="/en/gas-hobs/pro-line"
+                Пальники високої ефективності гарантують ідеальний розподіл тепла. </p><a href="/gas-hobs/pro-line"
                 class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дізнаится більше про газові панелі Pro Line</div>
                 <div class="line-link"></div>
@@ -216,7 +216,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <h2 class="white">Індукційні панелі</h2>
             <p class="paragraph-7 white">
                 Індукційні панелі Pro Line бувають різних розмірів, забезпечують повний контроль температури та
-                гарантують максимальну безпеку використання. </p><a href="/en/induction-hobs/pro-line"
+                гарантують максимальну безпеку використання. </p><a href="/induction-hobs/pro-line"
                 class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дізнатися більше про Індукційні панелі Pro Line</div>
                 <div class="line-link"></div>

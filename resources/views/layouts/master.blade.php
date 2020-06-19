@@ -7,9 +7,7 @@
     <title>@yield('title')</title>
     <meta name="keywords" content="@yield('keywords')">
     <meta name="description" content="@yield('descr')">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{Storage::url('apple-touch-icon.png')}}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{Storage::url('favicon-32x32.png')}}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{Storage::url('favicon-16x16.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{Storage::url('favicon.png')}}">
     {{-- <link rel="manifest" href="{{Storage::url('site.webmanifest')}}"> --}}
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
@@ -36,13 +34,42 @@
             margin: 0;
             padding: 0;
         }
+
+        p.alert {
+            white-space: pre-line;
+            font-size: .9rem;
+            display: block;
+            position: absolute;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            left: 0;
+            right: 0;
+            top: 90px;
+            min-width: 100%;
+            /* opacity: .5; */
+        }
+
+        .alert-success {
+            background-color: #dff0d8e8;
+            border-color: #d6e9c6;
+            color: #3c763d;
+        }
+
+        .alert {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
     </style>
 </head>
 
 <body class="body-home">
     <div id="main-menu-back-to-black" @if(Request::route()->getName() == "index")
-        class="menu menu-test home-load-menu home-load-hide " @else class="menu menu-test other-load " @endif>
-        <a href="en" class="logo w-inline-block">
+        class="menu menu-test home-load-menu " @else class="menu menu-test other-load " @endif>
+        <a href="/" class="logo w-inline-block">
             @if(Request::route()->getName() == "index")
             <img id="back-to-black-logo" src="{{Storage::url('static/logo_1.svg')}}" width="120" height="39" alt="">
             @else
@@ -62,13 +89,13 @@
                 <div data-ix='menu-product-open'>Продукція</div>
                 <div class="line-link"></div>
             </a>
-            <a href="//range-cookers?conf=t" @if(Request::route()->getName() == "index")
+            {{-- <a href="//range-cookers?conf=t" @if(Request::route()->getName() == "index")
                 class="back-to-black-nav link-nav w-inline-block " @else class="back-to-black-nav link-nav
                 w-inline-block dark" @endif data-ix="button">
                 <div>Варіанти</div>
                 <div class="line-link"></div>
-            </a>
-            <a href="/distributors" @if(Request::route()->getName() == "index")
+            </a> --}}
+            <a href="/company" @if(Request::route()->getName() == "index")
                 class="back-to-black-nav link-nav w-inline-block " @else class="back-to-black-nav link-nav
                 w-inline-block dark" @endif data-ix="button">
                 <div>Про нас</div>
@@ -142,10 +169,10 @@
                     <div data-ix='menu-product-open'>Продукція</div>
                     <div class="line-link"></div>
                 </a>
-                <a href="//range-cookers?conf=t" class="link-nav dark w-inline-block" data-ix="button">
+                {{-- <a href="//range-cookers?conf=t" class="link-nav dark w-inline-block" data-ix="button">
                     <div>Варіанти</div>
                     <div class="line-link"></div>
-                </a>
+                </a> --}}
                 <a href="/distributors" class="link-nav dark w-inline-block" data-ix="button">
                     <div>Про нас</div>
                     <div class="line-link"></div>
@@ -254,11 +281,9 @@
         <div class="payoff-menu">
             <h2 class="payoff">Готувати з любов'ю означає покращити якість життя.</h2>
             <div class="div-block-10">
-                <p class="address">Phone +39 049 9200990<br>Fax +39 049 9201010<br> <a class="add-black"
-                        href="//www.iubenda.com/privacy-policy/93807784" target="_blank">Політика
-                        конфіденційності</a> |
-                    <a class="add-black" href="//www.iubenda.com/privacy-policy/93807784/cookie-policy"
-                        target="_blank">Cookies</a>
+                <p class="address">Телефон: <a href="tel:+38 067 440 9791">+38 067 440 9791</a><br>
+                    Email: <a href="mailto:df@glazer.com.ua">df@glazer.com.ua</a><br>
+                    Email: <a href="mailto:4409791@gmail.com">4409791@gmail.com</a>
                 </p>
             </div>
             <div class="div-block-9" style="display: none;">
@@ -296,7 +321,7 @@
                     <div>Professional Plus</div><img src="" width="12" alt="" class="ico-link">
                 </a>
                 <a href="/colonna-stellata" class="link-nav grid w-inline-block">
-                    <div>Colonna Stellata</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Зіркова колонна</div><img src="" width="12" alt="" class="ico-link">
                 </a>
                 <div class="title-small">Якість</div>
                 <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="link-nav grid w-inline-block">
@@ -366,20 +391,20 @@
                 <a href="/panoramagic" class="link-menu-mobile w-dropdown-link">Panoramagic</a>
                 <a href="/pro-line" class="link-menu-mobile w-dropdown-link">Pro Line</a>
                 <a href="/professional-plus" class="link-menu-mobile w-dropdown-link">Professional Plus</a>
-                <a href="/colonna-stellata" class="link-menu-mobile w-dropdown-link">Colonna Stellata</a>
+                <a href="/colonna-stellata" class="link-menu-mobile w-dropdown-link">Зіркова колонна</a>
             </nav>
         </div>
         <div data-delay="0" class="dropdown-3 w-dropdown">
             <div class="dropdown-toggle-3 w-dropdown-toggle">
                 <div class="icon-2 w-icon-dropdown-toggle"></div>
-                <div class="title-menu">Quality</div>
+                <div class="title-menu">Якість</div>
             </div>
             <nav class="dropdown-list-2 w-dropdown-list">
                 <a href="/technologies-of-ovens-and-cooking-and-storage-systems"
-                    class="link-menu-mobile w-dropdown-link">Technologies of ovens</a>
-                <a href="/hob-technologies" class="link-menu-mobile w-dropdown-link">Hob Technologies</a>
-                <a href="/blast-chill-and-store" class="link-menu-mobile w-dropdown-link">Blast chill and store</a>
-                <a href="/colours-and-finishes" class="link-menu-mobile w-dropdown-link">Colours and finishes</a>
+                    class="link-menu-mobile w-dropdown-link">Технології духовок</a>
+                <a href="/hob-technologies" class="link-menu-mobile w-dropdown-link">Технології варильних поверхонь</a>
+                <a href="/blast-chill-and-store" class="link-menu-mobile w-dropdown-link">Охолодження та зберігання</a>
+                <a href="/colours-and-finishes" class="link-menu-mobile w-dropdown-link">Кольори та обробка</a>
             </nav>
         </div>
         <div data-delay="0" class="dropdown-3 w-dropdown">
@@ -431,7 +456,10 @@
 
         <div class="shadow"></div>
     </div>
+    @if (session()->has('status'))
+    <p class="flesh alert alert-success">{{ session()->get('status') }}</p>
 
+    @endif
     @yield('content')
 
     <div class="small-footer">

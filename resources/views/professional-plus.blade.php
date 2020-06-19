@@ -14,7 +14,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
     </div>
     <div class="content-title">
-        <h1 class="title-heder-line" data-ix="title">Professional Plus</h1>
+        <h1 class="title-heder-line">Professional Plus</h1>
     </div>
 </div>
 <div id="ilvetext-block_5e70a8490a5ab" class="block-01 w-row ilve-text">
@@ -57,7 +57,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             в різноманітних налаштуваннях: газові пальники потужністю від 1,8 до 5 кВт,
             газові грилі з товстою плитою з нержавіючої сталі,
             індукційні плити с керамічною скляною поверхнею.</p>
-        <a href="/en/hob-technologies" class="button w-inline-block" data-ix="button">
+        <a href="/hob-technologies" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
                 class="arrow">
@@ -81,8 +81,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <li>Внутрішні порожнини духовки, покриті емаллю «Easy Clean»</li>
             <li>Складний нагрівальний елемент гриля для легшого очищення</li>
         </ul>
-        <a href="/en/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block"
-            data-ix="button">
+        <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
                 class="arrow">
@@ -109,8 +108,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <h2>Зіркова колона</h2>
         <p>Як готувати, мов справжній шеф-кухар у невеликому просторі?<br />
             Це легко з ILVE Зірковою колоною.</p>
-        <a href="/en/colonna-stellata" class="button w-inline-block" data-ix="button">
-            <div>Discover more</div>
+        <a href="/colonna-stellata" class="button w-inline-block" data-ix="button">
+            <div>Дізнатися більше</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
                 class="arrow">
         </a>
@@ -161,7 +160,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 Кухонні плити Professional Plus оснащені ручками зі спеціальним ергономічним дизайном, що відтворює
                 кухні найкращих ресторанів на вашій кухні. Доступні у різних кольорах, металеві оздоблення випускаються
                 у різних розмірах від 60 см до 150 см. </p>
-            <a href="/en/range-cookers/professional-plus" class="button dark small w-inline-block" data-ix="button">
+            <a href="/range-cookers/professional-plus" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути плити Professional Plus</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
@@ -179,7 +178,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 поверхня робить роботу легшою та безпечнішою. Перегородкові фільтри та нержавіюча сталь утворюють бар'єр
                 проти
                 жиру. </p>
-            <a href="/en/hoods/professional-plus" class="button dark small w-inline-block" data-ix="button">
+            <a href="/hoods/professional-plus" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути витяжки Professional Plus</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
@@ -196,7 +195,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 Трирівнева колонка Professional Plus поєднує в одній системі духовку,
                 чиппер і вакуумну систему, щоб запропонувати найвищі професійні показники при
                 найбільш ефективному використанні простору та високотехнологічного дизайну. </p>
-            <a href="/en/styles/professional-plus-en/colonna-stellata-cstar" class="button dark small w-inline-block"
+            <a href="/styles/professional-plus-en/colonna-stellata-cstar" class="button dark small w-inline-block"
                 data-ix="button">
                 <div class="white">Переглянути Трирівневі зіркові колони Professional Plus </div>
                 <div class="line-link"></div>
@@ -216,8 +215,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 За допомогою надзвичайного холодильника ви можетезнизити температуру від
                 (- 3 ° C) до температури морозильної камери (- 20 ° C) за дуєе короткий час.
                 Функція вакууму додає ще один спосіб консервування та дозволяє готувати соус під вакуумом. </p>
-            <a href="/en/ovens-and-cooking-and-storage-systems/professional-plus"
-                class="button dark small w-inline-block" data-ix="button">
+            <a href="/ovens-and-cooking-and-storage-systems/professional-plus" class="button dark small w-inline-block"
+                data-ix="button">
                 <div class="white">Переглянути печі Professional Plus</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
@@ -235,7 +234,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 тепла.
                 В якості альтернативи сталі їх можна виготовити з чорного загартованого скла. Доступні у
                 найрізноманітніших розмірах та налаштуваннях. </p>
-            <a href="/en/gas-hobs/professional-plus" class="button dark small w-inline-block" data-ix="button">
+            <a href="/gas-hobs/professional-plus" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути газові панелі Professional Plus</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
@@ -247,12 +246,12 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     </div>
     <div class="row-correlati w-row">
         <div class="col-correlati-l w-col w-col-6">
-            <h2 class="white">Індукціонні плити</h2>
+            <h2 class="white">Індукційні плити</h2>
             <p class="paragraph-7 white">
-                Індукціонні плити Professional Plus доступний із вбудованою витяжкою, забезпечують повний контроль
+                Індукційні плити Professional Plus доступний із вбудованою витяжкою, забезпечують повний контроль
                 температури та гарантують максимальну безпеку використання. </p>
-            <a href="/en/induction-hobs/professional-plus" class="button dark small w-inline-block" data-ix="button">
-                <div class="white">Перегланути Індукціонні плити Professional Plus</div>
+            <a href="/induction-hobs/professional-plus" class="button dark small w-inline-block" data-ix="button">
+                <div class="white">Перегланути Індукційні плити Professional Plus</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
             </a>
