@@ -19,6 +19,7 @@ Auth::routes([
     'verify' => false
 ]);
 
+Route::get('currency/{currencyCode}', 'MainController@changeCurency')->name('currency');
 
 Route::group([
     'middleware' => 'auth'

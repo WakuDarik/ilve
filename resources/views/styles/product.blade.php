@@ -17,7 +17,9 @@
             <div class="p-small">{{ $prod->category->name }}</div>
         </a>
         <h1 class="title-product">{{ $prod->name }}</h1>
+        @isset($prod->price)
         <div class="price">Від {{number_format($prod->price, 0, '.', ' ')}} грн.</div>
+        @endisset
         <p>{{ $prod->short_text }}</p>
 
         <a href="{{route('product-info', $prod->code)}}" rel="nofollow" class="button w-inline-block" data-ix="button">

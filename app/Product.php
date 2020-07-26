@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Services\CurrencyConvertion;
 use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
@@ -36,5 +37,10 @@ class Product extends Model
     public function images()
     {
         return $this->hasMany(Product_Image::class);
+    }
+
+    public function getPriceAttribute($value)
+    {
+        return round(CurrencyConvertion::convert($value), 2);
     }
 }

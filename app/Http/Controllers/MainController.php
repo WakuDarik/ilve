@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Category;
+use App\Currency;
 use App\Product;
 use App\Style;
 use Illuminate\Http\Request;
@@ -59,5 +60,12 @@ class MainController extends Controller
         });
         session()->flash('status', 'Запит відправлено. Дякуємо!');
         return redirect()->route('index');
+    }
+
+    public function changeCurency($currencyCode)
+    {
+        $currency = Currency::ByCode($currencyCode)->firstOrFail();
+        session(['currency' => $currency->code]);
+        return redirect()->back();
     }
 }
