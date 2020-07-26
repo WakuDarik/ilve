@@ -164,8 +164,8 @@ class ProductController extends Controller
     public function categoryStyleAdm($code, $style)
     {
         $category = Category::where('code', $code)->first();
-        $styles = Style::get();
         $thisStyle = Style::where('code', $style)->first();
+        $goods = Product::where('category_id', $category->id)->where('style_id', $thisStyle->id);
         return view('auth.goods.index', compact('goods'));
     }
 }
