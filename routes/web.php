@@ -30,6 +30,7 @@ Route::group([
         'middleware' => 'isAdmin',
         'prefix' => 'admin'
     ], function () {
+        Route::get('{category}/{style}', 'MainController@categoryStyle')->name('category-style-adm');
         Route::resource('products', 'Admin\ProductController');
     });
 });
