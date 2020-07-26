@@ -21,7 +21,9 @@ class ProductController extends Controller
     public function index()
     {
         $goods = Product::get();
-        return view('auth.goods.index', compact('goods'));
+        $styles = Style::get();
+        $categories = Category::get();
+        return view('auth.goods.index', compact('goods', 'styles', 'categories'));
     }
 
     /**
@@ -163,9 +165,41 @@ class ProductController extends Controller
 
     public function categoryStyleAdm($code, $style)
     {
+        $categories = Category::get();
+        $styles = Style::get();
         $category = Category::where('code', $code)->first();
-        $thisStyle = Style::where('code', $style)->first();
-        $goods = Product::where('category_id', $category->id)->where('style_id', $thisStyle->id);
-        return view('auth.goods.index', compact('goods'));
+        $style = Style::where('code', $style)->first();
+        $goods = Product::where(['category_id' => $category->id, 'style_id' => $style->id])->get();
+        return view('auth.goods.index', compact('goods', 'category', 'style', 'categories', 'styles'));
+    }
+
+    public function sort(Request $request)
+    {
+        if ($request->category == 'NULL' && $request->styles == 'NULL') {
+            return redirect()->route('products.index');
+        } elseif ($request->category == 'NULL') {
+            $styles = Style::get();
+            $categories = Category::get();
+            $styleNow = Style::firstWhere('id', $request->styles);
+            $goods = $styleNow->styleProducts;
+            return view('auth.goods.index', compact('goods', 'categories', 'styles'));
+        } elseif ($request->styles == 'NULL') {
+            $categories = Category::get();
+            $styles = Style::get();
+            $categoryNow = Category::firstWhere('id', $request->category);
+            $goods = $categoryNow->categoryProducts;
+            return view('auth.goods.index', compact('goods', 'categories', 'styles'));
+        } else {
+            $styles = Style::get();
+            $styleNow = Style::firstWhere('id', $request->styles);
+
+            $categories = Category::get();
+            $categoryNow = Category::firstWhere('id', $request->category);
+
+            $goods = $styleNow->styleProductsByCategory($request->category);
+            return view('auth.goods.index', compact('goods', 'categories', 'styles'));
+        }
+
+        // dd($props);
     }
 }

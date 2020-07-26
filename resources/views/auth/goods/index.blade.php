@@ -15,9 +15,33 @@
         border-bottom: 1px solid #fff;
     }
 </style>
+{{-- @dd($goods) --}}
 <div class="content">
     <div class="container">
         <div class="row">
+
+            <form action="{{route('props.sort')}}" method="get">
+                @csrf
+                <legend> @isset($categorynow)
+                    Сгрупировано по категории <b>{{$categorynow->name}}</b>
+                    @else
+                    Групировать по категории
+                    @endisset </legend>
+                <select name="category" id="category">
+                    <option value="NULL">Все категории</option>
+                    @foreach ($categories as $categori)
+                    <option value="{{$categori->id}}">{{$categori->name}}</option>
+                    @endforeach
+                </select>
+                <select name="styles" id="styles">
+                    <option value="NULL">Все стили</option>
+                    @foreach ($styles as $style)
+                    <option value="{{$style->id}}">{{$style->name}}</option>
+                    @endforeach
+                </select>
+                <button type="submit" class="btn">Групировать</button>
+            </form>
+
             <div class="col-md-12">
                 <div class="grid">
                     <div class="item">#</div>
