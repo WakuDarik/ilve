@@ -17,7 +17,7 @@
             <div class="p-small">{{ $prod->category->name }}</div>
         </a>
         <h1 class="title-product">{{ $prod->name }}</h1>
-        @if(isset($prod->price) && !is_null($prod->price))
+        @if(isset($prod->price) && $prod->price != 0)
         <div class="price">Від {{number_format($prod->price, 0, '.', ' ')}} грн.</div>
         @endif
         <p>{{ $prod->short_text }}</p>
