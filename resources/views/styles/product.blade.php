@@ -1,7 +1,7 @@
 @extends('layouts/master')
 
-@section('title', 'ilve-shop.com.ua - товар - придбати {{ $prod->category->name }}, {{$prod->style->name}},
-{{$prod->name}}')
+@section('title', 'ilve-shop.com.ua - товар - придбати '.$prod->category->name.', '.$prod->style->name.',
+'.$prod->name.')
 
 @section('keywords','ilve-shop.com.ua, придбати {{ $prod->category->name }}, купити {{ $prod->category->name }}, купити
 {{ $prod->category->name }} у стилі {{$prod->style->name}}, придбати {{ $prod->category->name }} {{$prod->name}}')
