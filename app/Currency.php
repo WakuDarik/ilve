@@ -11,8 +11,8 @@ class Currency extends Model
         return $query->where('code', $code);
     }
      
-    public function EurToUah($price)
-    {
-        return $price / 0.75 * $this->rate;
-    }
+    // public function EurToUah($price)
+    // {
+    //     return $price / 0.75 * $this->rate;
+    // }
 }
