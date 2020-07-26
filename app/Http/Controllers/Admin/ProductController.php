@@ -160,4 +160,12 @@ class ProductController extends Controller
         Product_Image::where('id', $request->img_id)->delete();
         return 'ok';
     }
+
+    public function categoryStyleAdm($code, $style)
+    {
+        $category = Category::where('code', $code)->first();
+        $styles = Style::get();
+        $thisStyle = Style::where('code', $style)->first();
+        return view('auth.goods.index', compact('goods'));
+    }
 }
