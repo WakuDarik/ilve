@@ -1,11 +1,12 @@
 @extends('layouts/master')
 
-@section('title', 'Оренда інструментів у Львові і Львівській області | Орендувати ')
+@section('title', 'ilve-shop.com.ua - товар - придбати {{ $prod->category->name }}, {{$prod->style->name}},
+{{$prod->name}}')
 
-@section('keywords','Оренда інструментів, Інструмент у Львові і Львівській
-області, Оренда ')
+@section('keywords','ilve-shop.com.ua, придбати {{ $prod->category->name }}, купити {{ $prod->category->name }}, купити
+{{ $prod->category->name }} у стилі {{$prod->style->name}}, придбати {{ $prod->category->name }} {{$prod->name}}')
 
-@section('descr','Орендувати на день за найвигіднішими цінами у Львові та Львівській області.')
+@section('descr','{{ $prod->short_text }}')
 
 @section('content')
 <div id="back-to-info" class="info-gallery w-clearfix">
