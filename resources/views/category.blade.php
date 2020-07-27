@@ -44,8 +44,10 @@
     <div class="row-list w-row">
         @foreach ($thisStyle->styleProductsByCategory($category->id) as $prod)
         <div class="col-pro  w-col w-col-4">
+            @if ($style->code != 'other')
             <a href="{{route('prod', [$thisStyle->code, $prod->code])}}" class="link-preview-product w-inline-block"
                 data-ix="details" style="transition: all 0.6s ease 0s;">
+                @endif
                 <img src="{{Storage::url($prod->iamge)}}" class="img-tech-product">
                 <div class="div-block-23">
                     <h3 class="title-product">{{$prod->name}}</h3>
@@ -71,8 +73,9 @@
         @foreach ($style->styleProductsByCategory($category->id) as $prod)
         <div class="col-pro  w-col w-col-4">
             @if ($style->code != 'other')
-            <a href="{{route('prod', [$style->code, $prod->code])}}" class="link-preview-product w-inline-block" @endif
+            <a href="{{route('prod', [$style->code, $prod->code])}}" class="link-preview-product w-inline-block"
                 data-ix="details" style="transition: all 0.6s ease 0s;">
+                @endif
                 <img src="{{Storage::url($prod->iamge)}}" class="img-tech-product">
                 <div class="div-block-23">
                     <h3 class="title-product">{{$prod->name}}</h3>
