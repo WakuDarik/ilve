@@ -1,8 +1,10 @@
 @extends('layouts/master')
 
-@section('title',$prod->meta_t ? $prod->meta_t : 'ilve-shop.com.ua - товар - придбати '.$prod->category->name.', '.$prod->style->name.', '.$prod->name.'.')
+@section('title',$prod->meta_t ? $prod->meta_t : 'ilve-shop.com.ua - товар - придбати '.$prod->category->name.',
+'.$prod->style->name.', '.$prod->name.'.')
 
-@section('keywords', $prod->meta_k ? $prod->meta_k : 'ilve-shop.com.ua, придбати '.$prod->category->name.' '.$prod->style->name.' , купити '.$prod->category->name.' '.$prod->style->name.' , купити
+@section('keywords', $prod->meta_k ? $prod->meta_k : 'ilve-shop.com.ua, придбати '.$prod->category->name.'
+'.$prod->style->name.' , купити '.$prod->category->name.' '.$prod->style->name.' , купити
 '.$prod->category->name.' у стилі '.$prod->style->name. ' , придбати ' .$prod->category->name.' '.$prod->name.'')
 
 @section('descr', $prod->meta_d ? $prod->meta_d : $prod->short_text)
@@ -17,8 +19,8 @@
             <div class="p-small">{{ $prod->category->name }}</div>
         </a>
         <h1 class="title-product">{{ $prod->name }}</h1>
-        @if(isset($prod->price) && $prod->price != 0)
-        <div class="price">Від {{number_format($prod->price, 0, '.', ' ')}} грн.</div>
+        @if(!empty($prod->price))
+        <div class="price">Від {{number_format(round($prod->price, -3), 0, '.', ' ')}} грн.</div>
         @endif
         <p>{{ $prod->short_text }}</p>
 
