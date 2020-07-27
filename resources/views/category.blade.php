@@ -70,7 +70,8 @@
     <div class="row-list w-row">
         @foreach ($style->styleProductsByCategory($category->id) as $prod)
         <div class="col-pro  w-col w-col-4">
-            <a href="{{route('prod', [$style->code, $prod->code])}}" class="link-preview-product w-inline-block"
+            @if ($style->code != 'other')
+            <a href="{{route('prod', [$style->code, $prod->code])}}" class="link-preview-product w-inline-block" @endif
                 data-ix="details" style="transition: all 0.6s ease 0s;">
                 <img src="{{Storage::url($prod->iamge)}}" class="img-tech-product">
                 <div class="div-block-23">
