@@ -60,7 +60,7 @@
 </div>
 @else
 @foreach ($styles as $style)
-
+@if(sizeof($style->styleProductsByCategory($category->id)) !== 0) )
 <div class="content-list">
     <div class="div-block-35">
         <h3 class="title-cat">{{$style->name}}</h3>
@@ -82,7 +82,7 @@
         @endforeach
     </div>
 </div>
-
+@endif
 @endforeach
 @endif
 
