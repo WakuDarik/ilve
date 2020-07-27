@@ -12,7 +12,9 @@
 @section('content')
 <div id="back-to-info" class="info-gallery w-clearfix">
     <div class="div-block-26">
+        @if ($prod->style->code != 'other')
         <a href="{{route($prod->style->code)}}" class="title-cat-scheda">{{$prod->style->name}}</a>
+        @endif
         <a href="{{route('category', $prod->category->code)}}" class="title-cat-scheda fktlgt"></a>
         <a href="{{route('category', $prod->category->code)}}" class="link-block-3 w-inline-block">
             <img src="{{ Storage::url('static/') }}block-arrow.svg" width="21" alt="" class="image-12">
