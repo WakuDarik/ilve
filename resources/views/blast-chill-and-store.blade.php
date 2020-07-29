@@ -1,9 +1,9 @@
 @extends('layouts/master')
 
-@section('title', 'Оренда інструментів у Львові і Львівській області | Орендувати ')
-@section('keywords','Оренда інструментів, Інструмент у Львові і Львівській
-області, Оренда ')
-@section('descr','Орендувати на день за найвигіднішими цінами у Львові та Львівській області.')
+@section('title', 'Чиллер для домашньої та професійної кухні - ILVE - ILVE-SHOP')
+@section('keywords','Чиллер ILVE, чиллер ILVE-SHOP')
+@section('descr','Технології доменного охолодження та зберігання від ILVE: відкрийте для себе кухонні прилади
+ILVE-SHOP.')
 
 @section('content')
 
@@ -16,7 +16,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
     </div>
     <div class="content-title">
-        <h1 class="title-heder-line" >Охолодження та збереження</h1>
+        <h1 class="title-heder-line">Охолодження та збереження</h1>
     </div>
 </div>
 <h2 class="has-text-align-center">Функції холодження</h2>

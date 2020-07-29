@@ -43,4 +43,9 @@ class Product extends Model
     {
         return round(CurrencyConvertion::convert($value), 2);
     }
+
+    public function options()
+    {
+        return $this->hasMany(Optcion::class);
+    }
 }

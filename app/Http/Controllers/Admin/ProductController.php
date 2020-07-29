@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Category;
 use App\Http\Controllers\Controller;
+use App\Optcion;
 use App\Product;
 use App\Product_Image;
 use App\Style;
@@ -65,11 +66,18 @@ class ProductController extends Controller
         $goods = Product::find($prods);
 
         $images = [];
-
+        $optcions = [];
         if ($request->hasFile('product_images')) {
             foreach ($request->file('product_images') as $key => $image) {
                 $images[$key] = new Product_Image(array('image' => $image->store($date->year . '/' . $date->month . '/' . $date->day)));
                 $images[$key] = $goods->images()->save($images[$key]);
+            }
+        }
+
+        foreach ($params['option'] as $key => $optcion) {
+            if (!empty($optcion) && !empty($request->input('priceOption')[$key])) {
+                $optcions[$key] = new Optcion(array('option' => $optcion, 'price' =>  $params['priceOption'][$key]));
+                $optcions[$key] = $goods->options()->save($optcions[$key]);
             }
         }
 
@@ -126,6 +134,7 @@ class ProductController extends Controller
         }
 
         $images = [];
+        $optcions = [];
 
         if ($request->hasFile('product_images')) {
             foreach ($request->file('product_images') as $key => $image) {
@@ -134,6 +143,14 @@ class ProductController extends Controller
             }
         }
 
+        $product->options()->delete();
+
+        foreach ($params['option'] as $key => $optcion) {
+            if (!empty($optcion) && !empty($request->input('priceOption')[$key])) {
+                $optcions[$key] = new Optcion(array('option' => $optcion, 'price' =>  $params['priceOption'][$key]));
+                $optcions[$key] = $product->options()->save($optcions[$key]);
+            }
+        }
         //dd();
         $product->update($params);
         return redirect()->route('products.index');

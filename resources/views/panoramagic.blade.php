@@ -1,9 +1,8 @@
 @extends('layouts/master')
 
-@section('title', 'Оренда інструментів у Львові і Львівській області | Орендувати ')
-@section('keywords','Оренда інструментів, Інструмент у Львові і Львівській
-області, Оренда ')
-@section('descr','Орендувати на день за найвигіднішими цінами у Львові та Львівській області.')
+@section('title', 'Panoramagic - Ilve - ilve-shop ')
+@section('keywords','ilve Panoramagic, стиль Panoramagic, кухонна техніка Panoramagic, плити Panoramagic ')
+@section('descr','Плита, що робить кухню унікальною Panoramagic.')
 @section('content')
 <div id="back-to-info" class="header-line" style="
 background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('{{Storage::url('static/panoramagic/')}}MenuStili_Panoramagic.jpg');
@@ -13,7 +12,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
     </div>
     <div class="content-title">
-        <h1 class="title-heder-line" >Panoramagic</h1>
+        <h1 class="title-heder-line">Panoramagic</h1>
     </div>
 </div>
 <div id="ilvetext50-block_5eb044950d9ec" class="block-01 w-row">
@@ -53,8 +52,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             до точного контролю температури та відводу пари для більш-менш вологого приготування.
             Електронний сенсорний дисплей TFT поєднується з великою ручкою із вбудованим світлодіодом, безпомилковим
             естетичним підписом колекції Panoramagic.</p>
-        <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block"
-            data-ix="button">
+        <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
                 class="arrow">
@@ -123,8 +121,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 дюймів
                 і 90 см місткістю 110 літрів. Всі вони оснащені TFT-дисплеєм і можуть
                 досягти максимальної температури 320 °. </p>
-            <a href="/ovens-and-cooking-and-storage-systems" class="button dark small w-inline-block"
-                data-ix="button">
+            <a href="/ovens-and-cooking-and-storage-systems" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дізнатися про духові шафи Panoramagic</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">

@@ -1,9 +1,8 @@
 @extends('layouts/master')
 
-@section('title', 'Оренда інструментів у Львові і Львівській області | Орендувати ')
-@section('keywords','Оренда інструментів, Інструмент у Львові і Львівській
-області, Оренда ')
-@section('descr','Орендувати на день за найвигіднішими цінами у Львові та Львівській області.')
+@section('title', 'Плити для професійної домашньої кухні Majestic - ILVE - ilve-shop ')
+@section('keywords','ilve Majestic, стиль Majestic, кухонна техніка Majestic, плити Majestic')
+@section('descr','Смак традицій, у сучасному стилі: відкрийте для себе кухонні прилади ILVE Nostalgie.')
 
 @section('content')
 
@@ -15,7 +14,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
     </div>
     <div class="content-title">
-        <h1 class="title-heder-line" >Majestic</h1>
+        <h1 class="title-heder-line">Majestic</h1>
     </div>
 </div>
 <div id="ilvetext-block_5e5e6f2d1da2e" class="block-01 w-row ilve-text">

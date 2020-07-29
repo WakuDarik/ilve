@@ -16,6 +16,22 @@
         width: 920px !important;
         height: 500px !important;
     }
+
+    .opcionPrice {
+        display: flex;
+    }
+
+    .plusOption {
+        width: 30px;
+        height: 30px;
+        min-width: 0px;
+        min-height: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
 </style>
 {{-- @dd($propsGood) --}}
 <div class="content">
@@ -163,6 +179,30 @@
                         <label for>Дополнительные фото<input type="file" class="form-control" name="product_images[]"
                                 multiple> </label>
                     </div>
+
+                    <div class="input-group row">
+                        <label for>Опции и цены </label>
+
+                        @isset($product)
+                        <div class="optionContainer">
+                            @foreach ($product->options()->get() as $option)
+                            <div class="opcionPrice">
+                                <input type="text" class="form-control" name="option[]" placeholder="Опция"
+                                    value="{{$option->option}}">
+                                <input type="text" class="form-control" name="priceOption[]" placeholder="Цена"
+                                    value="{{$option->price}}">
+                            </div>
+                            @endforeach
+                        </div>
+                        @endisset
+                        <div class="optionContainer">
+                            <div class="opcionPrice">
+                                <input type="text" class="form-control" name="option[]" placeholder="Опция">
+                                <input type="text" class="form-control" name="priceOption[]" placeholder="Цена">
+                            </div>
+                        </div>
+                        <div class="plusOption btn" onclick="addOption">+</div>
+                    </div>
                     <button type="submit">Добавить</button>
                 </form>
             </div>
@@ -175,6 +215,13 @@
     tinymce.init({selector:'textarea',plugins: "image imagetools code", toolbar: "code"});
 </script>
 <script>
+    function addOption(){
+        let copied = document.querySelector('.opcionPrice');
+        let parant = document.querySelector('.optionContainer');
+        //console.log(`${parant} - ${copied}`)
+         parant.appendChild(copied.cloneNode(true));
+    }
+document.querySelector('.plusOption').addEventListener('click', addOption)
     $(function() {
         $('#categories_select').on('change',function(){
        let category = $(this).val()
@@ -193,9 +240,9 @@
                 });
                
             },
-                error: function (msg) {
-                    alert('Ошибка');
-                }   
+                // error: function (msg) {
+                //     alert('Ошибка');
+                // }   
             });
         });
 

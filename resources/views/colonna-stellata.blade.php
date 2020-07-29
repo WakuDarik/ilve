@@ -1,9 +1,8 @@
 @extends('layouts/master')
 
-@section('title', 'Оренда інструментів у Львові і Львівській області | Орендувати ')
-@section('keywords','Оренда інструментів, Інструмент у Львові і Львівській
-області, Оренда ')
-@section('descr','Орендувати на день за найвигіднішими цінами у Львові та Львівській області.')
+@section('title', 'Професійнa кухнz Зіркова Колона - ILVE - ILVE-SHOP')
+@section('keywords','Зіркова Колона Ilve, Зіркова Колона Ilve-shop')
+@section('descr','Готувати, як справжній шеф-кухар, на обмеженому просторі? Зірковою Колоною ILVE - це легко.')
 
 @section('content')
 
@@ -15,7 +14,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
     </div>
     <div class="content-title">
-        <h1 class="title-heder-line" >Зіркова колонна</h1>
+        <h1 class="title-heder-line">Зіркова колонна</h1>
     </div>
 </div>
 <div id="ilvetext-block_5e70b263fc881" class="block-01 w-row ilve-text">
@@ -61,8 +60,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     </div>
 </div>
 <div id="centertextandimage-block_5e70c23cfe8a0" class="block-center centertextandimage-block">
-    <h2 class="heading-12">Чиллер</h2> <img
-        src="{{Storage::url('static/')}}Colonna_Stellata_Sezione_Abbattitore-1.jpg" alt="">
+    <h2 class="heading-12">Чиллер</h2> <img src="{{Storage::url('static/')}}Colonna_Stellata_Sezione_Abbattitore-1.jpg"
+        alt="">
 </div>
 <div id="ilveicontext-block_5e70c262fe8a1" class="block-4 w-row">
     <div class="col4-s w-col w-col-6">

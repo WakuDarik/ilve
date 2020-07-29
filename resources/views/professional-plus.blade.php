@@ -1,9 +1,10 @@
 @extends('layouts/master')
 
-@section('title', 'Оренда інструментів у Львові і Львівській області | Орендувати ')
-@section('keywords','Оренда інструментів, Інструмент у Львові і Львівській
-області, Оренда ')
-@section('descr','Орендувати на день за найвигіднішими цінами у Львові та Львівській області.')
+@section('title', 'Професійна техніка для домашньої кухні Professional Plus - ILVE - ILVE-SHOP')
+@section('keywords','ilve Professional Plus, стиль Professional Plus, кухонна техніка Professional Plus, плити
+Professional Plus ')
+@section('descr','Непереборна привабливість технології та експлуатаційних характеристик: відкрийте для себе побутову
+техніку ILVE Professional Plus.')
 @section('content')
 
 <div id="back-to-info" class="header-line" style="

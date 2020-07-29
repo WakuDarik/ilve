@@ -71,6 +71,14 @@ Route::get('/blast-chill-and-store', function () {
     return view('blast-chill-and-store');
 })->name('blast-chill-and-store');
 
+Route::get('/forno-pizza-400', function () {
+    return view('forno-pizza-400');
+})->name('forno-pizza-400');
+
+Route::get('/ultracombi', function () {
+    return view('ultracombi');
+})->name('ultracombi');
+
 Route::get('/colours-and-finishes', function () {
     return view('colours-and-finishes');
 })->name('colours-and-finishes');

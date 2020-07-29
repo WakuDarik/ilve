@@ -1,9 +1,8 @@
 @extends('layouts/master')
 
-@section('title', 'Оренда інструментів у Львові і Львівській області | Орендувати ')
-@section('keywords','Оренда інструментів, Інструмент у Львові і Львівській
-області, Оренда ')
-@section('descr','Орендувати на день за найвигіднішими цінами у Львові та Львівській області.')
+@section('title', 'Домашня професійна кухня Pro Line - ILVE - ILVE-SHOP')
+@section('keywords','ilve Pro Line, стиль Pro Line, кухонна техніка Pro Line, плити Pro Line ')
+@section('descr','Суть професіоналізму та універсальності в декорі будинку: кухонні прилади ILVE Pro Line.')
 @section('content')
 
 <div id="back-to-info" class="header-line" style="
@@ -14,7 +13,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
     </div>
     <div class="content-title">
-        <h1 class="title-heder-line" >Pro Line</h1>
+        <h1 class="title-heder-line">Pro Line</h1>
     </div>
 </div>
 <div id="ilvetext-block_5e70ace8ad30f" class="block-01 w-row ilve-text">
@@ -69,8 +68,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <li>Внутрішні порожнини духовки, покриті емаллю «Easy Clean»</li>
             <li>Складний нагрівальний елемент гриля для легшого очищення</li>
         </ul>
-        <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block"
-            data-ix="button">
+        <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
                 class="arrow">

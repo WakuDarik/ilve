@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,18 @@
     <meta name="keywords" content="@yield('keywords')">
     <meta name="description" content="@yield('descr')">
     <link rel="icon" type="image/png" sizes="32x32" href="{{Storage::url('favicon.png')}}">
+    <meta name="robots" content="index, follow">
     {{-- <link rel="manifest" href="{{Storage::url('site.webmanifest')}}"> --}}
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale" content="ua_UA" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="ILVE - Kitchen appliances and furniture" />
-    <meta property="og:description"
-        content="Cooking with love means improving the quality of life: an important promise that ILVE always keeps." />
-    <meta property="og:url" content="en" />
-    <meta property="og:site_name" content="Ilve" />
+    <meta property="og:title" content="@yield('title')" />
+    <meta property="og:description" content="@yield('descr')" />
+    <meta property="og:url" content="{{url()->full()}}" />
+    <link rel="canonical" href="{{url()->current()}}">
+    <meta property="og:site_name" content="ilve-shop" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:description"
-        content="Cooking with love means improving the quality of life: an important promise that ILVE always keeps." />
-    <meta name="twitter:title" content="ILVE - Kitchen appliances and furniture" />
+    <meta name="twitter:description" content="@yield('descr')" />
+    <meta name="twitter:title" content="@yield('title')" />
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>

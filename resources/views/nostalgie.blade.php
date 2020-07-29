@@ -1,8 +1,7 @@
 @extends('layouts/master')
 
-@section('title', 'Оренда інструментів у Львові і Львівській області | Орендувати ')
-@section('keywords','Оренда інструментів, Інструмент у Львові і Львівській
-області, Оренда ')
+@section('title', 'Системи приготування їжі для домашньої кухні Nostalgie - ILVE - ilve-shop ')
+@section('keywords','ilve Nostalgie, стиль Nostalgie, кухонна техніка Nostalgie, плити Nostalgie ')
 @section('descr','Орендувати на день за найвигіднішими цінами у Львові та Львівській області.')
 @section('content')
 
