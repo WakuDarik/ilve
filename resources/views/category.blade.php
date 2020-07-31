@@ -49,7 +49,7 @@
                 <div class="div-block-23">
                     <h3 class="title-product">{{$prod->name}}</h3>
                     @if(!empty($prod->price))
-                    <div class="price">Від {{number_format(round($prod->price, -3), 0, '.', ' ')}} грн.</div>
+                    <div class="price">Від {{number_format(round($prod->price_convert, -3), 0, '.', ' ')}} грн.</div>
                     @endempty
                     <div class="detailsa">{{$prod->short_text}}</div>
                     <div class="line-link dark"></div>
@@ -75,7 +75,7 @@
                 <div class="div-block-23">
                     <h3 class="title-product">{{$prod->name}}</h3>
                     @if(!empty($prod->price))
-                    <div class="price">Від {{number_format(round($prod->price, -3), 0, '.', ' ')}} грн.</div>
+                    <div class="price">Від {{number_format(round($prod->price_convert, -3), 0, '.', ' ')}} грн.</div>
                     @endempty <div class="detailsa">{{$prod->short_text}}</div>
                     <div class="line-link dark"></div>
                 </div>

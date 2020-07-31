@@ -21,7 +21,7 @@
         </a>
         <h1 class="title-product">{{ $prod->name }}</h1>
         @if(!empty($prod->price))
-        <div class="price">Від {{number_format(round($prod->price, -3), 0, '.', ' ')}} грн.</div>
+        <div class="price">Від {{number_format(round($prod->price_convert, -3), 0, '.', ' ')}} грн.</div>
         @endif
         <p>{{ $prod->short_text }}</p>
 
@@ -65,7 +65,7 @@
                     <div>{{$option->option}}</div>
                 </div>
                 <div class="col-piani w-col w-col-6 w-col-small-6 w-col-tiny-6">
-                    <div>{{number_format(round($option->price, -3), 0, '.', ' ')}} грн.</div>
+                    <div>{{number_format(round($option->price_convert, -3), 0, '.', ' ')}} грн.</div>
                 </div>
             </div>
             @endforeach

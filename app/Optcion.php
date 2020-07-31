@@ -19,8 +19,8 @@ class Optcion extends Model
         return $this->belongsTo(Product::class);
     }
 
-    public function getPriceAttribute($value)
+    public function getPriceConvertAttribute()
     {
-        return round(CurrencyConvertion::convert($value), 2);
+        return round(CurrencyConvertion::convert($this->price), 2);
     }
 }
