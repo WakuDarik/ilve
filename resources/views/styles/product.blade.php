@@ -1,6 +1,6 @@
 @extends('layouts/master')
 @section('title', $prod->meta_t ? $prod->meta_t : 'ilve-shop.com.ua - Ilve - купити в Києві '.$prod->category->name.'
-'.$prod->style->name.' '.$prod->name.'.')
+ '.$prod->style->name.' '.$prod->name.'.')
 
 @section('keywords', $prod->meta_k ? $prod->meta_k : 'ilve-shop.com.ua, придбати '.$prod->category->name.'
 '.$prod->style->name.' , купити '.$prod->category->name.' '.$prod->style->name.' , купити
