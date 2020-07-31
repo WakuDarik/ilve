@@ -52,5 +52,25 @@
 </div>
 {!! $prod->plus !!}
 {!! $prod->features !!}
-
+@if(sizeof($prod->options) !== 0)
+<div id="content-options-container" class="content-options" style="padding-bottom: 100px;">
+    <h2>Ціни</h2>
+    <div class="cassetto" data-ix="cassetto">
+        <img src="../../../storage/static/product/plus.svg" width="16" alt="" class="plus">
+        <h3 class="title-varianti-2">Властивість / ціна </h3>
+        <div class="main-features-container">
+            @foreach ($prod->options as $option)
+            <div class="columns-13 w-row">
+                <div class="col-piani w-col w-col-6 w-col-small-6 w-col-tiny-6">
+                    <div>{{$option->option}}</div>
+                </div>
+                <div class="col-piani w-col w-col-6 w-col-small-6 w-col-tiny-6">
+                    <div>{{number_format(round($option->price, -3), 0, '.', ' ')}} грн.</div>
+                </div>
+            </div>
+            @endforeach
+        </div>
+    </div>
+</div>
+@endif
 @endsection
