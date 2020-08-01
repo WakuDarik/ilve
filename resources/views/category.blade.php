@@ -1,7 +1,7 @@
 @extends('layouts/master')
 
-@section('title', $category->name.' - ILVE - ILVE-SHOP')
-@section('keywords', 'Придбати '.$category->name.' Ilve, Купити '.$category->name.' Ilve-shop')
+@section('title', $category->meta_t)
+@section('keywords', $category->meta_t ?  $category->meta_k : 'Придбати '.$category->name.' Ilve, Купити '.$category->name.' Ilve-shop')
 @section('descr','Придбати кухонні прилади ilve '.$category->name.' у офійного дистрибьютора Ilve-shop')
 
 @section('content')
