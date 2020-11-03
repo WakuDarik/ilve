@@ -25,7 +25,7 @@ class CurrencyConvertion
 
     public static function convert($sum, $originCurrencyCode = 'EUR', $targetCurrenceCode = null)
     {
-        // $originCurrency = Currency::ByCode($originCurrencyCode)->first();
+        $originCurrency = Currency::ByCode($originCurrencyCode)->first();
         self::loadCurrency();
         if (!is_null(self::$webCurrency)) {
             $rate = self::$webCurrency;
