@@ -17,7 +17,7 @@
     <meta property="og:description" content="@yield('descr')" />
     <meta property="og:url" content="{{url()->full()}}" />
     <link rel="canonical" href="{{url()->current()}}">
-    <meta property="og:site_name" content="ilve-shop" />
+    <meta property="og:site_name" content="ilve" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description" content="@yield('descr')" />
     <meta name="twitter:title" content="@yield('title')" />

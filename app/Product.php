@@ -39,9 +39,9 @@ class Product extends Model
         return $this->hasMany(Product_Image::class);
     }
 
-    public function getPriceConvertAttribute()
+    public function getPriceAttribute()
     {
-        return round(CurrencyConvertion::convert($this->price), 2);
+        return round(CurrencyConvertion::convert($this), 2);
     }
 
     public function options()

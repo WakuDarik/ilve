@@ -1,6 +1,6 @@
 @extends('layouts/master')
 
-@section('title', 'Запит на інформацію про продукт - ILVE - ILVE-SHOP ')
+@section('title', 'Запит на інформацію про продукт - ILVE - ilve ')
 @section('keywords','')
 @section('descr','Надішліть запит стосовно отримання консультації, відповіді на питання, каталог товарів, цін тощо.')
 

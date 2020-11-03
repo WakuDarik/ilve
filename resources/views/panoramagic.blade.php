@@ -1,6 +1,6 @@
 @extends('layouts/master')
 
-@section('title', 'Panoramagic - Ilve - ilve-shop ')
+@section('title', 'Panoramagic - Ilve - ilve ')
 @section('keywords','ilve Panoramagic, стиль Panoramagic, кухонна техніка Panoramagic, плити Panoramagic ')
 @section('descr','Плита, що робить кухню унікальною Panoramagic.')
 @section('content')

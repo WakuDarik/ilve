@@ -1,6 +1,6 @@
 @extends('layouts/master')
 
-@section('title', 'Плити для професійної домашньої кухні Majestic - ILVE - ilve-shop ')
+@section('title', 'Плити для професійної домашньої кухні Majestic - ILVE - ilve ')
 @section('keywords','ilve Majestic, стиль Majestic, кухонна техніка Majestic, плити Majestic')
 @section('descr','Смак традицій, у сучасному стилі: відкрийте для себе кухонні прилади ILVE Nostalgie.')
 

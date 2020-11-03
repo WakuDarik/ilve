@@ -16,6 +16,7 @@ class CurrencyConvertion
         }
         return self::$webCurrency;
     }
+    
     protected static function getEurRate()
     {
         $response = Http::get('https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5');
@@ -24,7 +25,7 @@ class CurrencyConvertion
 
     public static function convert($sum, $originCurrencyCode = 'EUR', $targetCurrenceCode = null)
     {
-        $originCurrency = Currency::ByCode($originCurrencyCode)->first();
+        // $originCurrency = Currency::ByCode($originCurrencyCode)->first();
         self::loadCurrency();
         if (!is_null(self::$webCurrency)) {
             $rate = self::$webCurrency;

@@ -1,7 +1,7 @@
 @extends('layouts/master')
 
-@section('title', 'Комбінована парова піч Ultracombi - ILVE - ILVE - ILVE-SHOP')
-@section('keywords','комбінована парова піч ilve, комбінована парова піч ilve-shop, eльтракомбінована піч ilve, eльтракомбінована піч ilve-shop')
+@section('title', 'Комбінована парова піч Ultracombi - ILVE - ILVE - ilve Україна')
+@section('keywords','комбінована парова піч ilve, комбінована парова піч ilve, eльтракомбінована піч ilve, eльтракомбінована піч ilve')
 @section('descr','Ультракомбінована піч пропонує 5 одноразових режимів приготування і 4 комбіновані програми, що дозволяють вибрати найбільш зручний режим приготування в одному приладі.')
 
 @section('content')

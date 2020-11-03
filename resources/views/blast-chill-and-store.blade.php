@@ -1,9 +1,9 @@
 @extends('layouts/master')
 
-@section('title', 'Чиллер для домашньої та професійної кухні - ILVE - ILVE-SHOP')
-@section('keywords','Чиллер ILVE, чиллер ILVE-SHOP')
+@section('title', 'Чиллер для домашньої та професійної кухні - ILVE - ilve')
+@section('keywords','Чиллер ILVE, чиллер ilve')
 @section('descr','Технології доменного охолодження та зберігання від ILVE: відкрийте для себе кухонні прилади
-ILVE-SHOP.')
+ilve.')
 
 @section('content')
 

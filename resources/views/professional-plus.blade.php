@@ -1,6 +1,6 @@
 @extends('layouts/master')
 
-@section('title', 'Професійна техніка для домашньої кухні Professional Plus - ILVE - ILVE-SHOP')
+@section('title', 'Професійна техніка для домашньої кухні Professional Plus - ILVE - ilve Україна')
 @section('keywords','ilve Professional Plus, стиль Professional Plus, кухонна техніка Professional Plus, плити
 Professional Plus ')
 @section('descr','Непереборна привабливість технології та експлуатаційних характеристик: відкрийте для себе побутову

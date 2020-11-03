@@ -1,7 +1,7 @@
 @extends('layouts/master')
 
-@section('title', 'Піч для піци 400 - ILVE - ILVE-SHOP')
-@section('keywords','Піч для піци ilve, Піч для піци ilve-shop ')
+@section('title', 'Піч для піци 400 - ILVE - ilve')
+@section('keywords','Піч для піци ilve, Піч для піци ilve ')
 @section('descr','ILVE проектує та створює професійні газові та індукційні варильні панелі для кухонних приладів.')
 
 @section('content')

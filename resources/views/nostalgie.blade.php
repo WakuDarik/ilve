@@ -1,6 +1,6 @@
 @extends('layouts/master')
 
-@section('title', 'Системи приготування їжі для домашньої кухні Nostalgie - ILVE - ilve-shop ')
+@section('title', 'Системи приготування їжі для домашньої кухні Nostalgie - ILVE - ilve ')
 @section('keywords','ilve Nostalgie, стиль Nostalgie, кухонна техніка Nostalgie, плити Nostalgie ')
 @section('descr','Орендувати на день за найвигіднішими цінами у Львові та Львівській області.')
 @section('content')

@@ -1,6 +1,6 @@
 @extends('layouts/master')
 
-@section('title', 'Домашня професійна кухня Pro Line - ILVE - ILVE-SHOP')
+@section('title', 'Домашня професійна кухня Pro Line - ILVE - ilve')
 @section('keywords','ilve Pro Line, стиль Pro Line, кухонна техніка Pro Line, плити Pro Line ')
 @section('descr','Суть професіоналізму та універсальності в декорі будинку: кухонні прилади ILVE Pro Line.')
 @section('content')

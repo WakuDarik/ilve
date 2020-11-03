@@ -1,7 +1,7 @@
 @extends('layouts/master')
 
-@section('title', 'Професійнa кухнz Зіркова Колона - ILVE - ILVE-SHOP')
-@section('keywords','Зіркова Колона Ilve, Зіркова Колона Ilve-shop')
+@section('title', 'Професійнa кухнz Зіркова Колона - ILVE - ilve')
+@section('keywords','Зіркова Колона Ilve, Зіркова Колона ilve')
 @section('descr','Готувати, як справжній шеф-кухар, на обмеженому просторі? Зірковою Колоною ILVE - це легко.')
 
 @section('content')

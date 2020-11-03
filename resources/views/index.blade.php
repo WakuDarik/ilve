@@ -1,7 +1,7 @@
 @extends('layouts/master')
 
-@section('title', 'ILVE-SHOP - Кухонна техніка та меблі')
-@section('keywords','ILVE-SHOP, кухонні прилади ILVE-SHOP, кухонна техніка Ilve')
+@section('title', 'ilve - Кухонна техніка та меблі')
+@section('keywords','ilve, кухонні прилади ilve, кухонна техніка Ilve')
 @section('descr','Готувати з любов`ю означає покращення якості життя: важлива обіцянка, яку ILVE завжди дотримується.')
 
 

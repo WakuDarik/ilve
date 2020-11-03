@@ -1,7 +1,7 @@
 @extends('layouts/master')
 
-@section('title', 'Подвійні пальники. Технологія індукційних та газових плит - ILVE - ILVE-SHOP')
-@section('keywords','пальники ilve, пальники ilve-shop, індукційні панелі ilve, індукційні панелі ilve-shop ')
+@section('title', 'Подвійні пальники. Технологія індукційних та газових плит - ILVE - ilve')
+@section('keywords','пальники ilve, пальники ilve, індукційні панелі ilve, індукційні панелі ilve ')
 @section('descr','ILVE проектує та створює професійні газові та індукційні варильні панелі для кухонних приладів.')
 
 @section('content')

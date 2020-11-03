@@ -1,7 +1,7 @@
 @extends('layouts/master')
 
-@section('title', 'Професійні кулінарні системи для дому - ILVE - ILVE-SHOP')
-@section('keywords','про компанию Ilve, ilve-shop')
+@section('title', 'Професійні кулінарні системи для дому - ILVE - ilve')
+@section('keywords','про компанию Ilve, ilve')
 @section('descr','Колекції ILVE вирішують потреби людей чітко, послідовно та елегантно.')
 
 @section('content')
