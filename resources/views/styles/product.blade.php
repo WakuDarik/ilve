@@ -1,6 +1,6 @@
 @extends('layouts/master')
 @section('title', $prod->meta_t ? $prod->meta_t : 'ilve Україна - Ilve - купити в Києві '.$prod->category->name.'
- '.$prod->style->name.' '.$prod->name.'.')
+'.$prod->style->name.' '.$prod->name.'.')
 
 @section('keywords', $prod->meta_k ? $prod->meta_k : 'ilve Україна, придбати '.$prod->category->name.'
 '.$prod->style->name.' , купити '.$prod->category->name.' '.$prod->style->name.' , купити
@@ -17,7 +17,7 @@
         <a href="{{route('category', $prod->category->code)}}" class="title-cat-scheda fktlgt"></a>
         <a href="{{route('category', $prod->category->code)}}" class="link-block-3 w-inline-block">
             <img src="{{ Storage::url('static/') }}block-arrow.svg" width="21" alt="ilve" class="image-12">
-            <div class="p-small">{{ $prod->category->name }}</div>
+            <h2 class="p-small">{{ $prod->category->name }}</h2>
         </a>
         <h1 class="title-product">{{ $prod->name }}</h1>
         @if(!empty($prod->price))

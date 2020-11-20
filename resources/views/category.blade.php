@@ -1,12 +1,13 @@
 @extends('layouts/master')
 
 @section('title', $category->meta_t)
-@section('keywords', $category->meta_t ?  $category->meta_k : 'Придбати '.$category->name.' Ilve, Купити '.$category->name.' ilve')
+@section('keywords', $category->meta_t ? $category->meta_k : 'Придбати '.$category->name.' Ilve, Купити
+'.$category->name.' ilve')
 @section('descr','Придбати кухонні прилади ilve '.$category->name.' у офійного дистрибьютора Ilve')
 
 @section('content')
 <div class="header-list">
-    <h2 class="white">{{$category->name}}</h2>
+    <h1 class="white">{{$category->name}}</h1>
     <div class="filter">
         <div data-delay="0" class="dropdown w-dropdown" role="menu" aria-labelledby="w-dropdown-toggle-6">
             <div class="dropdown-toggle w-dropdown-toggle" tabindex="0" id="w-dropdown-toggle-6"
