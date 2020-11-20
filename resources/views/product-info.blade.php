@@ -15,7 +15,7 @@
 
 <div id="content-options-container" class="content-options is-prod-yes">
     <div class="cassetto cassetto-falco">
-        <img src="{{Storage::url('static/')}}plus.svg" width="16" alt="" class="plus">
+        <img src="{{Storage::url('static/')}}plus.svg" width="16" alt="ilve" class="plus">
         <h3 class="title-varianti-2 is-cassetto-falco">
             Купівля </h3>
         <div class="inner-content-shortcodes">
@@ -61,7 +61,7 @@
         </div>
     </div>
     <div class="cassetto cassetto-falco">
-        <img src="{{Storage::url('static/')}}plus.svg" width="16" alt="" class="plus">
+        <img src="{{Storage::url('static/')}}plus.svg" width="16" alt="ilve" class="plus">
         <h3 class="title-varianti-2 is-cassetto-falco">
             Співпраця </h3>
         <div class="inner-content-shortcodes">

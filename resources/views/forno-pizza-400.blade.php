@@ -11,7 +11,7 @@ background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0
 background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{Storage::url('static/')}}ILVE_Forno400_Hero.jpg');
 ">
     <div id="scroll-hide" class="div-block-33">
-        <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
+        <img src="{{Storage::url('static/')}}vertical-line.svg" alt="ilve" data-ix="scroll">
     </div>
     <div class="content-title">
         <h1 class="title-heder-line">Піч для піци 400°</h1>
@@ -29,7 +29,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
 </div>
 <div id="imagetextandlink-block_5e809ae16a966" class="block-2 w-row imagetextandlink-block ">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/')}}ILVE_Forno400_Deflettori.jpg" alt="">
+        <img src="{{Storage::url('static/')}}ILVE_Forno400_Deflettori.jpg" alt="ilve">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>400°</h2>
@@ -44,34 +44,34 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="line-hawk">Піч для піци також виконує всі функції традиційної духовки, таким чином розширюючи
         діапазон використання. Знявши дефлектори, ви отримаєте компактну духовку з однаковими характеристиками звичайної
         конвекційної печі, з трьома рівнями приготування і температурою, що регулюється від 30 ° до 400 °.</div> <img
-        src="{{Storage::url('static/')}}ILVE_Forno400_TFT.jpg" alt="">
+        src="{{Storage::url('static/')}}ILVE_Forno400_TFT.jpg" alt="ilve">
 </div>
 
 <div id="ilveicontext-block_5e809b966a969" class="block-4 w-row">
     <div class="col4-s w-col w-col-6">
-        <img src="{{Storage::url('static/')}}Temp_30-400-1.svg" width="81" alt="">
+        <img src="{{Storage::url('static/')}}Temp_30-400-1.svg" width="81" alt="ilve">
         <h3>температура від 30° до 400°</h3>
     </div>
     <div class="col4-s w-col w-col-6">
-        <img src="{{Storage::url('static/')}}Temperature_Control-1.svg" width="81" alt="">
+        <img src="{{Storage::url('static/')}}Temperature_Control-1.svg" width="81" alt="ilve">
         <h3>Точний електронний контроль температури</h3>
     </div>
 </div>
 
 <div id="ilveicontext-block_5e809bf86a96a" class="block-4 w-row">
     <div class="col4-s w-col w-col-6">
-        <img src="{{Storage::url('static/')}}Tangential_Ventilation.svg" width="81" alt="">
+        <img src="{{Storage::url('static/')}}Tangential_Ventilation.svg" width="81" alt="ilve">
         <h3>Тангенціальна вентиляція охолодження та ізоляція високої щільності</h3>
     </div>
     <div class="col4-s w-col w-col-6">
-        <img src="{{Storage::url('static/')}}Child_Safety.svg" width="81" alt="">
+        <img src="{{Storage::url('static/')}}Child_Safety.svg" width="81" alt="ilve">
         <h3>Child safety</h3>
     </div>
 </div>
 
 <div id="imagetextandlink-block_5e809c266a96b" class="block-2 w-row imagetextandlink-block invert">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/')}}ILVE_Forno400_Acccessori.jpg" alt="">
+        <img src="{{Storage::url('static/')}}ILVE_Forno400_Acccessori.jpg" alt="ilve">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>Стандартні аксесуари</h2>
@@ -89,7 +89,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
 
 <div id="twocolsgrey-block_5e809c5e6a96c" class="block-3 w-row twocolsgrey-block invert">
     <div class="col-3-img w-col w-col-6">
-        <img src="{{Storage::url('static/')}}645SZTCT4_BK_Gen_Front.png" alt="" class="image-11">
+        <img src="{{Storage::url('static/')}}645SZTCT4_BK_Gen_Front.png" alt="ilve" class="image-11">
     </div>
     <div class="col3-txt w-col w-col-6">
         <h2>Professional Plus Чорне скло</h2>
@@ -97,7 +97,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             ручкою</p>
         <a href="/style/nostalgie/645SZTCT4" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
         </a>
     </div>
@@ -105,21 +105,21 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
 
 <div id="twocolsgrey-block_5e809d056a96d" class="block-3 w-row twocolsgrey-block invert">
     <div class="col-3-img w-col w-col-6">
-        <img src="{{Storage::url('static/')}}645SLZT4_SS_Gen_Front.png" alt="" class="image-11">
+        <img src="{{Storage::url('static/')}}645SLZT4_SS_Gen_Front.png" alt="ilve" class="image-11">
     </div>
     <div class="col3-txt w-col w-col-6">
         <h2>Professional Plus Нержавіюча сталь</h2>
         <p>Піч із Нержавіючої сталі та TFT сенсорним дисплеєм</p>
         <a href="/style/nostalgie/645SLZT4" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
         </a>
     </div>
 </div>
 <div id="twocolsgrey-block_5e809dce6a96e" class="block-3 w-row twocolsgrey-block " style="padding-bottom: 100px;">
     <div class="col-3-img w-col w-col-6">
-        <img src="{{Storage::url('static/')}}645SCZT4_MGG_Gen_Front.png" alt="" class="image-11">
+        <img src="{{Storage::url('static/')}}645SCZT4_MGG_Gen_Front.png" alt="ilve" class="image-11">
     </div>
     <div class="col3-txt w-col w-col-6">
         <h2>Nostalgie</h2>
@@ -127,7 +127,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         </p>
         <a href="/style/nostalgie/645SNZT4" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
         </a>
     </div>

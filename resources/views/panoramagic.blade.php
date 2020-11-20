@@ -9,7 +9,7 @@ background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0
 background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{Storage::url('static/panoramagic/')}}MenuStili_Panoramagic.jpg');
 ">
     <div id="scroll-hide" class="div-block-33">
-        <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
+        <img src="{{Storage::url('static/')}}vertical-line.svg" alt="ilve panoramagic" data-ix="scroll">
     </div>
     <div class="content-title">
         <h1 class="title-heder-line">Panoramagic</h1>
@@ -30,18 +30,18 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
 </div>
 <div id="ilvegallery-block_5eb044c60d9ed" class="carousel editorial-carousel"
     data-flickity='{ "imagesLoaded": true , "wrapAround": true, "pageDots": false}'>
-    <img src="{{Storage::url('static/panoramagic/')}}OV30PMT3_SS_Set_Det_01.jpg" alt="">
-    <img src="{{Storage::url('static/panoramagic/')}}OV30PMT3_SS_Set_Sco_01.jpg" alt="">
-    <img src="{{Storage::url('static/panoramagic/')}}OV91PMT3_SS_Set_Det_01.jpg" alt="">
-    <img src="{{Storage::url('static/panoramagic/')}}OV91PMT3_SS_Set_Det_02.jpg" alt="">
-    <img src="{{Storage::url('static/panoramagic/')}}PM128DE3_SS_DET_01.jpg" alt="">
-    <img src="{{Storage::url('static/panoramagic/')}}PM128DE3_SS_DET_02.jpg" alt="">
-    <img src="{{Storage::url('static/panoramagic/')}}PM128DE3_SS_GEN_01.jpg" alt="">
-    <img src="{{Storage::url('static/panoramagic/')}}PM128DE3_SS_GEN_02.jpg" alt="">
+    <img src="{{Storage::url('static/panoramagic/')}}OV30PMT3_SS_Set_Det_01.jpg" alt="ilve panoramagic">
+    <img src="{{Storage::url('static/panoramagic/')}}OV30PMT3_SS_Set_Sco_01.jpg" alt="ilve panoramagic">
+    <img src="{{Storage::url('static/panoramagic/')}}OV91PMT3_SS_Set_Det_01.jpg" alt="ilve panoramagic">
+    <img src="{{Storage::url('static/panoramagic/')}}OV91PMT3_SS_Set_Det_02.jpg" alt="ilve panoramagic">
+    <img src="{{Storage::url('static/panoramagic/')}}PM128DE3_SS_DET_01.jpg" alt="ilve panoramagic">
+    <img src="{{Storage::url('static/panoramagic/')}}PM128DE3_SS_DET_02.jpg" alt="ilve panoramagic">
+    <img src="{{Storage::url('static/panoramagic/')}}PM128DE3_SS_GEN_01.jpg" alt="ilve panoramagic">
+    <img src="{{Storage::url('static/panoramagic/')}}PM128DE3_SS_GEN_02.jpg" alt="ilve panoramagic">
 </div>
 <div id="imagetextandlink-block_5eb045190d9f6" class="block-2 w-row imagetextandlink-block invert">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/panoramagic/')}}Forni_Grandi_Dimensioni.png" alt="">
+        <img src="{{Storage::url('static/panoramagic/')}}Forni_Grandi_Dimensioni.png" alt="ilve panoramagic">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>Печі</h2>
@@ -54,14 +54,14 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             естетичним підписом колекції Panoramagic.</p>
         <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve panoramagic"
                 class="arrow">
         </a>
     </div>
 </div>
 <div id="imagetextandlink-block_5eb045910d9f7" class="block-2 w-row imagetextandlink-block ">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/panoramagic/')}}Blocco_Cottura.jpg" alt="">
+        <img src="{{Storage::url('static/panoramagic/')}}Blocco_Cottura.jpg" alt="ilve panoramagic">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>Плити</h2>
@@ -90,11 +90,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <a href="/range-cookers/panoramagic" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дивитися плити Panoramagic</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve panoramagic" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/panoramagic/')}}PM128DS3_SS_HOOD_Gen_Front_Thumb.png" alt="">
+            <img src="{{Storage::url('static/panoramagic/')}}PM128DS3_SS_HOOD_Gen_Front_Thumb.png" alt="ilve panoramagic">
         </div>
     </div>
     <div class="row-correlati w-row">
@@ -106,11 +106,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <a href="/hoods/panoramagic" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дізнатися про витяжки Panoramagic</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve panoramagic" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/panoramagic/')}}APM120_SS_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/panoramagic/')}}APM120_SS_Gen_Front.png" alt="ilve panoramagic">
         </div>
     </div>
     <div class="row-correlati w-row">
@@ -124,11 +124,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <a href="/ovens-and-cooking-and-storage-systems" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дізнатися про духові шафи Panoramagic</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve panoramagic" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/panoramagic/')}}OV91PMT3_SS_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/panoramagic/')}}OV91PMT3_SS_Gen_Front.png" alt="ilve panoramagic">
         </div>
     </div>
 </div>

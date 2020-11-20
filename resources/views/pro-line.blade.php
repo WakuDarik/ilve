@@ -10,7 +10,7 @@ background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0
 background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{Storage::url('static/pro-line/')}}Hero_Pro_Line.jpg');
 ">
     <div id="scroll-hide" class="div-block-33">
-        <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
+        <img src="{{Storage::url('static/')}}vertical-line.svg" alt="ilve pro-line" data-ix="scroll">
     </div>
     <div class="content-title">
         <h1 class="title-heder-line">Pro Line</h1>
@@ -29,18 +29,18 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
 </div>
 <div id="ilvegallery-block_5e70ad0dad310" class="carousel editorial-carousel"
     data-flickity='{ "imagesLoaded": true , "wrapAround": true, "pageDots": false}'>
-    <img src="{{Storage::url('static/pro-line/')}}L096WMP_GRD_AGK_34-1.jpg" alt="">
-    <img src="{{Storage::url('static/pro-line/')}}L096WMP_GRD_AGK_DET_01-1.jpg" alt="">
-    <img src="{{Storage::url('static/pro-line/')}}L096WMP_GRD_AGK_GEN_01.jpg" alt="">
-    <img src="{{Storage::url('static/pro-line/')}}OV90SLKMP_HCL90SCK_AGK90_SS_Set_Sco_01.jpg" alt="">
-    <img src="{{Storage::url('static/pro-line/')}}OV90SLKMP_HCL90SCK_AGK90_SS_Set_Gen_01.jpg" alt="">
-    <img src="{{Storage::url('static/pro-line/')}}OV90SLKMP_HCL90SCK_AGK90_SS_Set_Det_03.jpg" alt="">
-    <img src="{{Storage::url('static/pro-line/')}}OV90SLKMP_HCL90SCK_AGK90_SS_Set_Det_02-1.jpg" alt="">
-    <img src="{{Storage::url('static/pro-line/')}}OV90SLKMP_HCL90SCK_AGK90_SS_Set_Det_01.jpg" alt="">
+    <img src="{{Storage::url('static/pro-line/')}}L096WMP_GRD_AGK_34-1.jpg" alt="ilve pro-line">
+    <img src="{{Storage::url('static/pro-line/')}}L096WMP_GRD_AGK_DET_01-1.jpg" alt="ilve pro-line">
+    <img src="{{Storage::url('static/pro-line/')}}L096WMP_GRD_AGK_GEN_01.jpg" alt="ilve pro-line">
+    <img src="{{Storage::url('static/pro-line/')}}OV90SLKMP_HCL90SCK_AGK90_SS_Set_Sco_01.jpg" alt="ilve pro-line">
+    <img src="{{Storage::url('static/pro-line/')}}OV90SLKMP_HCL90SCK_AGK90_SS_Set_Gen_01.jpg" alt="ilve pro-line">
+    <img src="{{Storage::url('static/pro-line/')}}OV90SLKMP_HCL90SCK_AGK90_SS_Set_Det_03.jpg" alt="ilve pro-line">
+    <img src="{{Storage::url('static/pro-line/')}}OV90SLKMP_HCL90SCK_AGK90_SS_Set_Det_02-1.jpg" alt="ilve pro-line">
+    <img src="{{Storage::url('static/pro-line/')}}OV90SLKMP_HCL90SCK_AGK90_SS_Set_Det_01.jpg" alt="ilve pro-line">
 </div>
 <div id="imagetextandlink-block_5e70ae12ad314" class="block-2 w-row imagetextandlink-block ">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/pro-line/')}}L096WMP_MG_HOBS_Zenith.png" alt="">
+        <img src="{{Storage::url('static/pro-line/')}}L096WMP_MG_HOBS_Zenith.png" alt="ilve pro-line">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>Налаштування.</h2>
@@ -48,14 +48,14 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             індукційною системою.</p>
         <a href="/hob-technologies" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve pro-line"
                 class="arrow">
         </a>
     </div>
 </div>
 <div id="imagetextandlink-block_5e70ae3bad315" class="block-2 w-row imagetextandlink-block invert">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/pro-line/')}}OV80SLK_SS_Gen_Front.jpg" alt="">
+        <img src="{{Storage::url('static/pro-line/')}}OV80SLK_SS_Gen_Front.jpg" alt="ilve pro-line">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>Печі: великі розміри та продуктивність.</h2>
@@ -70,14 +70,14 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         </ul>
         <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve pro-line"
                 class="arrow">
         </a>
     </div>
 </div>
 <div id="imagetextandlink-block_5e70ae89ad316" class="block-2 w-row imagetextandlink-block ">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/pro-line/')}}L096WMP_GRD_AGK_34.jpg" alt="">
+        <img src="{{Storage::url('static/pro-line/')}}L096WMP_GRD_AGK_34.jpg" alt="ilve pro-line">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>Абсолютна функціональність.</h2>
@@ -93,43 +93,43 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     </div>
     <div class="carousel abaco-carousel">
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/pro-line/')}}L09CW_AW_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/pro-line/')}}L09CW_AW_Gen_Front.png" alt="ilve pro-line">
             <div class="color-titles-box">
                 Античний білий <br>
                 Сатин </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/pro-line/')}}L09CW_BU_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/pro-line/')}}L09CW_BU_Gen_Front.png" alt="ilve pro-line">
             <div class="color-titles-box">
                 Бордово червоний <br>
                 Сатин </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/pro-line/')}}L09CW_MG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/pro-line/')}}L09CW_MG_Gen_Front.png" alt="ilve pro-line">
             <div class="color-titles-box">
                 Графітний матовий <br>
                 Сатин </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/pro-line/')}}L09CW_SS_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/pro-line/')}}L09CW_SS_Gen_Front.png" alt="ilve pro-line">
             <div class="color-titles-box">
                 Нержавіюча сталь <br>
                 Сатин </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/pro-line/')}}L09CW_WH_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/pro-line/')}}L09CW_WH_Gen_Front.png" alt="ilve pro-line">
             <div class="color-titles-box">
                 Білий <br>
                 Сатин </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/pro-line/')}}L096WMP_GRD_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/pro-line/')}}L096WMP_GRD_Gen_Front.png" alt="ilve pro-line">
             <div class="color-titles-box">
                 Розкішний сірий <br>
                 Чорний матовий </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/pro-line/')}}L096WMP_MGD_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/pro-line/')}}L096WMP_MGD_Gen_Front.png" alt="ilve pro-line">
             <div class="color-titles-box">
                 Графітний матовий <br>
                 Чорний матовий </div>
@@ -151,11 +151,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <a href="/range-cookers/pro-line" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути плити Pro Line</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve pro-line" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/pro-line/')}}L128W_MG_HOOD_Gen_Front_Cat_Thumb.png" alt="">
+            <img src="{{Storage::url('static/pro-line/')}}L128W_MG_HOOD_Gen_Front_Cat_Thumb.png" alt="ilve pro-line">
         </div>
     </div>
     <div class="row-correlati w-row">
@@ -167,11 +167,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <a href="/hoods/pro-line" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дізнатися більше про витяжки Pro Line</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve pro-line" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/pro-line/')}}AGK120_SS_Gen_Front_Cat_Thumb.png" alt="">
+            <img src="{{Storage::url('static/pro-line/')}}AGK120_SS_Gen_Front_Cat_Thumb.png" alt="ilve pro-line">
         </div>
     </div>
     <div class="row-correlati w-row">
@@ -184,11 +184,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дізнатися більше про печі Pro Line</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve pro-line" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/pro-line/')}}OV80SLK_SS_Gen_Front_Cat_Thumb.png" alt="">
+            <img src="{{Storage::url('static/pro-line/')}}OV80SLK_SS_Gen_Front_Cat_Thumb.png" alt="ilve pro-line">
         </div>
     </div>
     <div class="row-correlati w-row">
@@ -202,11 +202,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дізнаится більше про газові панелі Pro Line</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve pro-line" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/pro-line/')}}HCL75SCK_SS_Gen_Front_Cat_Thumb.png" alt="">
+            <img src="{{Storage::url('static/pro-line/')}}HCL75SCK_SS_Gen_Front_Cat_Thumb.png" alt="ilve pro-line">
         </div>
     </div>
     <div class="row-correlati w-row">
@@ -218,11 +218,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дізнатися більше про Індукційні панелі Pro Line</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve pro-line" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/pro-line/')}}KHVI75TC_BK_Gen_Front_Cat_Thumb.png" alt="">
+            <img src="{{Storage::url('static/pro-line/')}}KHVI75TC_BK_Gen_Front_Cat_Thumb.png" alt="ilve pro-line">
         </div>
     </div>
 </div>

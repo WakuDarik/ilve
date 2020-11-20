@@ -11,7 +11,7 @@ background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0
 background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{Storage::url('static/')}}ILVE_Ultracombi_Hero.jpg');
 ">
     <div id="scroll-hide" class="div-block-33">
-        <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
+        <img src="{{Storage::url('static/')}}vertical-line.svg" alt="ilve" data-ix="scroll">
     </div>
     <div class="content-title">
         <h1 class="title-heder-line">Ультракомбінована</h1>
@@ -29,7 +29,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
 </div>
 <div id="imagetextandlink-block_5e80a1eac34c4" class="block-2 w-row imagetextandlink-block ">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/')}}ILVE_Ultracombi_TFT.jpg" alt="">
+        <img src="{{Storage::url('static/')}}ILVE_Ultracombi_TFT.jpg" alt="ilve">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2></h2>
@@ -48,7 +48,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <h2 class="heading-12  no-btm">Конвекційна піч</h2>
     <div class="line-hawk">Вентиляція та функція грилю гарантують, що їжа на поверхні хрустка і соковита в основі,
         ідеально для приготування страв з золотистою скоринкою та соковитою начинкою.</div> <img
-        src="{{Storage::url('static/')}}ILVE_Ultracombi_Bread.jpg" alt="">
+        src="{{Storage::url('static/')}}ILVE_Ultracombi_Bread.jpg" alt="ilve">
 </div>
 
 <div id="ilveicontext-block_5e80a2fbc34cb" class="block-4 w-row">
@@ -71,7 +71,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <h2 class="heading-12  no-btm">Пара</h2>
     <div class="line-hawk">Здоровий та найпоживніший процес приготування: підтримує аромат, вітаміни та природні
         солі, не використовує жири для приготування їжі, підсилює природний смак сезонних свіжих інгредієнтів.</div>
-    <img src="{{Storage::url('static/')}}ILVE_Ultracombi_Steam.jpg" alt="">
+    <img src="{{Storage::url('static/')}}ILVE_Ultracombi_Steam.jpg" alt="ilve">
 </div>
 
 <div id="ilveicontext-block_5e80a353c34cd" class="block-4 w-row">
@@ -92,40 +92,40 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="line-hawk">Технологія мікрохвильової пічки не тільки зручна для розморожування, але
         й гарантує продуктивність, швидке та відмінне приготування. Цикли приготування, інтегровані з мікрохвильовою
         піччю, дають дивовижні результати щодо якості, смаку та економії часу</div> <img
-        src="{{Storage::url('static/')}}ILVE_Ultracombi_MW.jpg" alt="">
+        src="{{Storage::url('static/')}}ILVE_Ultracombi_MW.jpg" alt="ilve">
 </div>
 
 <div id="twocolsgrey-block_5e80a444c34d1" class="block-3 w-row twocolsgrey-block invert">
     <div class="col-3-img w-col w-col-6">
-        <img src="{{Storage::url('static/')}}645STCHSW_BK_Gen_Front.png" alt="" class="image-11">
+        <img src="{{Storage::url('static/')}}645STCHSW_BK_Gen_Front.png" alt="ilve" class="image-11">
     </div>
     <div class="col3-txt w-col w-col-6">
         <h2>Professional Plus Чоне скло</h2>
         <p>Ультракомбінована піч з потрійного чорного гартованого склоа </p>
         <a href="/style/professional-plus/645stchsw" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
         </a>
     </div>
 </div>
 <div id="twocolsgrey-block_5e80a491c34d2" class="block-3 w-row twocolsgrey-block invert">
     <div class="col-3-img w-col w-col-6">
-        <img src="{{Storage::url('static/')}}645SLHSW_SS_Gen_Front.png" alt="" class="image-11">
+        <img src="{{Storage::url('static/')}}645SLHSW_SS_Gen_Front.png" alt="ilve" class="image-11">
     </div>
     <div class="col3-txt w-col w-col-6">
         <h2>Professional Plus Нержавіюча сталь</h2>
         <p>Піч з нержавіючої сталі трицілевого призначення з контролем TFT та професійною ручкою</p>
         <a href="/style/professional-plus/645slhsw" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
         </a>
     </div>
 </div>
 <div id="twocolsgrey-block_5e80a4dac34d3" class="block-3 w-row twocolsgrey-block " style="padding-bottom: 100px;">
     <div class="col-3-img w-col w-col-6">
-        <img src="{{Storage::url('static/')}}645SCHSW_MGG_Gen_Front.png" alt="" class="image-11">
+        <img src="{{Storage::url('static/')}}645SCHSW_MGG_Gen_Front.png" alt="ilve" class="image-11">
     </div>
     <div class="col3-txt w-col w-col-6">
         <h2>Nostalgie</h2>
@@ -133,7 +133,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         </p>
         <a href="/style/nostalgie-en/645snhsw" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
         </a>
     </div>

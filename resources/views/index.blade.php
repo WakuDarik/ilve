@@ -24,7 +24,7 @@
         </div>
     </div>
     <div id="scroll-hide" class="div-block-33">
-        <img src="{{Storage::url('static/vertical-line')}}.svg" alt="" data-ix="scroll">
+        <img src="{{Storage::url('static/vertical-line')}}.svg" alt="ilveilve" data-ix="scroll">
     </div>
 </div>
 
@@ -37,7 +37,7 @@
         <a href="/company" class="button white w-inline-block" data-ix="button">
             <div>Про нас</div>
             <div class="line-link white"></div>
-            <img src="{{Storage::url('static/arrow.svg')}}" width="24" alt="" class="arrow">
+            <img src="{{Storage::url('static/arrow.svg')}}" width="24" alt="ilve" class="arrow">
         </a>
     </div>
 </div>
@@ -51,7 +51,7 @@
         <a href="/forno-pizza-400" class="button white w-inline-block" data-ix="button">
             <div>Дізнайтеся більше</div>
             <div class="line-link white"></div>
-            <img src="{{Storage::url('static/arrow.svg')}}" width="24" alt="" class="arrow">
+            <img src="{{Storage::url('static/arrow.svg')}}" width="24" alt="ilve" class="arrow">
         </a>
     </div>
 </div>
@@ -65,7 +65,7 @@
         <a href="/colonna-stellata" class="button white w-inline-block" data-ix="button">
             <div>Дізнайтеся більше</div>
             <div class="line-link white"></div>
-            <img src="{{Storage::url('static/arrow.svg')}}" width="24" alt="" class="arrow">
+            <img src="{{Storage::url('static/arrow.svg')}}" width="24" alt="ilve" class="arrow">
         </a>
     </div>
 </div>
@@ -79,7 +79,7 @@
         <a href="/ultracombi" class="button white w-inline-block" data-ix="button">
             <div>Дізнайтеся більше</div>
             <div class="line-link white"></div>
-            <img src="{{Storage::url('static/arrow.svg')}}" width="24" alt="" class="arrow">
+            <img src="{{Storage::url('static/arrow.svg')}}" width="24" alt="ilve" class="arrow">
         </a>
     </div>
 </div>
@@ -92,7 +92,7 @@
         <a href="/range-cookers?conf=t" class="button white w-inline-block" data-ix="button">
             <div>Створіть Вашу плиту</div>
             <div class="line-link white"></div>
-            <img src="{{Storage::url('static/arrow.svg')}}" width="24" alt="" class="arrow">
+            <img src="{{Storage::url('static/arrow.svg')}}" width="24" alt="ilve" class="arrow">
         </a>
         <img class="hide-desktop" src="{{Storage::url('static/ILVE_Home_Configuratore-768x432.png')}}"">
     </div>

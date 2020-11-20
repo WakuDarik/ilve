@@ -171,7 +171,7 @@
                             @foreach ($product->images()->get() as $images)
                             <div class="moreImg-wrap">
                                 <a class="delMoreImg" data-img-id="{{$images->id}}">x</a>
-                                <img src="{{Storage::url($images->image)}}" alt="">
+                                <img src="{{Storage::url($images->image)}}" alt="ilve">
                             </div>
                             @endforeach
                         </div>

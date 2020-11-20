@@ -11,7 +11,7 @@ background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0
 background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{Storage::url('static/majestic/')}}majestic-p-1600.jpeg');
 ">
     <div id="scroll-hide" class="div-block-33">
-        <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
+        <img src="{{Storage::url('static/')}}vertical-line.svg" alt="ilve" data-ix="scroll">
     </div>
     <div class="content-title">
         <h1 class="title-heder-line">Majestic</h1>
@@ -32,14 +32,14 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
 </div>
 <div id="ilvegallery-block_5e67cbadfef46" class="carousel editorial-carousel"
     data-flickity='{ "imagesLoaded": true , "wrapAround": true, "pageDots": false}'>
-    <img src="{{Storage::url('static/majestic/')}}M127DNE3_WHB_AM120_AMB_GEN_01.jpg" alt="">
-    <img src="{{Storage::url('static/majestic/')}}M127DNE3_WHB_AM120_AMB_DET_01.jpg" alt="">
-    <img src="{{Storage::url('static/majestic/')}}M127DNE3_WHB_AM120_AMB_DET_02.jpg" alt="">
-    <img src="{{Storage::url('static/majestic/')}}M127DNE3_WHB_AM120_AMB_GEN_02.jpg" alt="">
+    <img src="{{Storage::url('static/majestic/')}}M127DNE3_WHB_AM120_AMB_GEN_01.jpg" alt="ilve">
+    <img src="{{Storage::url('static/majestic/')}}M127DNE3_WHB_AM120_AMB_DET_01.jpg" alt="ilve">
+    <img src="{{Storage::url('static/majestic/')}}M127DNE3_WHB_AM120_AMB_DET_02.jpg" alt="ilve">
+    <img src="{{Storage::url('static/majestic/')}}M127DNE3_WHB_AM120_AMB_GEN_02.jpg" alt="ilve">
 </div>
 <div id="imagetextandlink-block_5e70a45d40ca0" class="block-2 w-row imagetextandlink-block ">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/majestic/')}}M127DNE3_WHB_AM120_AMB_DET_01-1.jpg" alt="">
+        <img src="{{Storage::url('static/majestic/')}}M127DNE3_WHB_AM120_AMB_DET_01-1.jpg" alt="ilve">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>Кухні на будь-який смак.</h2>
@@ -50,14 +50,14 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             з нержавіючої сталі, чавунною пластиною Coup de Feu з кільцями та електричним керамічним склом.</p>
         <a href="/hob-technologies" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
         </a>
     </div>
 </div>
 <div id="imagetextandlink-block_5e947a992c512" class="block-2 w-row imagetextandlink-block ">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/majestic/')}}Living_Coral_Forno.png" alt="">
+        <img src="{{Storage::url('static/majestic/')}}Living_Coral_Forno.png" alt="ilve">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>Печі: великі розміри та продуктивність.</h2>
@@ -73,14 +73,14 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         </ul>
         <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
         </a>
     </div>
 </div>
 <div id="imagetextandlink-block_5e70a4d440ca1" class="block-2 w-row imagetextandlink-block invert">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/majestic/')}}M15SDNE3_LC_DET_9.jpg" alt="">
+        <img src="{{Storage::url('static/majestic/')}}M15SDNE3_LC_DET_9.jpg" alt="ilve">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>Витяжки</h2>
@@ -99,193 +99,193 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     </div>
     <div class="carousel abaco-carousel">
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_AWB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_AWB_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Античний білий <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_AWC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_AWC_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Античний білий <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_AWG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_AWG_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Античний білий <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_AWP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_AWP_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Античний білий <br>
                 Мідь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_BKB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_BKB_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Глянцевий чорний <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_BKC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_BKC_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Глянцевий чорний <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_BKG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_BKG_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Глянцевий чорний <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_BKP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_BKP_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Глянцевий чорний <br>
                 Мідь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_BUB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_BUB_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Бордово червоний <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_BUC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_BUC_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Бордово червоний <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_BUG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_BUG_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Бордово червоний <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_BUP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_BUP_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Бордово червоний <br>
                 Мідь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_EGB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_EGB_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Emerald green <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_EGC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_EGC_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Emerald green <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_EGG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_EGG_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Emerald green <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_EGP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_EGP_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Emerald green <br>
                 Мідь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_MBB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_MBB_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Синій <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_MBC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_MBC_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Синій <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_MBG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_MBG_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Синій <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_MBP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_MBP_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Синій <br>
                 Мідь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_MGB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_MGB_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Графітний матовий <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_MGC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_MGC_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Графітний матовий <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_MGG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_MGG_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Графітний матовий <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_MGP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_MGP_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Графітний матовий <br>
                 Мідь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_SSB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_SSB_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Нержавіюча сталь <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_SSC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_SSC_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Нержавіюча сталь <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_SSG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_SSG_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Нержавіюча сталь <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_SSP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_SSP_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Нержавіюча сталь <br>
                 Мідь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_WHB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_WHB_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Білий <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_WHC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_WHC_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Білий <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_WHG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_WHG_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Білий <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/majestic/')}}M096DN_WHP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M096DN_WHP_Gen_Front.png" alt="ilve">
             <div class="color-titles-box">
                 Білий <br>
                 Мідь </div>
@@ -308,11 +308,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <a href="/range-cookers/majestic" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Відкрийте для себе плити Majestic</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/majestic/')}}M15FDN_WHB_HOOD_Gen_Front_Cat_Thumb.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}M15FDN_WHB_HOOD_Gen_Front_Cat_Thumb.png" alt="ilve">
         </div>
     </div>
     <div class="row-correlati w-row">
@@ -324,11 +324,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <a href="/hoods/majestic" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Дізнатися про витяжки Majestic</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/majestic/')}}AM150_WH_Gen_Front_Cat_Thumb.png" alt="">
+            <img src="{{Storage::url('static/majestic/')}}AM150_WH_Gen_Front_Cat_Thumb.png" alt="ilve">
         </div>
     </div>
 </div>

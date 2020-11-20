@@ -17,13 +17,13 @@
             <nav class="dropdown-list w-dropdown-list" id="w-dropdown-list-6">
                 <a href="{{route('category', $category->code)}}" class="dropdown-link w-inline-block w--current"
                     data-ix="arrow-list">
-                    <div>Всі стилі</div><img src="{{Storage::url('static')}}/arrow.svg" width="16" alt=""
+                    <div>Всі стилі</div><img src="{{Storage::url('static')}}/arrow.svg" width="16" alt="ilve"
                         class="arrow-list">
                 </a>
                 @foreach ($styles as $cat)
                 <a href="{{route('category-style', [$category->code, $cat->code])}}"
                     class="dropdown-link w-inline-block w--current" data-ix="arrow-list">
-                    <div>{{$cat->name}}</div><img src="{{Storage::url('static')}}/arrow.svg" width="16" alt=""
+                    <div>{{$cat->name}}</div><img src="{{Storage::url('static')}}/arrow.svg" width="16" alt="ilve"
                         class="arrow-list">
                 </a>
                 @endforeach

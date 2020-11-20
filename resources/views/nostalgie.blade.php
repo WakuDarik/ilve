@@ -10,7 +10,7 @@ background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0
 background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{Storage::url('static/nostalgie/')}}cucina-2.jpg');
 ">
     <div id="scroll-hide" class="div-block-33">
-        <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
+        <img src="{{Storage::url('static/')}}vertical-line.svg" alt="ilve nostalgie" data-ix="scroll">
     </div>
     <div class="content-title">
         <h1 class="title-heder-line" >Nostalgie</h1>
@@ -30,24 +30,24 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
 </div>
 <div id="ilvegallery-block_5e5f9262c09a9" class="carousel editorial-carousel"
     data-flickity='{ "imagesLoaded": true , "wrapAround": true, "pageDots": false}'>
-    <img src="{{Storage::url('static/nostalgie/')}}PD10SNE3_MGP_ANB100_GEN_01.jpg" alt="">
-    <img src="{{Storage::url('static/nostalgie/')}}PD10SNE3_MGP_ANB100_DET_01.jpg" alt="">
-    <img src="{{Storage::url('static/nostalgie/')}}PD10SNE3_MGP_ANB100_DET_02.jpg" alt="">
-    <img src="{{Storage::url('static/nostalgie/')}}PD10SNE3_MGP_ANB100_DET_03.jpg" alt="">
-    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Det_01.jpg" alt="">
-    <img src="{{Storage::url('static/nostalgie/')}}OV91SNT3_HCB90FCN_AG120_WHG_Set_Gen_01.jpg" alt="">
-    <img src="{{Storage::url('static/nostalgie/')}}OV91SNT3_HCB90FCN_AG120_WHG_Set_Det_03.jpg" alt="">
-    <img src="{{Storage::url('static/nostalgie/')}}OV91SNT3_HCB90FCN_AG120_WHG_Set_Det_02.jpg" alt="">
-    <img src="{{Storage::url('static/nostalgie/')}}OV91SNT3_HCB90FCN_AG120_WHG_Set_Det_01.jpg" alt="">
-    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_04.jpg" alt="">
-    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_03.jpg" alt="">
-    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_02.jpg" alt="">
-    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_01.jpg" alt="">
-    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Gen_01.jpg" alt="">
+    <img src="{{Storage::url('static/nostalgie/')}}PD10SNE3_MGP_ANB100_GEN_01.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}PD10SNE3_MGP_ANB100_DET_01.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}PD10SNE3_MGP_ANB100_DET_02.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}PD10SNE3_MGP_ANB100_DET_03.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Det_01.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV91SNT3_HCB90FCN_AG120_WHG_Set_Gen_01.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV91SNT3_HCB90FCN_AG120_WHG_Set_Det_03.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV91SNT3_HCB90FCN_AG120_WHG_Set_Det_02.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV91SNT3_HCB90FCN_AG120_WHG_Set_Det_01.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_04.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_03.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_02.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_01.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Gen_01.jpg" alt="ilve nostalgie">
 </div>
 <div id="imagetextandlink-block_5e5f9ab58bad0" class="block-2 w-row imagetextandlink-block ">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/nostalgie/')}}M15SDNE3_LC_HOBS_ZENITH-3.jpg" alt="">
+        <img src="{{Storage::url('static/nostalgie/')}}M15SDNE3_LC_HOBS_ZENITH-3.jpg" alt="ilve nostalgie">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>Поверхні на всі смаки.</h2>
@@ -57,14 +57,14 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             індукційними кільцями та кермічним покриттям.</p>
         <a href="/hob-technologies" class="button w-inline-block" data-ix="button">
             <div>Дізнатися більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve nostalgie"
                 class="arrow">
         </a>
     </div>
 </div>
 <div id="imagetextandlink-block_5e5f9af68bad1" class="block-2 w-row imagetextandlink-block invert">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/nostalgie/')}}P15SN_MGP_Gen_Front.jpg" alt="">
+        <img src="{{Storage::url('static/nostalgie/')}}P15SN_MGP_Gen_Front.jpg" alt="ilve nostalgie">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>Печі: великі розміри та продуктивність</h2>
@@ -82,14 +82,14 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block"
             data-ix="button">
             <div>Дізнатися більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve nostalgie"
                 class="arrow">
         </a>
     </div>
 </div>
 <div id="imagetextandlink-block_5e5f9b388bad2" class="block-2 w-row imagetextandlink-block ">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/nostalgie/')}}P15FQN_LGC_GEN_FRONT_01.jpg" alt="">
+        <img src="{{Storage::url('static/nostalgie/')}}P15FQN_LGC_GEN_FRONT_01.jpg" alt="ilve nostalgie">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>Вишукані та міцні дверці: додаткова стильна функція.</h2>
@@ -102,7 +102,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
 </div>
 <div id="imagetextandlink-block_5e5f9b598bad3" class="block-2 w-row imagetextandlink-block ">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/nostalgie/')}}CCSTAR_N_MGP_Gen_Front.jpg" alt="">
+        <img src="{{Storage::url('static/nostalgie/')}}CCSTAR_N_MGP_Gen_Front.jpg" alt="ilve nostalgie">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>Зіркова колона</h2>
@@ -110,7 +110,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             Це просто з ILVE’s Зіркова колона.</p>
         <a href="/styles/nostalgie-en/colonna-stellata-cstarn" class="button w-inline-block" data-ix="button">
             <div>Дізнаится більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt=""
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve nostalgie"
                 class="arrow">
         </a>
     </div>
@@ -123,193 +123,193 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     </div>
     <div class="carousel abaco-carousel">
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_AWB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_AWB_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Античний білий <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_AWC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_AWC_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Античний білий <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_AWG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_AWG_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Античний білий <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_AWP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_AWP_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Античний білий <br>
                 Мідь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BKB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BKB_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Глянцевий чорний <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BKC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BKC_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Глянцевий чорний <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BKG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BKG_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Глянцевий чорний <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BKP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BKP_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Глянцевий чорний <br>
                 Мідь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BUB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BUB_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Бордово червоний <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BUC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BUC_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Бордово червоний <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BUG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BUG_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Бордово червоний <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BUP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_BUP_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Бордово червоний <br>
                 Мідь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_EGB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_EGB_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Смарагдовий зелений <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_EGC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_EGC_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Смарагдовий зелений <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_EGG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_EGG_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Смарагдовий зелений <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_EGP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_EGP_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Смарагдовий зелений <br>
                 Мідь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MBB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MBB_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Синій <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MBC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MBC_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Синій <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MBG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MBG_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Синій <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MBP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MBP_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Синій <br>
                 Мідь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MGB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MGB_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Графітний матовий <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MGC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MGC_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Графітний матовий <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MGG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MGG_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Графітний матовий <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MGP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_MGP_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Графітний матовий <br>
                 Мідь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_SSB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_SSB_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Нержавіюча сталь <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_SSC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_SSC_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Нержавіюча сталь <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_SSG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_SSG_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Нержавіюча сталь <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_SSP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_SSP_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Нержавіюча сталь <br>
                 Мідь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_WHB_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_WHB_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Білий <br>
                 Обпалений </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_WHC_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_WHC_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Білий <br>
                 Хром </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_WHG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_WHG_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Білий <br>
                 Латунь </div>
         </div>
         <div class="col-color w-col w-col-3">
-            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_WHP_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P09PQN_WHP_Gen_Front.png" alt="ilve nostalgie">
             <div class="color-titles-box">
                 Білий <br>
                 Мідь </div>
@@ -331,11 +331,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <a href="/range-cookers/nostalgie" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути плити Nostalgie </div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve nostalgie" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/nostalgie/')}}P15SQN_MGP_HOOD_Gen_Front_Cat_Thumb.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}P15SQN_MGP_HOOD_Gen_Front_Cat_Thumb.png" alt="ilve nostalgie">
         </div>
     </div>
     <div class="row-correlati w-row">
@@ -347,11 +347,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути витяжки Nostalgie</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve nostalgie" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/nostalgie/')}}AG150_MG_Gen_FrontCat_Thumb.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}AG150_MG_Gen_FrontCat_Thumb.png" alt="ilve nostalgie">
         </div>
     </div>
     <div class="row-correlati w-row">
@@ -364,11 +364,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути трирівневі колони Nostalgie</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve nostalgie" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/nostalgie/')}}CSTARN_MGG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}CSTARN_MGG_Gen_Front.png" alt="ilve nostalgie">
         </div>
     </div>
     <div class="row-correlati w-row">
@@ -382,11 +382,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 data-ix="button">
                 <div class="white">Переглянути печі Nostalgie</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve nostalgie" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/nostalgie/')}}645SNZT4_MGG_Gen_Front.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}645SNZT4_MGG_Gen_Front.png" alt="ilve nostalgie">
         </div>
     </div>
     <div class="row-correlati w-row">
@@ -398,11 +398,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 href="/gas-hobs/nostalgie" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути газові поверхні Nostalgie</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve nostalgie" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/nostalgie/')}}HCB90SDN_SSG_Gen_Front_Cat_Thumb.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}HCB90SDN_SSG_Gen_Front_Cat_Thumb.png" alt="ilve nostalgie">
         </div>
     </div>
     <div class="row-correlati w-row">
@@ -414,11 +414,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
                 class="button dark small w-inline-block" data-ix="button">
                 <div class="white">Переглянути індукційні панелі Nostalgie</div>
                 <div class="line-link"></div>
-                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="" class="arrow">
+                <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve nostalgie" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/nostalgie/')}}VI364N_Cat_Thumb.png" alt="">
+            <img src="{{Storage::url('static/nostalgie/')}}VI364N_Cat_Thumb.png" alt="ilve nostalgie">
         </div>
     </div>
 </div>

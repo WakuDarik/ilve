@@ -12,7 +12,7 @@ background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0
 background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{Storage::url('static/')}}Colori_Finiture_Hero.jpg');
 ">
     <div id="scroll-hide" class="div-block-33">
-        <img src="{{Storage::url('static/')}}vertical-line.svg" alt="" data-ix="scroll">
+        <img src="{{Storage::url('static/')}}vertical-line.svg" alt="ilve" data-ix="scroll">
     </div>
     <div class="content-title">
         <h1 class="title-heder-line">Кольори та обробка</h1>
@@ -26,11 +26,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         розробила гаму кольорів у гармонії з основними тенденціями декору інтер'єру: класичними чи сучасними,
         мінімальними
         чи шикарними, щоб втілити красу технології різними способами. </div>
-    <img src="{{Storage::url('static/')}}Molteplici_combinazioni_di_colori.png" alt="">
+    <img src="{{Storage::url('static/')}}Molteplici_combinazioni_di_colori.png" alt="ilve">
 </div>
 <div id="imagetextandlink-block_5e70d5dbdb1f8" class="block-2 w-row imagetextandlink-block ">
     <div class="col-2-image w-col w-col-6">
-        <img src="{{Storage::url('static/')}}Colori_RAL.jpg" alt="">
+        <img src="{{Storage::url('static/')}}Colori_RAL.jpg" alt="ilve">
     </div>
     <div class="col2-txt w-col w-col-6">
         <h2>Кольори RAL.</h2>
@@ -47,41 +47,41 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
 </div>
 <div id="ilveicontext-block_5e70ddc8abedd" class="block-4 w-row">
     <div class="col4-s w-col w-col-6">
-        <img src="{{Storage::url('static/')}}B_White.svg" width="81" alt="">
+        <img src="{{Storage::url('static/')}}B_White.svg" width="81" alt="ilve">
         <h3>WH / Білий</h3>
     </div>
     <div class="col4-s w-col w-col-6">
-        <img src="{{Storage::url('static/')}}A_AntiqueWhite.svg" width="81" alt="">
+        <img src="{{Storage::url('static/')}}A_AntiqueWhite.svg" width="81" alt="ilve">
         <h3>AW / Античний білий</h3>
     </div>
 </div>
 <div id="ilveicontext-block_5e70de09abede" class="block-4 w-row">
     <div class="col4-s w-col w-col-6">
-        <img src="{{Storage::url('static/')}}SS_Inox.svg" width="81" alt="">
+        <img src="{{Storage::url('static/')}}SS_Inox.svg" width="81" alt="ilve">
         <h3>SS / Нержавіюча сталь</h3>
     </div>
     <div class="col4-s w-col w-col-6">
-        <img src="{{Storage::url('static/')}}N_GlossyBlack.svg" width="81" alt="">
+        <img src="{{Storage::url('static/')}}N_GlossyBlack.svg" width="81" alt="ilve">
         <h3>Б / Глянцевий чорний</h3>
     </div>
 </div>
 <div id="ilveicontext-block_5e70de4aabedf" class="block-4 w-row">
     <div class="col4-s w-col w-col-6">
-        <img src="{{Storage::url('static/')}}M_GrafiteMat.svg" width="81" alt="">
+        <img src="{{Storage::url('static/')}}M_GrafiteMat.svg" width="81" alt="ilve">
         <h3>MG / Графітовий матовий</h3>
     </div>
     <div class="col4-s w-col w-col-6">
-        <img src="{{Storage::url('static/')}}BL_Blue.svg" width="81" alt="">
+        <img src="{{Storage::url('static/')}}BL_Blue.svg" width="81" alt="ilve">
         <h3>МБ / Синій</h3>
     </div>
 </div>
 <div id="ilveicontext-block_5e70de6eabee0" class="block-4 w-row">
     <div class="col4-s w-col w-col-6">
-        <img src="{{Storage::url('static/')}}VS_EmeraldGreen.svg" width="81" alt="">
+        <img src="{{Storage::url('static/')}}VS_EmeraldGreen.svg" width="81" alt="ilve">
         <h3>EG / Смарагдовий зелений</h3>
     </div>
     <div class="col4-s w-col w-col-6">
-        <img src="{{Storage::url('static/')}}RB_BorgognaRed.svg" width="81" alt="">
+        <img src="{{Storage::url('static/')}}RB_BorgognaRed.svg" width="81" alt="ilve">
         <h3>BU / Багряно червоний</h3>
     </div>
 </div>
@@ -89,8 +89,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col-2-image w-col w-col-6">
         <div class="carousel carousel-inside"
             data-flickity='{ "imagesLoaded": true, "wrapAround": true, "pageDots": true, "prevNextButtons": false}'>
-            <img src="{{Storage::url('static/')}}Color_Of_The_Year_Living_Coral.jpg" alt="">
-            <img src="{{Storage::url('static/')}}Color_Of_The_Year__Light_Green.jpg" alt="">
+            <img src="{{Storage::url('static/')}}Color_Of_The_Year_Living_Coral.jpg" alt="ilve">
+            <img src="{{Storage::url('static/')}}Color_Of_The_Year__Light_Green.jpg" alt="ilve">
         </div>
     </div>
     <div class="col2-txt w-col w-col-6">

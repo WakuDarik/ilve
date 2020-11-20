@@ -72,9 +72,9 @@
         class="menu menu-test home-load-menu " @else class="menu menu-test other-load " @endif>
         <a href="/" class="logo w-inline-block">
             @if(Request::route()->getName() == "index")
-            <img id="back-to-black-logo" src="{{Storage::url('static/logo_1.svg')}}" width="120" height="39" alt="">
+            <img id="back-to-black-logo" src="{{Storage::url('static/logo_1.svg')}}" width="120" height="39" alt="ilve">
             @else
-            <img id="back-to-black-logo" src="{{Storage::url('static/logo.svg')}}" width="120" height="39" alt="">
+            <img id="back-to-black-logo" src="{{Storage::url('static/logo.svg')}}" width="120" height="39" alt="ilve">
             @endif
         </a>
         <div class="content-link-menu">
@@ -105,9 +105,9 @@
         </div>
         <a href="#" class="button-menu w-inline-block" data-ix="menu-azienda-open">
             @if(Request::route()->getName() == "index")
-            <img id="back-to-black-burger" src="{{Storage::url('static/menu-white.svg')}}" width="30" alt="">
+            <img id="back-to-black-burger" src="{{Storage::url('static/menu-white.svg')}}" width="30" alt="ilve">
             @else
-            <img id="back-to-black-burger" src="{{Storage::url('static/ico-menu.svg')}}" width="30" alt="">
+            <img id="back-to-black-burger" src="{{Storage::url('static/ico-menu.svg')}}" width="30" alt="ilve">
 
             @endif
         </a>
@@ -159,7 +159,7 @@
 
         <div class="menu top">
             <a href="en" class="logo w-inline-block w--current">
-                <img src="{{Storage::url('static/logo.svg')}}" width="120" alt="">
+                <img src="{{Storage::url('static/logo.svg')}}" width="120" alt="ilve">
             </a>
             <div class="content-link-menu">
                 <a href="#" class="link-nav dark w-inline-block" data-ix="button">
@@ -180,7 +180,7 @@
                 </a>
             </div>
             <a href="#" class="button-menu w-inline-block" data-ix="menu-linee-close">
-                <img src="{{Storage::url('static/ico-close.svg')}}" width="30" alt="">
+                <img src="{{Storage::url('static/ico-close.svg')}}" width="30" alt="ilve">
             </a>
         </div>
         <div class="columns-6 margin hawk-0 w-row">
@@ -273,10 +273,10 @@
     <div class="menu-azienda">
         <div class="menu top">
             <a href="en" class="logo w-inline-block">
-                <img src="{{Storage::url('static/logo.svg')}}" width="120" alt="">
+                <img src="{{Storage::url('static/logo.svg')}}" width="120" alt="ilve">
             </a>
             <a href="#" class="button-menu w-inline-block" data-ix="menu-linee-close">
-                <img src="{{Storage::url('static/ico-close.svg')}}" width="30" alt="">
+                <img src="{{Storage::url('static/ico-close.svg')}}" width="30" alt="ilve">
             </a>
         </div>
         <div class="payoff-menu">
@@ -289,15 +289,15 @@
             </div>
             <div class="div-block-9" style="display: none;">
                 <a href="#" class="link-social w-inline-block">
-                    <img src="{{Storage::url('static/iconfinder_facebook_circle_black_107153.svg')}}" alt=""
+                    <img src="{{Storage::url('static/iconfinder_facebook_circle_black_107153.svg')}}" alt="ilve"
                         class="ico-social">
                 </a>
                 <a href="#" class="link-social w-inline-block">
-                    <img src="{{Storage::url('static/iconfinder_instagram_circle_black_107150.svg')}}" alt=""
+                    <img src="{{Storage::url('static/iconfinder_instagram_circle_black_107150.svg')}}" alt="ilve"
                         class="ico-social">
                 </a>
                 <a href="#" class="link-social w-inline-block">
-                    <img src="{{Storage::url('static/iconfinder_linkedin_circle_black_107159.svg')}}" alt=""
+                    <img src="{{Storage::url('static/iconfinder_linkedin_circle_black_107159.svg')}}" alt="ilve"
                         class="ico-social">
                 </a>
             </div>
@@ -307,76 +307,76 @@
             <div class="col-menu-azienda w-col w-col-4">
                 <div class="title-small">Стилі</div>
                 <a href="/majestic" class="link-nav grid w-inline-block">
-                    <div>Majestic</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Majestic</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/nostalgie" class="link-nav grid w-inline-block">
-                    <div>Nostalgie</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Nostalgie</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/panoramagic" class="link-nav grid w-inline-block">
-                    <div>Panoramagic</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Panoramagic</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/pro-line" class="link-nav grid w-inline-block">
-                    <div>Pro Line</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Pro Line</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/professional-plus" class="link-nav grid w-inline-block">
-                    <div>Professional Plus</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Professional Plus</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/colonna-stellata" class="link-nav grid w-inline-block">
-                    <div>Зіркова колонна</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Зіркова колонна</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <div class="title-small">Якість</div>
                 <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="link-nav grid w-inline-block">
-                    <div>Технології духовок</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Технології духовок</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/hob-technologies" class="link-nav grid w-inline-block">
-                    <div>Поверхні та комфорки</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Поверхні та комфорки</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/blast-chill-and-store" class="link-nav grid w-inline-block">
-                    <div>Охолодження та зберігання</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Охолодження та зберігання</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/colours-and-finishes" class="link-nav grid w-inline-block">
-                    <div>Кольори та оздоблення</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Кольори та оздоблення</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
             </div>
             <div class="col-menu-azienda w-col w-col-4">
                 <div class="title-small">Продукція</div>
                 <a href="/range-cookers" class="link-nav grid w-inline-block">
-                    <div>Плити</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Плити</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/ovens-and-cooking-and-storage-systems" class="link-nav grid w-inline-block">
-                    <div>Печі та системи готування та зберігання</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Печі та системи готування та зберігання</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/gas-hobs" class="link-nav grid w-inline-block">
-                    <div>Газові панелі</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Газові панелі</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/induction-hobs" class="link-nav grid w-inline-block">
-                    <div>Індукційні панелі</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Індукційні панелі</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/cooking-and-storage-systems" class="link-nav grid w-inline-block">
-                    <div>Системи для готування та зберігання</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Системи для готування та зберігання</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/hoods" class="link-nav grid w-inline-block">
-                    <div>Витяжки</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Витяжки</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/accessories" class="link-nav grid w-inline-block">
-                    <div>Аксесуари</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Аксесуари</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/other-products" class="link-nav grid w-inline-block">
-                    <div>Інші товари</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Інші товари</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
             </div>
             <div class="col-menu-azienda w-col w-col-4">
                 {{-- <div class="title-small">Послуги</div>
                 <a href="/distributors" class="link-nav grid w-inline-block">
-                    <div>Дистриб'ютори</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Дистриб'ютори</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a> --}}
                 <div class="title-small">Ilve</div>
                 <a href="/company" class="link-nav grid w-inline-block">
-                    <div>Компанія</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Компанія</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 {{-- <div class="title-small">Завантажити</div>
                 <a href="/reserved-area" class="link-nav grid w-inline-block">
-                    <div>Reserved area</div><img src="" width="12" alt="" class="ico-link">
+                    <div>Reserved area</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a> --}}
             </div>
         </div>

@@ -16,7 +16,7 @@
         @endif
         <a href="{{route('category', $prod->category->code)}}" class="title-cat-scheda fktlgt"></a>
         <a href="{{route('category', $prod->category->code)}}" class="link-block-3 w-inline-block">
-            <img src="{{ Storage::url('static/') }}block-arrow.svg" width="21" alt="" class="image-12">
+            <img src="{{ Storage::url('static/') }}block-arrow.svg" width="21" alt="ilve" class="image-12">
             <div class="p-small">{{ $prod->category->name }}</div>
         </a>
         <h1 class="title-product">{{ $prod->name }}</h1>
@@ -28,24 +28,24 @@
         <a href="{{route('product-info', $prod->code)}}" rel="nofollow" class="button w-inline-block" data-ix="button">
             <div>Бажаєте придбати або співпрацювати?</div>
             <div class="line-link dark"></div>
-            <img src="{{ Storage::url('static/') }}arrow.svg" width="18" alt="" class="arrow">
+            <img src="{{ Storage::url('static/') }}arrow.svg" width="18" alt="ilve" class="arrow">
         </a>
     </div>
     <div class="carousel vertical-mobile-gallery"
         data-flickity='{ "imagesLoaded": true, "wrapAround": true, "pageDots": true, "prevNextButtons": false}'>
-        <img src="{{Storage::url($prod->iamge)}}" alt="">
+        <img src="{{Storage::url($prod->iamge)}}" alt="ilve">
         @foreach ($prod->images as $image)
-        <img src="{{Storage::url($image->image)}}" alt="">
+        <img src="{{Storage::url($image->image)}}" alt="ilve">
         @endforeach
 
     </div>
     <div class="vertical-gallery">
         <div class="content-img-product" data-ix="big-image">
-            <img src="{{Storage::url($prod->iamge)}}" alt="" class="image-7">
+            <img src="{{Storage::url($prod->iamge)}}" alt="ilve" class="image-7">
         </div>
         @foreach ($prod->images as $image)
         <div class="content-img-product" data-ix="big-image">
-            <img src="{{Storage::url($image->image)}}" alt="" class="image-7">
+            <img src="{{Storage::url($image->image)}}" alt="ilve" class="image-7">
         </div>
         @endforeach
     </div>
@@ -56,7 +56,7 @@
 <div id="content-options-container" class="content-options" style="padding-bottom: 100px;">
     <h2>Ціни</h2>
     <div class="cassetto" data-ix="cassetto">
-        <img src="../../../storage/static/product/plus.svg" width="16" alt="" class="plus">
+        <img src="../../../storage/static/product/plus.svg" width="16" alt="ilve" class="plus">
         <h3 class="title-varianti-2">Властивість / ціна </h3>
         <div class="main-features-container">
             @foreach ($prod->options as $option)
