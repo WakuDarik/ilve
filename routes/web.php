@@ -49,7 +49,7 @@ Route::get('/nostalgie', function () {
 
 Route::get('/panoramagic', function () {
     return view('panoramagic');
-})->name('nostalgie');
+})->name('panoramagic');
 
 Route::get('/professional-plus', function () {
     return view('professional-plus');
