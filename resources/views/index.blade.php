@@ -12,7 +12,7 @@
     <div data-w-id="3352ee9f-aac6-4690-27b2-90a01d48c6f1" class="pay-off oriz">
         <div class="content-title">
             <h3 class="white _1 h3_like_h1">
-                Житти, </h3>
+                Жити, </h3>
         </div>
         <div class="content-title">
             <h3 class="white _1 h3_like_h1" data-ix="title-2">
