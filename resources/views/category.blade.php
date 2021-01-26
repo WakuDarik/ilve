@@ -1,9 +1,8 @@
 @extends('layouts/master')
 
 @section('title', $category->meta_t)
-@section('keywords', $category->meta_t ? $category->meta_k : 'Придбати '.$category->name.' Ilve, Купити
-'.$category->name.' ilve')
-@section('descr','Придбати кухонні прилади ilve '.$category->name.' у офійного дистрибьютора Ilve')
+@section('keywords', $category->meta_t ? $category->meta_k : __('category.seo.keywords'))
+@section('descr',__('category.seo.descr').' Ilve '.$category->name)
 
 @section('content')
 <div class="header-list">
@@ -13,12 +12,12 @@
             <div class="dropdown-toggle w-dropdown-toggle" tabindex="0" id="w-dropdown-toggle-6"
                 aria-controls="w-dropdown-list-6" aria-haspopup="menu" style="outline: none;">
                 <div class="icon w-icon-dropdown-toggle"></div>
-                <div>Обрати стиль</div>
+                <div>@lang('category.choos')</div>
             </div>
             <nav class="dropdown-list w-dropdown-list" id="w-dropdown-list-6">
                 <a href="{{route('category', $category->code)}}" class="dropdown-link w-inline-block w--current"
                     data-ix="arrow-list">
-                    <div>Всі стилі</div><img src="{{Storage::url('static')}}/arrow.svg" width="16" alt="ilve"
+                    <div>@lang('category.all')</div><img src="{{Storage::url('static')}}/arrow.svg" width="16" alt="ilve"
                         class="arrow-list">
                 </a>
                 @foreach ($styles as $cat)
@@ -50,9 +49,9 @@
                 <div class="div-block-23">
                     <h3 class="title-product">{{$prod->name}}</h3>
                     @if(!empty($prod->price))
-                    <div class="price">Від {{number_format(round($prod->price_convert, -3), 0, '.', ' ')}} грн.</div>
+                    <div class="price">@lang('category.from') {{number_format(round($prod->price_convert, -3), 0, '.', ' ')}} грн.</div>
                     @endempty
-                    <div class="detailsa">{{$prod->short_text}}</div>
+                    <div class="detailsa">{{$prod->__('short_text')}}</div>
                     <div class="line-link dark"></div>
                 </div>
             </a>
@@ -76,8 +75,8 @@
                 <div class="div-block-23">
                     <h3 class="title-product">{{$prod->name}}</h3>
                     @if(!empty($prod->price))
-                    <div class="price">Від {{number_format(round($prod->price_convert, -3), 0, '.', ' ')}} грн.</div>
-                    @endempty <div class="detailsa">{{$prod->short_text}}</div>
+                    <div class="price">@lang('category.from') {{number_format(round($prod->price_convert, -3), 0, '.', ' ')}} грн.</div>
+                    @endempty <div class="detailsa">{{$prod->__('short_text')}}</div>
                     <div class="line-link dark"></div>
                 </div>
             </a>
