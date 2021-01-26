@@ -82,7 +82,7 @@
             <a href="#" @if(Request::route()->getName() == "index")
                 class="back-to-black-nav link-nav w-inline-block " @else class="back-to-black-nav link-nav
                 w-inline-block dark" @endif data-ix="button">
-                <div data-ix='menu-linee-open'></div>
+                <div data-ix='menu-linee-open'>@lang('main.style')</div>
                 <div class="line-link"></div>
             </a>
             <a href="#" @if(Request::route()->getName() == "index")
