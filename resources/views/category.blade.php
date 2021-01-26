@@ -12,13 +12,13 @@
             <div class="dropdown-toggle w-dropdown-toggle" tabindex="0" id="w-dropdown-toggle-6"
                 aria-controls="w-dropdown-list-6" aria-haspopup="menu" style="outline: none;">
                 <div class="icon w-icon-dropdown-toggle"></div>
-                <div>@lang('category.choos')</div>
+                <div>@lang('category.choose')</div>
             </div>
             <nav class="dropdown-list w-dropdown-list" id="w-dropdown-list-6">
                 <a href="{{route('category', $category->code)}}" class="dropdown-link w-inline-block w--current"
                     data-ix="arrow-list">
-                    <div>@lang('category.all')</div><img src="{{Storage::url('static')}}/arrow.svg" width="16" alt="ilve"
-                        class="arrow-list">
+                    <div>@lang('category.all')</div><img src="{{Storage::url('static')}}/arrow.svg" width="16"
+                        alt="ilve" class="arrow-list">
                 </a>
                 @foreach ($styles as $cat)
                 <a href="{{route('category-style', [$category->code, $cat->code])}}"
@@ -49,7 +49,8 @@
                 <div class="div-block-23">
                     <h3 class="title-product">{{$prod->name}}</h3>
                     @if(!empty($prod->price))
-                    <div class="price">@lang('category.from') {{number_format(round($prod->price_convert, -3), 0, '.', ' ')}} грн.</div>
+                    <div class="price">@lang('category.from')
+                        {{number_format(round($prod->price_convert, -3), 0, '.', ' ')}} грн.</div>
                     @endempty
                     <div class="detailsa">{{$prod->__('short_text')}}</div>
                     <div class="line-link dark"></div>
@@ -75,7 +76,8 @@
                 <div class="div-block-23">
                     <h3 class="title-product">{{$prod->name}}</h3>
                     @if(!empty($prod->price))
-                    <div class="price">@lang('category.from') {{number_format(round($prod->price_convert, -3), 0, '.', ' ')}} грн.</div>
+                    <div class="price">@lang('category.from')
+                        {{number_format(round($prod->price_convert, -3), 0, '.', ' ')}} грн.</div>
                     @endempty <div class="detailsa">{{$prod->__('short_text')}}</div>
                     <div class="line-link dark"></div>
                 </div>
