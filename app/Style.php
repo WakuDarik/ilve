@@ -2,10 +2,13 @@
 
 namespace App;
 
+use App\Traits\Translateble;
 use Illuminate\Database\Eloquent\Model;
 
 class Style extends Model
 {
+    use Translateble;
+
     public function styleProducts()
     {
         return $this->hasMany(Product::class);

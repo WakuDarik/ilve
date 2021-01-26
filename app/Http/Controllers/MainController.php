@@ -4,10 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Category;
 use App\Currency;
+use App\Optcion;
 use App\Product;
 use App\Style;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Router;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Mail;
 
 class MainController extends Controller
@@ -67,5 +69,21 @@ class MainController extends Controller
         $currency = Currency::ByCode($currencyCode)->firstOrFail();
         session(['currency' => $currency->code]);
         return redirect()->back();
+    }
+
+    public function changeLocale($locale)
+    {
+        $avalibale = ['ua', 'ru'];
+        if (!in_array($locale, $avalibale)) $locale = config('app.locale');
+
+        session(['locale' => $locale]);
+        App::setLocale($locale);
+        return redirect()->back();
+    }
+
+    public function test()
+    {
+        $category = Product::get();
+        return view('test', compact('category'));
     }
 }

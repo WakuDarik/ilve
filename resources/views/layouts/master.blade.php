@@ -10,7 +10,8 @@
     <meta name="description" content="@yield('descr')">
     <link rel="icon" type="image/png" sizes="32x32" href="{{Storage::url('favicon.png')}}">
     <meta name="robots" content="index, follow">
-    {{-- <link rel="manifest" href="{{Storage::url('site.webmanifest')}}"> --}}
+    <link rel="manifest" href="{{Storage::url('site.webmanifest')}}">
+
     <meta property="og:locale" content="ua_UA" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="@yield('title')" />
@@ -81,13 +82,13 @@
             <a href="#" @if(Request::route()->getName() == "index")
                 class="back-to-black-nav link-nav w-inline-block " @else class="back-to-black-nav link-nav
                 w-inline-block dark" @endif data-ix="button">
-                <div data-ix='menu-linee-open'>Стилі</div>
+                <div data-ix='menu-linee-open'></div>
                 <div class="line-link"></div>
             </a>
             <a href="#" @if(Request::route()->getName() == "index")
                 class="back-to-black-nav link-nav w-inline-block " @else class="back-to-black-nav link-nav
                 w-inline-block dark" @endif data-ix="button">
-                <div data-ix='menu-product-open'>Продукція</div>
+                <div data-ix='menu-product-open'>@lang('main.product')</div>
                 <div class="line-link"></div>
             </a>
             {{-- <a href="//range-cookers?conf=t" @if(Request::route()->getName() == "index")
@@ -99,18 +100,33 @@
             <a href="/company" @if(Request::route()->getName() == "index")
                 class="back-to-black-nav link-nav w-inline-block " @else class="back-to-black-nav link-nav
                 w-inline-block dark" @endif data-ix="button">
-                <div>Про нас</div>
+                <div>@lang('main.about_us')</div>
                 <div class="line-link"></div>
             </a>
-        </div>
-        <a href="#" class="button-menu w-inline-block" data-ix="menu-azienda-open">
-            @if(Request::route()->getName() == "index")
-            <img id="back-to-black-burger" src="{{Storage::url('static/menu-white.svg')}}" width="30" alt="ilve">
-            @else
-            <img id="back-to-black-burger" src="{{Storage::url('static/ico-menu.svg')}}" width="30" alt="ilve">
 
-            @endif
-        </a>
+
+        </div>
+
+        <div class="flex-menu-toggle">
+
+            <a class="lang-menu" href="{{ route('locale', __('main.set_lang') ) }}" @if(Request::route()->getName() ==
+                "index")
+                class="back-to-black-nav link-nav w-inline-block " @else class="back-to-black-nav link-nav
+                w-inline-block dark" @endif data-ix="button">
+                <div>@lang('main.set_lang')</div>
+                <div class="line-link"></div>
+            </a>
+
+            <a href="#" class="" data-ix="menu-azienda-open">
+                @if(Request::route()->getName() == "index")
+                <img id="back-to-black-burger" src="{{Storage::url('static/menu-white.svg')}}" width="30" alt="ilve">
+                @else
+                <img id="back-to-black-burger" src="{{Storage::url('static/ico-menu.svg')}}" width="30" alt="ilve">
+
+                @endif
+            </a>
+        </div>
+
     </div>
 
     <div class="menu-line">
@@ -163,11 +179,11 @@
             </a>
             <div class="content-link-menu">
                 <a href="#" class="link-nav dark w-inline-block" data-ix="button">
-                    <div data-ix='menu-linee-open'>Стилі</div>
+                    <div data-ix='menu-linee-open'>@lang('main.style')</div>
                     <div class="line-link"></div>
                 </a>
                 <a href="#" class="link-nav dark w-inline-block" data-ix="button">
-                    <div data-ix='menu-product-open'>Продукція</div>
+                    <div data-ix='menu-product-open'>@lang('main.product')</div>
                     <div class="line-link"></div>
                 </a>
                 {{-- <a href="//range-cookers?conf=t" class="link-nav dark w-inline-block" data-ix="button">
@@ -175,10 +191,11 @@
                     <div class="line-link"></div>
                 </a> --}}
                 <a href="/distributors" class="link-nav dark w-inline-block" data-ix="button">
-                    <div>Про нас</div>
+                    <div>@lang('main.about_us')</div>
                     <div class="line-link"></div>
                 </a>
             </div>
+
             <a href="#" class="button-menu w-inline-block" data-ix="menu-linee-close">
                 <img src="{{Storage::url('static/ico-close.svg')}}" width="30" alt="ilve">
             </a>
@@ -189,7 +206,7 @@
                     data-ix="zoom2">
                     <img src="{{Storage::url('static/blocco.jpg')}}" width="210" class="img-tech-product">
                     <div class="div-block-23">
-                        <div class="text-al-cent">Плити</div>
+                        <div class="text-al-cent">@lang('main.coock')</div>
                         <div class="line-link dark"></div>
                     </div>
                 </a>
@@ -200,7 +217,7 @@
                     <img src="{{Storage::url('static/645STCHSW_BK_Gen_Front.png')}}" width="210"
                         class="img-tech-product">
                     <div class="div-block-23">
-                        <div class="text-al-cent">Печі та системи готування та зберігання</div>
+                        <div class="text-al-cent">@lang('main.duhovki')</div>
                         <div class="line-link dark"></div>
                     </div>
                 </a>
@@ -210,7 +227,7 @@
                     data-ix="zoom2">
                     <img src="{{Storage::url('static/piani-cottura-gas.jpg')}}" width="210" class="img-tech-product">
                     <div class="div-block-23">
-                        <div class="text-al-cent">Газові панелі</div>
+                        <div class="text-al-cent">@lang('main.gus_panel')</div>
                         <div class="line-link dark"></div>
                     </div>
                 </a>
@@ -220,7 +237,7 @@
                     class="link-preview-product w-inline-block" data-ix="zoom2">
                     <img src="{{Storage::url('static/piani-cottura-ind.jpg')}}" width="210" class="img-tech-product">
                     <div class="div-block-23">
-                        <div class="text-al-cent">Індукційні панелі</div>
+                        <div class="text-al-cent">@lang('main.indection_panel')</div>
                         <div class="line-link dark"></div>
                     </div>
                 </a>
@@ -232,7 +249,7 @@
                     class="link-preview-product w-inline-block" data-ix="zoom2">
                     <img src="{{Storage::url('static/sistemi-integrati.jpg')}}" width="210" class="img-tech-product">
                     <div class="div-block-23">
-                        <div class="text-al-cent">Системи для готування та зберігання</div>
+                        <div class="text-al-cent">@lang('main.cook_and_storage')</div>
                         <div class="line-link dark"></div>
                     </div>
                 </a>
@@ -242,7 +259,7 @@
                     data-ix="zoom2">
                     <img src="{{Storage::url('static/cappe.jpg')}}" width="210" class="img-tech-product">
                     <div class="div-block-23">
-                        <div class="text-al-cent">Витяжки</div>
+                        <div class="text-al-cent">@lang('main.hoobs')</div>
                         <div class="line-link dark"></div>
                     </div>
                 </a>
@@ -252,7 +269,7 @@
                     data-ix="zoom2">
                     <img src="{{Storage::url('static/unnamed-2.png')}}" width="210" class="img-tech-product">
                     <div class="div-block-23">
-                        <div class="text-al-cent">Аксесуари</div>
+                        <div class="text-al-cent">@lang('main.accessories')</div>
                         <div class="line-link dark"></div>
                     </div>
                 </a>
@@ -262,7 +279,7 @@
                     class="link-preview-product w-inline-block" data-ix="zoom2">
                     <img src="{{Storage::url('static/frigo.jpg')}}" width="210" class="img-tech-product">
                     <div class="div-block-23">
-                        <div class="text-al-cent">Інші товари</div>
+                        <div class="text-al-cent">@lang('main.other_products')</div>
                         <div class="line-link dark"></div>
                     </div>
                 </a>
@@ -280,7 +297,7 @@
             </a>
         </div>
         <div class="payoff-menu">
-            <h2 class="payoff">Готувати з любов'ю означає покращити якість життя.</h2>
+            <h2 class="payoff">@lang('main.slogan')</h2>
             <div class="div-block-10">
                 <p class="address">Телефон: <a href="tel:+38 067 440 9791">+38 067 440 9791</a><br>
                     Email: <a href="mailto:df@glazer.com.ua">df@glazer.com.ua</a><br>
@@ -305,7 +322,7 @@
         <div class="grid-menu w-row">
 
             <div class="col-menu-azienda w-col w-col-4">
-                <div class="title-small">Стилі</div>
+                <div class="title-small">@lang('main.style')</div>
                 <a href="/majestic" class="link-nav grid w-inline-block">
                     <div>Majestic</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
@@ -322,47 +339,47 @@
                     <div>Professional Plus</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/colonna-stellata" class="link-nav grid w-inline-block">
-                    <div>Зіркова колонна</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.kolona_steleta')</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
-                <div class="title-small">Якість</div>
+                <div class="title-small">@lang('main.quantity')</div>
                 <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="link-nav grid w-inline-block">
-                    <div>Технології духовок</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.hubs_tehnologe')</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/hob-technologies" class="link-nav grid w-inline-block">
-                    <div>Поверхні та комфорки</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.surfaces_burners')</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/blast-chill-and-store" class="link-nav grid w-inline-block">
-                    <div>Охолодження та зберігання</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.cooling_storage')</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/colours-and-finishes" class="link-nav grid w-inline-block">
-                    <div>Кольори та оздоблення</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.colors_decor')</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
             </div>
             <div class="col-menu-azienda w-col w-col-4">
-                <div class="title-small">Продукція</div>
+                <div class="title-small">@lang('main.product')</div>
                 <a href="/range-cookers" class="link-nav grid w-inline-block">
-                    <div>Плити</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.coock')</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/ovens-and-cooking-and-storage-systems" class="link-nav grid w-inline-block">
-                    <div>Печі та системи готування та зберігання</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.duhovki')</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/gas-hobs" class="link-nav grid w-inline-block">
-                    <div>Газові панелі</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.gus_panel')</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/induction-hobs" class="link-nav grid w-inline-block">
-                    <div>Індукційні панелі</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.indection_panel')</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/cooking-and-storage-systems" class="link-nav grid w-inline-block">
-                    <div>Системи для готування та зберігання</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.cook_and_storage')</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/hoods" class="link-nav grid w-inline-block">
-                    <div>Витяжки</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.hoobs')</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/accessories" class="link-nav grid w-inline-block">
-                    <div>Аксесуари</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.accessories')</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 <a href="/other-products" class="link-nav grid w-inline-block">
-                    <div>Інші товари</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.other_products')</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
             </div>
             <div class="col-menu-azienda w-col w-col-4">
@@ -372,7 +389,7 @@
                 </a> --}}
                 <div class="title-small">Ilve</div>
                 <a href="/company" class="link-nav grid w-inline-block">
-                    <div>Компанія</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.company')</div><img src="" width="12" alt="ilve" class="ico-link">
                 </a>
                 {{-- <div class="title-small">Завантажити</div>
                 <a href="/reserved-area" class="link-nav grid w-inline-block">
@@ -384,7 +401,7 @@
         <div data-delay="0" class="dropdown-3 w-dropdown">
             <div class="dropdown-toggle-3 w-dropdown-toggle">
                 <div class="icon-2 w-icon-dropdown-toggle"></div>
-                <div class="title-menu">Стилі</div>
+                <div class="title-menu">@lang('main.style')</div>
             </div>
             <nav class="dropdown-list-2 w-dropdown-list">
                 <a href="/majestic" class="link-menu-mobile w-dropdown-link">Majestic</a>
@@ -392,48 +409,48 @@
                 <a href="/panoramagic" class="link-menu-mobile w-dropdown-link">Panoramagic</a>
                 <a href="/pro-line" class="link-menu-mobile w-dropdown-link">Pro Line</a>
                 <a href="/professional-plus" class="link-menu-mobile w-dropdown-link">Professional Plus</a>
-                <a href="/colonna-stellata" class="link-menu-mobile w-dropdown-link">Зіркова колонна</a>
+                <a href="/colonna-stellata" class="link-menu-mobile w-dropdown-link">@lang('main.kolona_steleta')</a>
             </nav>
         </div>
         <div data-delay="0" class="dropdown-3 w-dropdown">
             <div class="dropdown-toggle-3 w-dropdown-toggle">
                 <div class="icon-2 w-icon-dropdown-toggle"></div>
-                <div class="title-menu">Якість</div>
+                <div class="title-menu">@lang('main.quantity')</div>
             </div>
             <nav class="dropdown-list-2 w-dropdown-list">
                 <a href="/technologies-of-ovens-and-cooking-and-storage-systems"
-                    class="link-menu-mobile w-dropdown-link">Технології духовок</a>
-                <a href="/hob-technologies" class="link-menu-mobile w-dropdown-link">Технології варильних поверхонь</a>
-                <a href="/blast-chill-and-store" class="link-menu-mobile w-dropdown-link">Охолодження та зберігання</a>
-                <a href="/colours-and-finishes" class="link-menu-mobile w-dropdown-link">Кольори та обробка</a>
+                    class="link-menu-mobile w-dropdown-link">@lang('main.hubs_tehnologe')</a>
+                <a href="/hob-technologies" class="link-menu-mobile w-dropdown-link">@lang('main.hubs_tehnologe')</a>
+                <a href="/blast-chill-and-store"
+                    class="link-menu-mobile w-dropdown-link">@lang('main.cooling_storage')</a>
+                <a href="/colours-and-finishes" class="link-menu-mobile w-dropdown-link">@lang('main.colors_decor')</a>
             </nav>
         </div>
         <div data-delay="0" class="dropdown-3 w-dropdown">
             <div class="dropdown-toggle-3 w-dropdown-toggle">
                 <div class="icon-2 w-icon-dropdown-toggle"></div>
-                <div class="title-menu">Продукція</div>
+                <div class="title-menu">@lang('main.product')</div>
             </div>
             <nav class="dropdown-list-2 w-dropdown-list">
-                <a href="/range-cookers" class="link-menu-mobile w-dropdown-link">Плити</a>
-                <a href="/ovens-and-cooking-and-storage-systems" class="link-menu-mobile w-dropdown-link">Печі та
-                    системи готування та зберігання</a>
-                <a href="/gas-hobs" class="link-menu-mobile w-dropdown-link">Газові варильні панелі</a>
-                <a href="/induction-hobs" class="link-menu-mobile w-dropdown-link">Індукційні варильні панелі</a>
-                <a href="/cooking-and-storage-systems" class="link-menu-mobile w-dropdown-link">Системи для
-                    готування
-                    та зберігання</a>
-                <a href="/hoods" class="link-menu-mobile w-dropdown-link">Витяжки</a>
-                <a href="/accessories" class="link-menu-mobile w-dropdown-link">Аксесуари</a>
-                <a href="/other-products" class="link-menu-mobile w-dropdown-link">Інші товари</a>
+                <a href="/range-cookers" class="link-menu-mobile w-dropdown-link">@lang('main.coock')</a>
+                <a href="/ovens-and-cooking-and-storage-systems"
+                    class="link-menu-mobile w-dropdown-link">@lang('main.duhovki')</a>
+                <a href="/gas-hobs" class="link-menu-mobile w-dropdown-link">@lang('main.gus_panel')</a>
+                <a href="/induction-hobs" class="link-menu-mobile w-dropdown-link">@lang('main.indection_panel')</a>
+                <a href="/cooking-and-storage-systems"
+                    class="link-menu-mobile w-dropdown-link">@lang('main.cook_and_storage')</a>
+                <a href="/hoods" class="link-menu-mobile w-dropdown-link">@lang('main.hoobs')</a>
+                <a href="/accessories" class="link-menu-mobile w-dropdown-link">@lang('main.accessories')</a>
+                <a href="/other-products" class="link-menu-mobile w-dropdown-link">@lang('main.other_products')</a>
             </nav>
         </div>
         <div data-delay="0" class="dropdown-3 w-dropdown">
             <div class="dropdown-toggle-3 w-dropdown-toggle">
                 <div class="icon-2 w-icon-dropdown-toggle"></div>
-                <div class="title-menu">Послуги</div>
+                <div class="title-menu">@lang('main.offers')</div>
             </div>
             <nav class="dropdown-list-2 w-dropdown-list">
-                <a href="/distributors" class="link-menu-mobile w-dropdown-link">Дистриб'ютори</a>
+                <a href="/distributors" class="link-menu-mobile w-dropdown-link">@lang('main.distributors')</a>
             </nav>
         </div>
         <div data-delay="0" class="dropdown-3 w-dropdown">
@@ -442,13 +459,13 @@
                 <div class="title-menu">Ilve</div>
             </div>
             <nav class="dropdown-list-2 w-dropdown-list">
-                <a href="/company" class="link-menu-mobile w-dropdown-link">Компания</a>
+                <a href="/company" class="link-menu-mobile w-dropdown-link">@lang('main.company')</a>
             </nav>
         </div>
         <div data-delay="0" class="dropdown-3 w-dropdown">
             <div class="dropdown-toggle-3 w-dropdown-toggle">
                 <div class="icon-2 w-icon-dropdown-toggle"></div>
-                <div class="title-menu">Завантажити</div>
+                <div class="title-menu">@lang('main.download')</div>
             </div>
             <nav class="dropdown-list-2 w-dropdown-list">
                 <a href="/reserved-area" class="link-menu-mobile w-dropdown-link">Reserved area</a>
@@ -466,7 +483,7 @@
     <div class="small-footer">
         <div class="content-footer">
             <div class="footer">
-                <div id="flexoso">(с) 2020</div>
+                <div id="flexoso">(с) 2021</div>
                 <div class="languages-container">
 
                     <div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
@@ -474,7 +491,7 @@
                             <li
                                 class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-it wpml-ls-first-item wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
                                 <a href="/" class="wpml-ls-link"><span class="wpml-ls-native"
-                                        lang="it">Італія</span></a>
+                                        lang="it">@lang('main.itali')</span></a>
                             </li>
                         </ul>
                     </div>

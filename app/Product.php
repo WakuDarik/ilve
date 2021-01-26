@@ -2,11 +2,14 @@
 
 namespace App;
 
+use App\Traits\Translateble;
 use App\Services\CurrencyConvertion;
 use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
+    use Translateble;
+
     protected $fillable = [
         'name',
         'code',

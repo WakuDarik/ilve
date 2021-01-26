@@ -1,8 +1,9 @@
 @extends('layouts/master')
 
-@section('title', 'Panoramagic - Ilve - ilve ')
-@section('keywords','ilve Panoramagic, стиль Panoramagic, кухонна техніка Panoramagic, плити Panoramagic ')
-@section('descr','Плита, що робить кухню унікальною Panoramagic.')
+@section('title', __('panoramagic.seo.title') )
+@section('keywords',__('panoramagic.seo.keywords') )
+@section('descr', __('panoramagic.seo.descr') )
+
 @section('content')
 <div id="back-to-info" class="header-line" style="
 background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('{{Storage::url('static/panoramagic/')}}MenuStili_Panoramagic.jpg');
@@ -17,13 +18,10 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
 </div>
 <div id="ilvetext50-block_5eb044950d9ec" class="block-01 w-row">
     <div class="col1-s w-col w-col-6 w-col-stack">
-        <h2>Традиції сучасної кухні, що линуть крізь час.</h2>
+        <h2>@lang('panoramagic.uniq.h2')</h2>
     </div>
     <div class="col1-r w-col w-col-6 w-col-stack">
-        <p>Саме в часи 1970-х ILVE випустили Panoramagic: автономну модель, яка зробила революцію у
-            домашньої кухні. Сьогодні ця традиція італійського стилю та технологій продовжується
-            в оновленому вигляді і з новим спектром іноваційних рішень, щоб вписатися в будь-який інтер’єр та
-            дизайн.</p>
+        <p>@lang('panoramagic.uniq.p')</p>
         <p>&nbsp;</p>
         <p>Дизайн Panoramagic</p>
     </div>
@@ -44,18 +42,12 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/panoramagic/')}}Forni_Grandi_Dimensioni.png" alt="ilve panoramagic">
     </div>
     <div class="col2-txt w-col w-col-6">
-        <h2>Печі</h2>
-        <p>Розміри вбудованих печей Panoramagic ідеально підходять для будь-якого приміщення:
-            60 см, 90 см або 30 ”(76 см). Як елегантний, так і раціональні у дизайні, вони включають професійні
-            технологічні рішення,
-            які гарантують ідеальні результати приготування: від швидкого попереднього нагрівання Quick Start,
-            до точного контролю температури та відводу пари для більш-менш вологого приготування.
-            Електронний сенсорний дисплей TFT поєднується з великою ручкою із вбудованим світлодіодом, безпомилковим
-            естетичним підписом колекції Panoramagic.</p>
+        <h2>@lang('panoramagic.oven.h2')</h2>
+        <p>@lang('panoramagic.oven.p')</p>
         <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block" data-ix="button">
-            <div>Дізнатися більше</div>
-            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve panoramagic"
-                class="arrow">
+            <div>@lang('panoramagic.discover')</div>
+            <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18"
+                alt="ilve panoramagic" class="arrow">
         </a>
     </div>
 </div>
@@ -64,47 +56,35 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/panoramagic/')}}Blocco_Cottura.jpg" alt="ilve panoramagic">
     </div>
     <div class="col2-txt w-col w-col-6">
-        <h2>Плити</h2>
-        <p>Унікальний дизайн, що поєднує технічні особливості професійних кухонь з італійською культурою
-            , плити Panoramagic випускаються в трьох моделях: 120 см з подвійною духовкою і 90 см з 6 конфорками
-            або з індукційною варильною поверхнею. Характеризується на перший погляд нахиленою панеллю управління з
-            великими ручками
-            з інтегрованим запалюванням та світлодіодним освітленням, їх естетичною та функціональною родзинкою є
-            передня ручка.
-            Конструкція чавунних опор і форма червоного маркера на ручках нагадують шестикутник
-            - логотип ILVE.</p>
+        <h2>@lang('panoramagic.surfaces.h2')</h2>
+        <p>@lang('panoramagic.surfaces.p')</p>
     </div>
 </div>
 <div id="relatedblock-block_5eb045e40d9f8" class="correlati related-to-black">
     <div class="related-row w-row">
-        <h4 class="title-correlati">
-            Супутні товари </h4>
+        <h4 class="title-correlati">@lang('panoramagic.goods')</h4>
     </div>
     <div class="row-correlati w-row">
         <div class="col-correlati-l w-col w-col-6">
-            <h2 class="white">Плити</h2>
-            <p class="paragraph-7 white">
-                Panoramagic плити випускаються в трьох моделях: 120<br />
-                120 см з подвійною духовкою і 90 см з 6 конфорками<br />
-                або з індукційною варильною поверхнею. </p>
+            <h2 class="white">@lang('panoramagic.surfaces2.h2')</h2>
+            <p class="paragraph-7 white">{!! __('panoramagic.surfaces2.p') !!}</p>
             <a href="/range-cookers/panoramagic" class="button dark small w-inline-block" data-ix="button">
-                <div class="white">Дивитися плити Panoramagic</div>
+                <div class="white">@lang('panoramagic.surfaces2.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve panoramagic" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/panoramagic/')}}PM128DS3_SS_HOOD_Gen_Front_Thumb.png" alt="ilve panoramagic">
+            <img src="{{Storage::url('static/panoramagic/')}}PM128DS3_SS_HOOD_Gen_Front_Thumb.png"
+                alt="ilve panoramagic">
         </div>
     </div>
     <div class="row-correlati w-row">
         <div class="col-correlati-l w-col w-col-6">
-            <h2 class="white">Витяжки</h2>
-            <p class="paragraph-7 white">
-                Panoramagic витяжки мають дизайн відповідно до плит. Випускається в розмірах 90 і 120 см
-                з відсмоктуванням 1000 м3 / год. </p>
+            <h2 class="white">@lang('panoramagic.hoob.h2')</h2>
+            <p class="paragraph-7 white">@lang('panoramagic.hoob.p')</p>
             <a href="/hoods/panoramagic" class="button dark small w-inline-block" data-ix="button">
-                <div class="white">Дізнатися про витяжки Panoramagic</div>
+                <div class="white">@lang('panoramagic.hoob.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve panoramagic" class="arrow">
             </a>
@@ -115,14 +95,10 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     </div>
     <div class="row-correlati w-row">
         <div class="col-correlati-l w-col w-col-6">
-            <h2 class="white">Духові шафи</h2>
-            <p class="paragraph-7 white">
-                Духові шафи Panoramagic - це найвища ступінь продуктивності та універсальності. Випускається в 60 см, 30
-                дюймів
-                і 90 см місткістю 110 літрів. Всі вони оснащені TFT-дисплеєм і можуть
-                досягти максимальної температури 320 °. </p>
+            <h2 class="white">@lang('panoramagic.hoob.h2')</h2>
+            <p class="paragraph-7 white">@lang('panoramagic.hoob.p')</p>
             <a href="/ovens-and-cooking-and-storage-systems" class="button dark small w-inline-block" data-ix="button">
-                <div class="white">Дізнатися про духові шафи Panoramagic</div>
+                <div class="white">@lang('panoramagic.hoob.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve panoramagic" class="arrow">
             </a>

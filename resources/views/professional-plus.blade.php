@@ -1,10 +1,9 @@
 @extends('layouts/master')
 
-@section('title', 'Професійна техніка для домашньої кухні Professional Plus - ILVE - ilve Україна')
-@section('keywords','ilve Professional Plus, стиль Professional Plus, кухонна техніка Professional Plus, плити
-Professional Plus ')
-@section('descr','Непереборна привабливість технології та експлуатаційних характеристик: відкрийте для себе побутову
-техніку ILVE Professional Plus.')
+@section('title', __('professional-plus.seo.title') )
+@section('keywords',__('professional-plus.seo.keywords') )
+@section('descr', __('professional-plus.seo.descr') )
+
 @section('content')
 
 <div id="back-to-info" class="header-line" style="
@@ -20,13 +19,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
 </div>
 <div id="ilvetext-block_5e70a8490a5ab" class="block-01 w-row ilve-text">
     <div class="col1-s w-col w-col-5">
-        <h2>Непереборна привабливість технології та продуктивності.</h2>
+        <h2>@lang('professional-plus.uniq.h2')</h2>
+        {!! __('professional-plus.uniq.p') !!}
     </div>
     <div class="col1-r w-col w-col-7">
-        <p>Сталь AISI304 - найвища якість сировини, що використовується на кухнях кращих ресторанів - це емблема
-            Professional Plus.</p>
-        <p>Повна система кухонних плит, варильних плит, духовок, витяжних установок для проектування домашньої кухні.
-            Естетика, яка відображає найвищий професіоналізм, з урахуванням простору будинку.</p>
+
     </div>
 </div>
 <div id="ilvegallery-block_5e70a8840a5ac" class="carousel editorial-carousel"
@@ -40,11 +37,16 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <img src="{{Storage::url('static/prof-plus/')}}OV91SLT3_HPT125FC_SS_Set_Det_03.jpg" alt="ilve prof-plus">
     <img src="{{Storage::url('static/prof-plus/')}}OV91SLT3_HPT125FC_SS_Set_Gen_01.jpg" alt="ilve prof-plus">
     <img src="{{Storage::url('static/prof-plus/')}}OV91SLT3_HPT125FC_SS_Set_Sco_01.jpg" alt="ilve prof-plus">
-    <img src="{{Storage::url('static/prof-plus/')}}CSTARBK_KHVI90TC_RT9020SBS_MGNOP_Set_Det_01.jpg" alt="ilve prof-plus">
-    <img src="{{Storage::url('static/prof-plus/')}}CSTARBK_KHVI90TC_RT9020SBS_MGNOP_Set_Det_02.jpg" alt="ilve prof-plus">
-    <img src="{{Storage::url('static/prof-plus/')}}CSTARBK_KHVI90TC_RT9020SBS_MGNOP_Set_Det_03.jpg" alt="ilve prof-plus">
-    <img src="{{Storage::url('static/prof-plus/')}}CSTARBK_KHVI90TC_RT9020SBS_MGNOP_Set_Det_04.jpg" alt="ilve prof-plus">
-    <img src="{{Storage::url('static/prof-plus/')}}CSTARBK_KHVI90TC_RT9020SBS_MGNOP_Set_Gen_01.jpg" alt="ilve prof-plus">
+    <img src="{{Storage::url('static/prof-plus/')}}CSTARBK_KHVI90TC_RT9020SBS_MGNOP_Set_Det_01.jpg"
+        alt="ilve prof-plus">
+    <img src="{{Storage::url('static/prof-plus/')}}CSTARBK_KHVI90TC_RT9020SBS_MGNOP_Set_Det_02.jpg"
+        alt="ilve prof-plus">
+    <img src="{{Storage::url('static/prof-plus/')}}CSTARBK_KHVI90TC_RT9020SBS_MGNOP_Set_Det_03.jpg"
+        alt="ilve prof-plus">
+    <img src="{{Storage::url('static/prof-plus/')}}CSTARBK_KHVI90TC_RT9020SBS_MGNOP_Set_Det_04.jpg"
+        alt="ilve prof-plus">
+    <img src="{{Storage::url('static/prof-plus/')}}CSTARBK_KHVI90TC_RT9020SBS_MGNOP_Set_Gen_01.jpg"
+        alt="ilve prof-plus">
     <img src="" alt="ilve prof-plus">
 </div>
 <div id="imagetextandlink-block_5e70a8ca0a5b2" class="block-2 w-row imagetextandlink-block ">
@@ -52,16 +54,13 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/prof-plus/')}}P15FWE3_SS_IAG_DET_01.jpg" alt="ilve prof-plus">
     </div>
     <div class="col2-txt w-col w-col-6">
-        <h2>Кухні на будь-який смак.</h2>
-        <p>Плити пропонують широкий спектр налаштувань, що дозволяє вибрати ідеальне рішення для будь-яких потреб та
-            бажань,
-            в різноманітних налаштуваннях: газові пальники потужністю від 1,8 до 5 кВт,
-            газові грилі з товстою плитою з нержавіючої сталі,
-            індукційні плити с керамічною скляною поверхнею.</p>
+        <h2>@lang('professional-plus.kitchen.h2').</h2>
+        <p>@lang('professional-plus.kitchen.p')</p>
         <a href="/hob-technologies" class="button w-inline-block" data-ix="button">
-            <div>Дізнатися більше</div>
+            <div> @lang('professional-plus.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve prof-plus"
                 class="arrow">
+
         </a>
     </div>
 </div>
@@ -70,20 +69,10 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/prof-plus/')}}645SLZT4_SS_Gen_Front.jpg" alt="ilve prof-plus">
     </div>
     <div class="col2-txt w-col w-col-6">
-        <h2>Печі: великі розміри та продуктивність.</h2>
-        <p>Будь-яка двомісна або подвійна духовка, яку ви вибрали,
-            забезпечує необхідне вам місце, навіть коли готуєте багато страв.
-            Наприклад, духовка на 60 см має внутрішній об’єм 65 літрів, а духовка на 80 см пропонує емність до 97
-            літрів!</p>
-        <ul>
-            <li>Велика внутрішня ємність</li>
-            <li>Доступна подвійна піч</li>
-            <li>Електронний контроль температури</li>
-            <li>Внутрішні порожнини духовки, покриті емаллю «Easy Clean»</li>
-            <li>Складний нагрівальний елемент гриля для легшого очищення</li>
-        </ul>
+        <h2>@lang('professional-plus.ovens.h2')</h2>
+        {!! __('professional-plus.ovens.p') !!}
         <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block" data-ix="button">
-            <div>Дізнатися більше</div>
+            <div> @lang('professional-plus.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve prof-plus"
                 class="arrow">
         </a>
@@ -94,11 +83,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/prof-plus/')}}P128WE3_SS_DET_02.jpg" alt="ilve prof-plus">
     </div>
     <div class="col2-txt w-col w-col-6">
-        <h2>Професійні ручки: помітно функціональні.</h2>
-        <p>Створені виключно для кухонних плит Professional Plus,
-            ручки Milano виготовлені повністю з алюмінію з великим діаметром.
-            Виходячи з досвіду роботи на професійних кухнях, їх можна легко використовувати навіть в рукавичками, вони
-            мають особливо чітку і розбірливу розмітку.</p>
+        <h2>@lang('professional-plus.handles.h2').</h2>
+        <p>@lang('professional-plus.handles.p')</p>
     </div>
 </div>
 <div id="imagetextandlink-block_5e70a9850a5b5" class="block-2 w-row imagetextandlink-block invert">
@@ -106,11 +92,10 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/prof-plus/')}}CCSTAR_PP_SS_Gen_Front.jpg" alt="ilve prof-plus">
     </div>
     <div class="col2-txt w-col w-col-6">
-        <h2>Зіркова колона</h2>
-        <p>Як готувати, мов справжній шеф-кухар у невеликому просторі?<br />
-            Це легко з ILVE Зірковою колоною.</p>
+        <h2>@lang('professional-plus.star_column.h2').</h2>
+        <p>@lang('professional-plus.star_column.p')</p>
         <a href="/colonna-stellata" class="button w-inline-block" data-ix="button">
-            <div>Дізнатися більше</div>
+            <div> @lang('professional-plus.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve prof-plus"
                 class="arrow">
         </a>
@@ -118,51 +103,48 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
 </div>
 <div id="colorblocks-block_5e70a9da0a5b6" class="gallery-colors-content">
     <div class="block-center">
-        <div class="line-2">Кольори</div>
-        <h2 class="heading-12">
-            Основні кольори та сталева обробка. </h2>
+        <div class="line-2">@lang('professional-plus.colors_info.h2')</div>
+        <h2 class="heading-12">@lang('professional-plus.colors_info.p')</h2>
     </div>
     <div class="carousel abaco-carousel">
         <div class="col-color w-col w-col-3">
             <img src="{{Storage::url('static/prof-plus/')}}P096W_WH_Gen_Front.png" alt="ilve prof-plus">
             <div class="color-titles-box">
-                Білий <br>
-                Сатин </div>
+                @lang('professional-plus.colors.wh') <br>
+                @lang('professional-plus.finishing.s') </div>
         </div>
         <div class="col-color w-col w-col-3">
             <img src="{{Storage::url('static/prof-plus/')}}P096W_SS_Gen_Front.png" alt="ilve prof-plus">
             <div class="color-titles-box">
-                Нержавіюча сталь <br>
-                Сатин </div>
+                @lang('professional-plus.colors.ss') <br>
+                @lang('professional-plus.finishing.s') </div>
         </div>
         <div class="col-color w-col w-col-3">
             <img src="{{Storage::url('static/prof-plus/')}}P096W_MG_Gen_Front.png" alt="ilve prof-plus">
             <div class="color-titles-box">
-                Графітний матовий <br>
-                Сатин </div>
+                @lang('professional-plus.colors.mg') <br>
+                @lang('professional-plus.finishing.s') </div>
         </div>
         <div class="col-color w-col w-col-3">
             <img src="{{Storage::url('static/prof-plus/')}}P096W_BK_Gen_Front.png" alt="ilve prof-plus">
             <div class="color-titles-box">
-                Глянцевий чорний <br>
-                Сатин </div>
+                @lang('professional-plus.colors.b') <br>
+                @lang('professional-plus.finishing.s') </div>
         </div>
     </div>
 </div>
 <div id="relatedblock-block_5e70aabe0a5c0" class="correlati related-to-black">
     <div class="related-row w-row">
         <h4 class="title-correlati">
-            Доступні товари </h4>
+            @lang('professional-plus.goods') </h4>
     </div>
     <div class="row-correlati w-row">
         <div class="col-correlati-l w-col w-col-6">
-            <h2 class="white">Плити</h2>
+            <h2 class="white"> @lang('professional-plus.plate.h2') </h2>
             <p class="paragraph-7 white">
-                Кухонні плити Professional Plus оснащені ручками зі спеціальним ергономічним дизайном, що відтворює
-                кухні найкращих ресторанів на вашій кухні. Доступні у різних кольорах, металеві оздоблення випускаються
-                у різних розмірах від 60 см до 150 см. </p>
+                @lang('professional-plus.plate.p') </p>
             <a href="/range-cookers/professional-plus" class="button dark small w-inline-block" data-ix="button">
-                <div class="white">Переглянути плити Professional Plus</div>
+                <div class="white"> @lang('professional-plus.plate.slogan') </div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve prof-plus" class="arrow">
             </a>
@@ -173,14 +155,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     </div>
     <div class="row-correlati w-row">
         <div class="col-correlati-l w-col w-col-6">
-            <h2 class="white">Витяжки</h2>
+            <h2 class="white">@lang('professional-plus.hoobs.h2')</h2>
             <p class="paragraph-7 white">
-                Витяжки Professional Plus поєднують інноваційні технології з професійним дизайном. Широка нахилена
-                поверхня робить роботу легшою та безпечнішою. Перегородкові фільтри та нержавіюча сталь утворюють бар'єр
-                проти
-                жиру. </p>
+                @lang('professional-plus.hoobs.p')</p>
             <a href="/hoods/professional-plus" class="button dark small w-inline-block" data-ix="button">
-                <div class="white">Переглянути витяжки Professional Plus</div>
+                <div class="white">@lang('professional-plus.hoobs.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve prof-plus" class="arrow">
             </a>
@@ -191,14 +170,12 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     </div>
     <div class="row-correlati w-row">
         <div class="col-correlati-l w-col w-col-6">
-            <h2 class="white">Трирівневі зіркові колони</h2>
+            <h2 class="white">@lang('professional-plus.levels_colonna.h2')</h2>
             <p class="paragraph-7 white">
-                Трирівнева колонка Professional Plus поєднує в одній системі духовку,
-                чиппер і вакуумну систему, щоб запропонувати найвищі професійні показники при
-                найбільш ефективному використанні простору та високотехнологічного дизайну. </p>
+                @lang('professional-plus.levels_colonna.p')</p>
             <a href="/styles/professional-plus-en/colonna-stellata-cstar" class="button dark small w-inline-block"
                 data-ix="button">
-                <div class="white">Переглянути Трирівневі зіркові колони Professional Plus </div>
+                <div class="white">@lang('professional-plus.levels_colonna.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve prof-plus" class="arrow">
             </a>
@@ -209,16 +186,12 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     </div>
     <div class="row-correlati w-row">
         <div class="col-correlati-l w-col w-col-6">
-            <h2 class="white">Печі</h2>
+            <h2 class="white">@lang('professional-plus.oven2.h2')</h2>
             <p class="paragraph-7 white">
-                Духовки Professional Plus є еталоном продуктивності та універсальності.
-                Моделі з TFT-дисплеєм з чорного загартованого скла.
-                За допомогою надзвичайного холодильника ви можетезнизити температуру від
-                (- 3 ° C) до температури морозильної камери (- 20 ° C) за дуєе короткий час.
-                Функція вакууму додає ще один спосіб консервування та дозволяє готувати соус під вакуумом. </p>
+                @lang('professional-plus.oven2.p') </p>
             <a href="/ovens-and-cooking-and-storage-systems/professional-plus" class="button dark small w-inline-block"
                 data-ix="button">
-                <div class="white">Переглянути печі Professional Plus</div>
+                <div class="white">@lang('professional-plus.oven2.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve prof-plus" class="arrow">
             </a>
@@ -229,14 +202,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     </div>
     <div class="row-correlati w-row">
         <div class="col-correlati-l w-col w-col-6">
-            <h2 class="white">Газові панелі</h2>
+            <h2 class="white">@lang('professional-plus.gas_panels.h2')</h2>
             <p class="paragraph-7 white">
-                Газові панелі Professional Plus, з латунними комфорками та підставками забезпечують ідеальне регулювання
-                тепла.
-                В якості альтернативи сталі їх можна виготовити з чорного загартованого скла. Доступні у
-                найрізноманітніших розмірах та налаштуваннях. </p>
+                @lang('professional-plus.gas_panels.p')</p>
             <a href="/gas-hobs/professional-plus" class="button dark small w-inline-block" data-ix="button">
-                <div class="white">Переглянути газові панелі Professional Plus</div>
+                <div class="white"> @lang('professional-plus.gas_panels.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve prof-plus" class="arrow">
             </a>
@@ -247,12 +217,11 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     </div>
     <div class="row-correlati w-row">
         <div class="col-correlati-l w-col w-col-6">
-            <h2 class="white">Індукційні плити</h2>
+            <h2 class="white">@lang('professional-plus.induction_panels.h2')</h2>
             <p class="paragraph-7 white">
-                Індукційні плити Professional Plus доступний із вбудованою витяжкою, забезпечують повний контроль
-                температури та гарантують максимальну безпеку використання. </p>
+                @lang('professional-plus.induction_panels.p')</p>
             <a href="/induction-hobs/professional-plus" class="button dark small w-inline-block" data-ix="button">
-                <div class="white">Перегланути Індукційні плити Professional Plus</div>
+                <div class="white">@lang('professional-plus.induction_panels.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve prof-plus" class="arrow">
             </a>

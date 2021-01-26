@@ -1,14 +1,16 @@
 @extends('layouts/master')
 
-@section('title', 'Запит на інформацію про продукт - ILVE - ilve ')
-@section('keywords','')
-@section('descr','Надішліть запит стосовно отримання консультації, відповіді на питання, каталог товарів, цін тощо.')
+
+@section('title', __('product-info.seo.title') )
+@section('keywords',__('product-info.seo.keywords') )
+@section('descr', __('product-info.seo.descr') )
+
 
 @section('content')
 
 <div class="header-list">
     <h2 class="title-page">
-        Запит на інформацію про продукт {{$prod->code}} </h2>
+        @lang('product-info.req') {{$prod->code}} </h2>
     <div class="filter big">
     </div>
 </div>
@@ -16,8 +18,7 @@
 <div id="content-options-container" class="content-options is-prod-yes">
     <div class="cassetto cassetto-falco">
         <img src="{{Storage::url('static/')}}plus.svg" width="16" alt="ilve" class="plus">
-        <h3 class="title-varianti-2 is-cassetto-falco">
-            Купівля </h3>
+        <h3 class="title-varianti-2 is-cassetto-falco"> @lang('product-info.buy')</h3>
         <div class="inner-content-shortcodes">
 
             <div role="form" class="wpcf7" id="wpcf7-f4557-p4260-o1" lang="it-IT" dir="ltr">
@@ -25,7 +26,7 @@
                 <form action="{{route('order', $prod->code)}}" method="post" class="" novalidate="novalidate">
                     <div class="box-content">
                         <div class="form-block-2 w-form">
-                            <h3 class="heading-20">Надішліть нам інформаційний запит</h3>
+                            <h3 class="heading-20"> @lang('product-info.info_req')</h3>
                             <p><span class="wpcf7-form-control-wrap name-field">
                                     <input type="text" name="name-field" value="" size="40"
                                         class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required text-field w-input"
@@ -47,11 +48,11 @@
                                         class="wpcf7-form-control wpcf7-acceptance"><span
                                             class="wpcf7-list-item"><label>
                                                 <input type="checkbox" name="acceptance-field" value="1" required="true"
-                                                    aria-invalid="false" /><span class="wpcf7-list-item-label">Я
-                                                    погоджуюсь на обробку моїх даних</span></label></span></span></span>
+                                                    aria-invalid="false" /><span class="wpcf7-list-item-label">
+                                                        @lang('product-info.agree')</span></label></span></span></span>
                                 @csrf<br />
                                 <button type="submit" value="Надіслати"
-                                    class="wpcf7-form-control wpcf7-submit button dark small w-inline-block">Надіслати</button>
+                                    class="wpcf7-form-control wpcf7-submit button dark small w-inline-block">@lang('product-info.send')</button>
                             </p>
                         </div>
                     </div>
@@ -63,7 +64,7 @@
     <div class="cassetto cassetto-falco">
         <img src="{{Storage::url('static/')}}plus.svg" width="16" alt="ilve" class="plus">
         <h3 class="title-varianti-2 is-cassetto-falco">
-            Співпраця </h3>
+            @lang('product-info.coop') </h3>
         <div class="inner-content-shortcodes">
 
             <div role="form" class="wpcf7" id="wpcf7-f4261-p4260-o2" lang="it-IT" dir="ltr">
@@ -71,7 +72,7 @@
                 <form action="{{route('order', $prod->code)}}" method="post" class="" novalidate="novalidate">
                     <div class="box-content">
                         <div class="form-block-2 w-form">
-                            <h3 class="heading-20">Надішліть нам інформаційний запит</h3>
+                            <h3 class="heading-20">@lang('product-info.info_req')</h3>
                             <p><span class="wpcf7-form-control-wrap name-field">
                                     <input type="text" name="name-field" value="" size="40"
                                         class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required text-field w-input"
@@ -97,11 +98,10 @@
                                         class="wpcf7-form-control wpcf7-acceptance"><span
                                             class="wpcf7-list-item"><label>
                                                 <input type="checkbox" name="acceptance-field" value="1"
-                                                    required="true" /><span class="wpcf7-list-item-label">Я
-                                                    погоджуюсь на обробку моїх даних</span></label></span></span></span>
+                                                    required="true" /><span class="wpcf7-list-item-label">@lang('product-info.agree')</span></label></span></span></span>
                                 @csrf<br />
                                 <button type="submit" value="Надіслати"
-                                    class="wpcf7-form-control wpcf7-submit button dark small w-inline-block">Надіслати</button>
+                                    class="wpcf7-form-control wpcf7-submit button dark small w-inline-block">@lang('product-info.send')</button>
                             </p>
                         </div>
                     </div>

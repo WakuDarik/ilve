@@ -7,7 +7,7 @@
 
 @section('content')
 <div class="header-list">
-    <h1 class="white">{{$category->name}}</h1>
+    <h1 class="white">{{$category->__('name')}}</h1>
     <div class="filter">
         <div data-delay="0" class="dropdown w-dropdown" role="menu" aria-labelledby="w-dropdown-toggle-6">
             <div class="dropdown-toggle w-dropdown-toggle" tabindex="0" id="w-dropdown-toggle-6"

@@ -1,8 +1,8 @@
 @extends('layouts/master')
 
-@section('title', 'Професійні кулінарні системи для дому - ILVE - ilve')
-@section('keywords','про компанию Ilve, ilve')
-@section('descr','Колекції ILVE вирішують потреби людей чітко, послідовно та елегантно.')
+@section('title', __('company.seo.title') )
+@section('keywords',__('company.seo.keywords') )
+@section('descr', __('company.seo.descr') )
 
 @section('content')
 
@@ -14,18 +14,15 @@ background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255,
         <img src="{{Storage::url('static/')}}vertical-line.svg" alt="ilve" data-ix="scroll">
     </div>
     <div class="content-title">
-        <h1 class="title-heder-line title-colored-black" >Живи, Готуй, Кохай.</h1>
+        <h1 class="title-heder-line title-colored-black">@lang('company.slogan').</h1>
     </div>
 </div>
 <div id="ilvetext-block_5e749dd0b0182" class="block-01 w-row ilve-text">
     <div class="col1-s w-col w-col-5">
-        <h2>ILVE: компанія</h2>
+        <h2>@lang('company.company')</h2>
     </div>
     <div class="col1-r w-col w-col-7">
-        <p> Готувати з любов'ю означає покращувати якість життя: важливий принцип, якого ILVE завжди дотримується. Наші
-            колекції вирішують потреби людей чітко, послідовно та елегантно. </p>
-        <p> Від привабливості класичних стилів до нових тенденцій дизайну ILVE розробляє прилади, які прикрашають,
-            приділяючи максимум уваги технології та деталям. </p>
+        {!! __('company.first_p') !!}
     </div>
 </div>
 <div id="imagetextandlink-block_5e749e04b0183" class="block-2 w-row imagetextandlink-block ">
@@ -33,22 +30,8 @@ background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255,
         <img src="{{Storage::url('static/')}}ILVE_Azienda_Live_CCSTAR_PP_SS_Gen_Front.jpg" alt="ilve">
     </div>
     <div class="col2-txt w-col w-col-6">
-        <h2>Життя,</h2>
-        <p> Більше 50 років ILVE є справжнім фахівцем з кулінарних систем.
-            З самого початку ця італійська компанія виділилася своїм закликом до інновацій:
-            у 1969 році вона представила негабаритну вбудовану духовку, а через кілька років
-            революційну плиту Panoramagic - справжню ікону в своїй категорії. Великий успіх, який триває:
-            рестайлінг Panoramagic ILVE був фактично удостоєний премії за найкращий дизайн 2017.
-            За півстоліття постійних досліджень та відданості ILVE розробив та впровадив рішення,
-            які підвищили рівень продуктивності, безпеки та задоволеності на кухні: адже добре готувати - означає любити
-            себе. </p>
-
-        <p> Заснована і розширена в Камподарсего в районі Падуї в 1969 році, на працьовитому Північному Сході Італії,
-            ILVE з гордістю продовжує велику традицію технічної експертизи в галузі обробки сталі, поєднану з постійними
-            дослідженнями в галузі процесів і технологій. Успіх ILVE пояснюється надзвичайною гнучкістю в дизайні та
-            виробництві,
-            для задоволення будь-яких потреб на кухні. Колекції ILVE ефективні, універсальні та надійні:
-            розроблені для того, щоб радувати вас день у день. </p>
+        <h2>@lang('company.second_p.h2'),</h2>
+        {!! __('company.second_p.text') !!}
     </div>
 </div>
 <div id="imagetextandlink-block_5e749e19b0184" class="block-2 w-row imagetextandlink-block invert">
@@ -56,13 +39,8 @@ background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255,
         <img src="{{Storage::url('static/')}}ILVE_Azienda_Cook_P128WE3_SS_DET_03.jpg" alt="ilve">
     </div>
     <div class="col2-txt w-col w-col-6">
-        <h2>Готування,</h2>
-        <p> Кухонні плити ILVE надихають шеф-кухарів професійної кухні творити, також
-            вони придатні для домашнього використання. ILVE використовує благородні та
-            довговічні матеріали професійної кухні: нержавіюча сталь (Aisi 304), чавун, латунь
-            та мідь. Як і підбір сировини, технічна надійність різних компонентів також проходить
-            суворі перевірки. Прилади ILVE виготовляються індивідуально, відповідно до специфікацій
-            замовника, і збираються вручну з досвідом, пристрастю та майстерністю. </p>
+        <h2>@lang('company.threed_p.h2'),</h2>
+        {!! __('company.threed_p.text') !!}
     </div>
 </div>
 <div id="imagetextandlink-block_5e749e3ab0185" class="block-2 w-row imagetextandlink-block ">
@@ -70,31 +48,18 @@ background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255,
         <img src="{{Storage::url('static/')}}ILVE_Azienda_Love_M127DNE3_WHB_AM120_AMB_DET_01.jpg" alt="ilve">
     </div>
     <div class="col2-txt w-col w-col-6">
-        <h2>Любов</h2>
-        <p> Прилади ILVE - продукт пристрасті компанії щодо своєї роботи,
-            їхнього ентузіазму завжди приймати нові дизайнерські та технічні
-            виклики та постійного пошуку досконалості. Ці почуття дарують життя
-            досконалим та унікальним інструментам, покликаним доставляти радість
-            та задоволення тим, хто по-справжньому любить готувати. Якості, які
-            просвічують кожну естетичну та технічну деталь. Незважаючи на те, що
-            існує лише одна пристрасть до приготування їжі, смаки особистого декору
-            інтер'єру можуть відрізнятися<br />
-            Ось чому колекції ILVE мають різні стилі, але всі поділяють одну мету: запропонувати новітні рішення,
-            зробити приготування їжі щоденним задоволенням. </p>
+        <h2>@lang('company.forth_p.h2'),</h2>
+        {!! __('company.forth_p.text') !!}
     </div>
 </div>
 <div id="twocolsgrey-block_5e749facb0186" class="block-3 w-row twocolsgrey-block invert">
     <div class="col-3-img w-col w-col-6">
-        <img src="{{Storage::url('static/')}}ILVE_Azienda_Cert_MPD10SNE3_MGP_ANB100_DET_02.jpg" alt="ilve" class="image-11">
+        <img src="{{Storage::url('static/')}}ILVE_Azienda_Cert_MPD10SNE3_MGP_ANB100_DET_02.jpg" alt="ilve"
+            class="image-11">
     </div>
     <div class="col3-txt w-col w-col-6">
-        <h2>Надійність: якість, що живе вічно.</h2>
-        <p> Надійність продуктів і послуг ILVE визнана на ринку вже понад 50 років. Кожна
-            плита і прилади ILVE виготовляється відповідно до найсуворіших вимог якості
-            та збирається вручну кваліфікованими операторами, які контролюють навіть найдрібніші деталі.
-            Це гарантує ідеальну роботу протягом десятиліть, про що свідчить задоволення великої кількості
-            клієнтів, які готують за допомогою надзвичайних машин з точки зору функціональності, безпеки та
-            довговічності. </p>
+        <h2>@lang('company.fivth_p.h2'),</h2>
+        {!! __('company.fivth_p.text') !!}
     </div>
 </div>
 @endsection

@@ -1,8 +1,10 @@
 @extends('layouts/master')
 
-@section('title', 'Піч для піци 400 - ILVE - ilve')
-@section('keywords','Піч для піци ilve, Піч для піци ilve ')
-@section('descr','ILVE проектує та створює професійні газові та індукційні варильні панелі для кухонних приладів.')
+
+@section('title', __('pizza.seo.title') )
+@section('keywords',__('pizza.seo.keywords') )
+@section('descr', __('pizza.seo.descr') )
+
 
 @section('content')
 
@@ -14,17 +16,15 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}vertical-line.svg" alt="ilve" data-ix="scroll">
     </div>
     <div class="content-title">
-        <h1 class="title-heder-line">Піч для піци 400°</h1>
+        <h1 class="title-heder-line">@lang('pizza.h1')</h1>
     </div>
 </div>
 <div id="ilvetext-block_5e809acb6a965" class="block-01 w-row ilve-text">
     <div class="col1-s w-col w-col-5">
-        <h2>Піца вдома, як у піцерії.</h2>
+        <h2>@lang('pizza.pizza_home.h2')</h2>
     </div>
     <div class="col1-r w-col w-col-7">
-        <p>Піч для піци ILVE - єдиний прилад, присвячений вашому дому, який може готувати при температурі 400 ° C. За 2
-            хвилини піца
-            ідеально приготовлена, хрустка і смачна, як у вашій улюбленій піцерії.</p>
+        <p>@lang('pizza.pizza_home.p')</p>
     </div>
 </div>
 <div id="imagetextandlink-block_5e809ae16a966" class="block-2 w-row imagetextandlink-block ">
@@ -32,36 +32,31 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}ILVE_Forno400_Deflettori.jpg" alt="ilve">
     </div>
     <div class="col2-txt w-col w-col-6">
-        <h2>400°</h2>
-        <p>Ця продуктивність досягається завдяки спеціальній формі внутрішнього глушника, в якому використовуються
-            дефлектори та повітряні
-            конвеєри, зосереджені як над, так і під піцею. Конструктивні компоненти машини сприяють
-            цьому результату і дозволяють йому витримувати такі високі температури.</p>
+        <h2>@lang('pizza.temerature.h2')</h2>
+        <p>@lang('pizza.temerature.p')</p>
     </div>
 </div>
 <div id="centertextandimage-block_5e809b686a968" class="block-center centertextandimage-block">
-    <h2 class="heading-12  no-btm">Високі показники не тільки для піци</h2>
-    <div class="line-hawk">Піч для піци також виконує всі функції традиційної духовки, таким чином розширюючи
-        діапазон використання. Знявши дефлектори, ви отримаєте компактну духовку з однаковими характеристиками звичайної
-        конвекційної печі, з трьома рівнями приготування і температурою, що регулюється від 30 ° до 400 °.</div> <img
+    <h2 class="heading-12  no-btm">@lang('pizza.haight.h2')</h2>
+    <div class="line-hawk">@lang('pizza.haight.p')</div> <img
         src="{{Storage::url('static/')}}ILVE_Forno400_TFT.jpg" alt="ilve">
 </div>
 
 <div id="ilveicontext-block_5e809b966a969" class="block-4 w-row">
     <div class="col4-s w-col w-col-6">
         <img src="{{Storage::url('static/')}}Temp_30-400-1.svg" width="81" alt="ilve">
-        <h3>температура від 30° до 400°</h3>
+        <h3>@lang('pizza.of_to')</h3>
     </div>
     <div class="col4-s w-col w-col-6">
         <img src="{{Storage::url('static/')}}Temperature_Control-1.svg" width="81" alt="ilve">
-        <h3>Точний електронний контроль температури</h3>
+        <h3>@lang('pizza.controll')</h3>
     </div>
 </div>
 
 <div id="ilveicontext-block_5e809bf86a96a" class="block-4 w-row">
     <div class="col4-s w-col w-col-6">
         <img src="{{Storage::url('static/')}}Tangential_Ventilation.svg" width="81" alt="ilve">
-        <h3>Тангенціальна вентиляція охолодження та ізоляція високої щільності</h3>
+        <h3>@lang('pizza.tangents')</h3>
     </div>
     <div class="col4-s w-col w-col-6">
         <img src="{{Storage::url('static/')}}Child_Safety.svg" width="81" alt="ilve">
@@ -74,16 +69,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}ILVE_Forno400_Acccessori.jpg" alt="ilve">
     </div>
     <div class="col2-txt w-col w-col-6">
-        <h2>Стандартні аксесуари</h2>
-        <p>Піч для піци на 400 ° забезпечена двома дефлекторами, які створюють оптимальну циркуляцію повітря в
-            порожнині,
-            що важливо для ідеального приготування вашої піци; разом з 2 дефлекторами поставляються також 2 стійки,
-            мета якої - <br>
-            утримувати піцу в положенні і дозволяти ідеально і рівномірно готувати піцу. За допомогою
-            печі, ви можете отримати рівномірно хрустку піцу, без вологи. У аксесуарах, що постачаються, ви
-            знайдете також дуже корисну професійну підсьавку з нержавіючої сталі, ідеально підходить для приготування
-            піци в духовці або зберігання у будь-якому місці.
-            Дошка для випічки з нержавіючої сталі, корисна для обробки тіста, поставляється додатково.</p>
+        <h2>@lang('pizza.accessories.h2')</h2>
+        <p>@lang('pizza.accessories.p')</p>
     </div>
 </div>
 
@@ -92,11 +79,10 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}645SZTCT4_BK_Gen_Front.png" alt="ilve" class="image-11">
     </div>
     <div class="col3-txt w-col w-col-6">
-        <h2>Professional Plus Чорне скло</h2>
-        <p>Піч із чорного загартованого скла із піктограмою "для піци" з повним сенсорним керуванням та чорною матовою
-            ручкою</p>
+        <h2>@lang('pizza.p_p_glass.h2')</h2>
+        <p>@lang('pizza.p_p_glass.p')</p>
         <a href="/style/nostalgie/645SZTCT4" class="button w-inline-block" data-ix="button">
-            <div>Дізнатися більше</div>
+            <div>@lang('pizza.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
         </a>
@@ -108,10 +94,10 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}645SLZT4_SS_Gen_Front.png" alt="ilve" class="image-11">
     </div>
     <div class="col3-txt w-col w-col-6">
-        <h2>Professional Plus Нержавіюча сталь</h2>
-        <p>Піч із Нержавіючої сталі та TFT сенсорним дисплеєм</p>
+        <h2>@lang('pizza.p_p_steel.h2')</h2>
+        <p>@lang('pizza.p_p_steel.p')</p>
         <a href="/style/nostalgie/645SLZT4" class="button w-inline-block" data-ix="button">
-            <div>Дізнатися більше</div>
+            <div>@lang('pizza.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
         </a>
@@ -122,11 +108,10 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}645SCZT4_MGG_Gen_Front.png" alt="ilve" class="image-11">
     </div>
     <div class="col3-txt w-col w-col-6">
-        <h2>Nostalgie</h2>
-        <p>Піч для піци в класичному стилі доступна в п'яти кольорах і три варіанта обробки, які можна комбінувати разом
-        </p>
+        <h2>@lang('pizza.nostalgie.h2')</h2>
+        <p>@lang('pizza.nostalgie.p')</p>
         <a href="/style/nostalgie/645SNZT4" class="button w-inline-block" data-ix="button">
-            <div>Дізнатися більше</div>
+            <div>@lang('pizza.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
         </a>
