@@ -111,8 +111,7 @@
 
             <a class="lang-menu" href="{{ route('locale', __('main.set_lang') ) }}" @if(Request::route()->getName() ==
                 "index")
-                class="back-to-black-nav link-nav w-inline-block " @else class="back-to-black-nav link-nav
-                w-inline-block dark" @endif data-ix="button">
+                style="color: #fff" @else style="color: #000" @endif data-ix="button">
                 <div>@lang('main.set_lang')</div>
                 <div class="line-link"></div>
             </a>
@@ -122,7 +121,6 @@
                 <img id="back-to-black-burger" src="{{Storage::url('static/menu-white.svg')}}" width="30" alt="ilve">
                 @else
                 <img id="back-to-black-burger" src="{{Storage::url('static/ico-menu.svg')}}" width="30" alt="ilve">
-
                 @endif
             </a>
         </div>
