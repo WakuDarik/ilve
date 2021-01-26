@@ -109,9 +109,8 @@
 
         <div class="flex-menu-toggle">
 
-            <a class="lang-menu" href="{{ route('locale', __('main.set_lang') ) }}" @if(Request::route()->getName() ==
-                "index")
-                style="color: #fff" @else style="color: #000" @endif data-ix="button">
+            <a class="link-nav  lang-menu " style="    color: orangered;"
+                href="{{ route('locale', __('main.set_lang') ) }}" data-ix="button">
                 <div>@lang('main.set_lang')</div>
                 <div class="line-link"></div>
             </a>
