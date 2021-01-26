@@ -322,76 +322,76 @@
             <div class="col-menu-azienda w-col w-col-4">
                 <div class="title-small">@lang('main.style')</div>
                 <a href="/majestic" class="link-nav grid w-inline-block">
-                    <div>Majestic</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>Majestic</div>
                 </a>
                 <a href="/nostalgie" class="link-nav grid w-inline-block">
-                    <div>Nostalgie</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>Nostalgie</div>
                 </a>
                 <a href="/panoramagic" class="link-nav grid w-inline-block">
-                    <div>Panoramagic</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>Panoramagic</div>
                 </a>
                 <a href="/pro-line" class="link-nav grid w-inline-block">
-                    <div>Pro Line</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>Pro Line</div>
                 </a>
                 <a href="/professional-plus" class="link-nav grid w-inline-block">
-                    <div>Professional Plus</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>Professional Plus</div>
                 </a>
                 <a href="/colonna-stellata" class="link-nav grid w-inline-block">
-                    <div>@lang('main.kolona_steleta')</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.kolona_steleta')</div>
                 </a>
                 <div class="title-small">@lang('main.quantity')</div>
                 <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="link-nav grid w-inline-block">
-                    <div>@lang('main.hubs_tehnologe')</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.hubs_tehnologe')</div>
                 </a>
                 <a href="/hob-technologies" class="link-nav grid w-inline-block">
-                    <div>@lang('main.surfaces_burners')</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.surfaces_burners')</div>
                 </a>
                 <a href="/blast-chill-and-store" class="link-nav grid w-inline-block">
-                    <div>@lang('main.cooling_storage')</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.cooling_storage')</div>
                 </a>
                 <a href="/colours-and-finishes" class="link-nav grid w-inline-block">
-                    <div>@lang('main.colors_decor')</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.colors_decor')</div>
                 </a>
             </div>
             <div class="col-menu-azienda w-col w-col-4">
                 <div class="title-small">@lang('main.product')</div>
                 <a href="/range-cookers" class="link-nav grid w-inline-block">
-                    <div>@lang('main.coock')</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.coock')</div>
                 </a>
                 <a href="/ovens-and-cooking-and-storage-systems" class="link-nav grid w-inline-block">
-                    <div>@lang('main.duhovki')</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.duhovki')</div>
                 </a>
                 <a href="/gas-hobs" class="link-nav grid w-inline-block">
-                    <div>@lang('main.gus_panel')</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.gus_panel')</div>
                 </a>
                 <a href="/induction-hobs" class="link-nav grid w-inline-block">
-                    <div>@lang('main.indection_panel')</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.indection_panel')</div>
                 </a>
                 <a href="/cooking-and-storage-systems" class="link-nav grid w-inline-block">
-                    <div>@lang('main.cook_and_storage')</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.cook_and_storage')</div>
                 </a>
                 <a href="/hoods" class="link-nav grid w-inline-block">
-                    <div>@lang('main.hoobs')</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.hoobs')</div>
                 </a>
                 <a href="/accessories" class="link-nav grid w-inline-block">
-                    <div>@lang('main.accessories')</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.accessories')</div>
                 </a>
                 <a href="/other-products" class="link-nav grid w-inline-block">
-                    <div>@lang('main.other_products')</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.other_products')</div>
                 </a>
             </div>
             <div class="col-menu-azienda w-col w-col-4">
                 {{-- <div class="title-small">Послуги</div>
                 <a href="/distributors" class="link-nav grid w-inline-block">
-                    <div>Дистриб'ютори</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>Дистриб'ютори</div>
                 </a> --}}
                 <div class="title-small">Ilve</div>
                 <a href="/company" class="link-nav grid w-inline-block">
-                    <div>@lang('main.company')</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>@lang('main.company')</div>
                 </a>
                 {{-- <div class="title-small">Завантажити</div>
                 <a href="/reserved-area" class="link-nav grid w-inline-block">
-                    <div>Reserved area</div><img src="" width="12" alt="ilve" class="ico-link">
+                    <div>Reserved area</div>
                 </a> --}}
             </div>
         </div>
