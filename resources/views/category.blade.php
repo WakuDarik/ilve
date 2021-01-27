@@ -1,6 +1,6 @@
 @extends('layouts/master')
 
-@section('title', $category->meta_t)
+@section('title', $category->meta_t ? $category->meta_t : __('category.seo.keywords') )
 @section('keywords', $category->meta_t ? $category->meta_k : __('category.seo.keywords'))
 @section('descr',__('category.seo.descr').' Ilve '.$category->name)
 
