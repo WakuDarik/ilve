@@ -82,7 +82,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col3-txt w-col w-col-6">
         <h2>@lang('ultracombi.p_p_glass.h2')</h2>
         <p>@lang('ultracombi.p_p_glass.p')</p>
-        <a href="/style/professional-plus/645stchsw" class="button w-inline-block" data-ix="button">
+        <a href="{{route('category-style', ["cooking-and-storage-systems", "professional-plus"])}}" class="button w-inline-block" data-ix="button">
             <div>@lang('ultracombi.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
@@ -96,7 +96,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col3-txt w-col w-col-6">
         <h2>@lang('ultracombi.p_p_steel.h2')</h2>
         <p>@lang('ultracombi.p_p_steel.p')</p>
-        <a href="/style/professional-plus/645slhsw" class="button w-inline-block" data-ix="button">
+        <a href="{{route('category-style', ["cooking-and-storage-systems", "professional-plus"])}}" class="button w-inline-block" data-ix="button">
             <div>@lang('ultracombi.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
@@ -110,7 +110,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col3-txt w-col w-col-6">
         <h2>@lang('ultracombi.nostalgie.h2')</h2>
         <p>@lang('ultracombi.nostalgie.p')</p>
-        <a href="/style/nostalgie-en/645snhsw" class="button w-inline-block" data-ix="button">
+        <a href="{{route('category-style', ["cooking-and-storage-systems", "professional-plus"])}}" class="button w-inline-block" data-ix="button">
             <div>@lang('ultracombi.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">

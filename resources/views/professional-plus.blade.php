@@ -56,7 +56,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col2-txt w-col w-col-6">
         <h2>@lang('professional-plus.kitchen.h2').</h2>
         <p>@lang('professional-plus.kitchen.p')</p>
-        <a href="/hob-technologies" class="button w-inline-block" data-ix="button">
+        <a href="{{route('hob-technologies')}}" class="button w-inline-block" data-ix="button">
             <div> @lang('professional-plus.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve prof-plus"
                 class="arrow">
@@ -71,7 +71,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col2-txt w-col w-col-6">
         <h2>@lang('professional-plus.ovens.h2')</h2>
         {!! __('professional-plus.ovens.p') !!}
-        <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block" data-ix="button">
+        <a href="{{route('technologies-of-ovens')}}" class="button w-inline-block" data-ix="button">
             <div> @lang('professional-plus.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve prof-plus"
                 class="arrow">
@@ -94,7 +94,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col2-txt w-col w-col-6">
         <h2>@lang('professional-plus.star_column.h2').</h2>
         <p>@lang('professional-plus.star_column.p')</p>
-        <a href="/colonna-stellata" class="button w-inline-block" data-ix="button">
+        <a href="{{ route('colonna-stellata') }}" class="button w-inline-block" data-ix="button">
             <div> @lang('professional-plus.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve prof-plus"
                 class="arrow">
@@ -143,7 +143,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <h2 class="white"> @lang('professional-plus.plate.h2') </h2>
             <p class="paragraph-7 white">
                 @lang('professional-plus.plate.p') </p>
-            <a href="/range-cookers/professional-plus" class="button dark small w-inline-block" data-ix="button">
+            <a href="{{route('category-style', ["range-cookers", "professional-plus"])}}" class="button dark small w-inline-block" data-ix="button">
                 <div class="white"> @lang('professional-plus.plate.slogan') </div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve prof-plus" class="arrow">
@@ -158,7 +158,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <h2 class="white">@lang('professional-plus.hoobs.h2')</h2>
             <p class="paragraph-7 white">
                 @lang('professional-plus.hoobs.p')</p>
-            <a href="/hoods/professional-plus" class="button dark small w-inline-block" data-ix="button">
+            <a href="{{route('category-style', ["hoods", "professional-plus"])}}" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">@lang('professional-plus.hoobs.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve prof-plus" class="arrow">
@@ -173,7 +173,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <h2 class="white">@lang('professional-plus.levels_colonna.h2')</h2>
             <p class="paragraph-7 white">
                 @lang('professional-plus.levels_colonna.p')</p>
-            <a href="/styles/professional-plus-en/colonna-stellata-cstar" class="button dark small w-inline-block"
+            <a href="{{route('prod', ["professional-plus", "zirkova-kolona-cstar"])}}" class="button dark small w-inline-block"
                 data-ix="button">
                 <div class="white">@lang('professional-plus.levels_colonna.slogan')</div>
                 <div class="line-link"></div>
@@ -189,7 +189,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <h2 class="white">@lang('professional-plus.oven2.h2')</h2>
             <p class="paragraph-7 white">
                 @lang('professional-plus.oven2.p') </p>
-            <a href="/ovens-and-cooking-and-storage-systems/professional-plus" class="button dark small w-inline-block"
+            <a href="{{route('category-style', ["ovens-and-cooking-and-storage-systems", "professional-plus"])}}" class="button dark small w-inline-block"
                 data-ix="button">
                 <div class="white">@lang('professional-plus.oven2.slogan')</div>
                 <div class="line-link"></div>
@@ -205,7 +205,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <h2 class="white">@lang('professional-plus.gas_panels.h2')</h2>
             <p class="paragraph-7 white">
                 @lang('professional-plus.gas_panels.p')</p>
-            <a href="/gas-hobs/professional-plus" class="button dark small w-inline-block" data-ix="button">
+            <a href="{{route('category-style', ["gas-hobs", "professional-plus"])}} " class="button dark small w-inline-block" data-ix="button">
                 <div class="white"> @lang('professional-plus.gas_panels.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve prof-plus" class="arrow">
@@ -220,7 +220,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <h2 class="white">@lang('professional-plus.induction_panels.h2')</h2>
             <p class="paragraph-7 white">
                 @lang('professional-plus.induction_panels.p')</p>
-            <a href="/induction-hobs/professional-plus" class="button dark small w-inline-block" data-ix="button">
+            <a href="{{route('category-style', ["induction-hobs", "professional-plus"])}}" class="button dark small w-inline-block" data-ix="button">
                 <div class="white">@lang('professional-plus.induction_panels.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve prof-plus" class="arrow">

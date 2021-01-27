@@ -38,8 +38,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
 </div>
 <div id="centertextandimage-block_5e809b686a968" class="block-center centertextandimage-block">
     <h2 class="heading-12  no-btm">@lang('pizza.haight.h2')</h2>
-    <div class="line-hawk">@lang('pizza.haight.p')</div> <img
-        src="{{Storage::url('static/')}}ILVE_Forno400_TFT.jpg" alt="ilve">
+    <div class="line-hawk">@lang('pizza.haight.p')</div> <img src="{{Storage::url('static/')}}ILVE_Forno400_TFT.jpg"
+        alt="ilve">
 </div>
 
 <div id="ilveicontext-block_5e809b966a969" class="block-4 w-row">
@@ -81,7 +81,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col3-txt w-col w-col-6">
         <h2>@lang('pizza.p_p_glass.h2')</h2>
         <p>@lang('pizza.p_p_glass.p')</p>
-        <a href="/style/nostalgie/645SZTCT4" class="button w-inline-block" data-ix="button">
+        <a href="{{route('prod', ['nostalgie', '645SNZT4'])}}" class="button w-inline-block" data-ix="button">
             <div>@lang('pizza.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
@@ -96,7 +96,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col3-txt w-col w-col-6">
         <h2>@lang('pizza.p_p_steel.h2')</h2>
         <p>@lang('pizza.p_p_steel.p')</p>
-        <a href="/style/nostalgie/645SLZT4" class="button w-inline-block" data-ix="button">
+        <a href="{{route('prod', ['nostalgie', '645SNZT4'])}}" class="button w-inline-block" data-ix="button">
             <div>@lang('pizza.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
@@ -110,7 +110,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col3-txt w-col w-col-6">
         <h2>@lang('pizza.nostalgie.h2')</h2>
         <p>@lang('pizza.nostalgie.p')</p>
-        <a href="/style/nostalgie/645SNZT4" class="button w-inline-block" data-ix="button">
+        <a href="{{route('prod', ['nostalgie', '645SNZT4'])}}" class="button w-inline-block" data-ix="button">
             <div>@lang('pizza.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">

@@ -39,7 +39,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col2-txt w-col w-col-6">
         <h2>@lang('majestic.kitchen.h2')</h2>
         <p>@lang('majestic.kitchen.p')</p>
-        <a href="/hob-technologies" class="button w-inline-block" data-ix="button">
+        <a href="{{route('hob-technologies')}}" class="button w-inline-block" data-ix="button">
             <div>@lang('majestic.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
@@ -53,7 +53,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col2-txt w-col w-col-6">
         <h2>@lang('majestic.hub.h2')</h2>
         {!! __('majestic.hub.p') !!}
-        <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block" data-ix="button">
+        <a href="{{route('technologies-of-ovens')}}" class="button w-inline-block" data-ix="button">
             <div>@lang('majestic.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve"
                 class="arrow">
@@ -278,7 +278,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <div class="col-correlati-l w-col w-col-6">
             <h2 class="white">@lang('majestic.plates.h2')</h2>
             <p class="paragraph-7 white">@lang('majestic.plates.p')</p>
-            <a href="/range-cookers/majestic" class="button dark small w-inline-block" data-ix="button">
+            <a href="{{route('category-style', ["range-cookers", "majestic"])}}"
+                class="button dark small w-inline-block" data-ix="button">
                 <div class="white">@lang('majestic.plates.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve" class="arrow">
@@ -292,7 +293,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <div class="col-correlati-l w-col w-col-6">
             <h2 class="white">@lang('majestic.plates.h2')</h2>
             <p class="paragraph-7 white">@lang('majestic.plates.p')</p>
-            <a href="/hoods/majestic" class="button dark small w-inline-block" data-ix="button">
+            <a href="{{route('category-style', ["hoods", "majestic"])}}" class="button dark small w-inline-block"
+                data-ix="button">
                 <div class="white">@lang('majestic.plates.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve" class="arrow">

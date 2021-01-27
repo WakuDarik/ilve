@@ -44,7 +44,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col2-txt w-col w-col-6">
         <h2>@lang('pro-line.uniq.h2')</h2>
         <p>@lang('pro-line.uniq.p')</p>
-        <a href="/hob-technologies" class="button w-inline-block" data-ix="button">
+        <a href="{{route('hob-technologies')}}" class="button w-inline-block" data-ix="button">
             <div>@lang('pro-line.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve pro-line"
                 class="arrow">
@@ -59,7 +59,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col2-txt w-col w-col-6">
         <h2>@lang('pro-line.oven.h2')</h2>
         {!! __('pro-line.oven.p') !!}
-        <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block" data-ix="button">
+        <a href="{{route('technologies-of-ovens')}}" class="button w-inline-block" data-ix="button">
             <div>@lang('pro-line.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve pro-line"
                 class="arrow">
@@ -136,7 +136,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
             <p class="paragraph-7 white">
                 @lang('pro-line.plates.p')
             </p>
-            <a href="/range-cookers/pro-line" class="button dark small w-inline-block" data-ix="button">
+            <a href="{{route('category-style', ["range-cookers", "pro-line"])}}"
+                class="button dark small w-inline-block" data-ix="button">
                 <div class="white">@lang('pro-line.plates.slogan') </div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve pro-line" class="arrow">
@@ -150,7 +151,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <div class="col-correlati-l w-col w-col-6">
             <h2 class="white">@lang('pro-line.hoob2.h2')</h2>
             <p class="paragraph-7 white">@lang('pro-line.hoob2.p')</p>
-            <a href="/hoods/pro-line" class="button dark small w-inline-block" data-ix="button">
+            <a href="{{route('category-style', ["hoods", "pro-line"])}}" class="button dark small w-inline-block"
+                data-ix="button">
                 <div class="white">@lang('pro-line.hoob2.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve pro-line" class="arrow">
@@ -164,8 +166,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <div class="col-correlati-l w-col w-col-6">
             <h2 class="white">@lang('pro-line.oven2.h2')</h2>
             <p class="paragraph-7 white">@lang('pro-line.oven2.p')
-            </p><a href="/ovens-and-cooking-and-storage-systems/pro-line" class="button dark small w-inline-block"
-                data-ix="button">
+            </p><a href="{{route('category-style', ["ovens-and-cooking-and-storage-systems", "pro-line"])}}"
+                class="button dark small w-inline-block" data-ix="button">
                 <div class="white">@lang('pro-line.oven2.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve pro-line" class="arrow">
@@ -179,7 +181,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <div class="col-correlati-l w-col w-col-6">
             <h2 class="white">@lang('pro-line.gas_panels.h2')</h2>
             <p class="paragraph-7 white">@lang('pro-line.gas_panels.p')
-            </p><a href="/gas-hobs/pro-line" class="button dark small w-inline-block" data-ix="button">
+            </p><a href="{{route('category-style', ["gas-hobs", "pro-line"])}}" class="button dark small w-inline-block"
+                data-ix="button">
                 <div class="white">@lang('pro-line.gas_panels.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve pro-line" class="arrow">
@@ -193,7 +196,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <div class="col-correlati-l w-col w-col-6">
             <h2 class="white">@lang('pro-line.induction_panels.h2')</h2>
             <p class="paragraph-7 white">@lang('pro-line.induction_panels.p')
-            </p><a href="/induction-hobs/pro-line" class="button dark small w-inline-block" data-ix="button">
+            </p><a href="{{route('category-style', ["induction-hobs", "pro-line"])}}"
+                class="button dark small w-inline-block" data-ix="button">
                 <div class="white">@lang('pro-line.induction_panels.slogan') </div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve pro-line" class="arrow">

@@ -14,7 +14,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <img src="{{Storage::url('static/')}}vertical-line.svg" alt="ilve nostalgie" data-ix="scroll">
     </div>
     <div class="content-title">
-        <h1 class="title-heder-line" >Nostalgie</h1>
+        <h1 class="title-heder-line">Nostalgie</h1>
     </div>
 </div>
 <div id="ilvetext50-block_5e5f8b46b2ec2" class="block-01 w-row">
@@ -31,16 +31,22 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <img src="{{Storage::url('static/nostalgie/')}}PD10SNE3_MGP_ANB100_DET_01.jpg" alt="ilve nostalgie">
     <img src="{{Storage::url('static/nostalgie/')}}PD10SNE3_MGP_ANB100_DET_02.jpg" alt="ilve nostalgie">
     <img src="{{Storage::url('static/nostalgie/')}}PD10SNE3_MGP_ANB100_DET_03.jpg" alt="ilve nostalgie">
-    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Det_01.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Det_01.jpg"
+        alt="ilve nostalgie">
     <img src="{{Storage::url('static/nostalgie/')}}OV91SNT3_HCB90FCN_AG120_WHG_Set_Gen_01.jpg" alt="ilve nostalgie">
     <img src="{{Storage::url('static/nostalgie/')}}OV91SNT3_HCB90FCN_AG120_WHG_Set_Det_03.jpg" alt="ilve nostalgie">
     <img src="{{Storage::url('static/nostalgie/')}}OV91SNT3_HCB90FCN_AG120_WHG_Set_Det_02.jpg" alt="ilve nostalgie">
     <img src="{{Storage::url('static/nostalgie/')}}OV91SNT3_HCB90FCN_AG120_WHG_Set_Det_01.jpg" alt="ilve nostalgie">
-    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_04.jpg" alt="ilve nostalgie">
-    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_03.jpg" alt="ilve nostalgie">
-    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_02.jpg" alt="ilve nostalgie">
-    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_01.jpg" alt="ilve nostalgie">
-    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Gen_01.jpg" alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_04.jpg"
+        alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_03.jpg"
+        alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_02.jpg"
+        alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Sco_01.jpg"
+        alt="ilve nostalgie">
+    <img src="{{Storage::url('static/nostalgie/')}}OV60SNT3_HCB70SDN_RN9020SBS_DN60A08_MGB_Set_Gen_01.jpg"
+        alt="ilve nostalgie">
 </div>
 <div id="imagetextandlink-block_5e5f9ab58bad0" class="block-2 w-row imagetextandlink-block ">
     <div class="col-2-image w-col w-col-6">
@@ -49,7 +55,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col2-txt w-col w-col-6">
         <h2>@lang('nostalgie.surfaces.h2')</h2>
         <p>{!! __('nostalgie.surfaces.p') !!}</p>
-        <a href="/hob-technologies" class="button w-inline-block" data-ix="button">
+        <a href="{{route('hob-technologies')}}" class="button w-inline-block" data-ix="button">
             <div>@lang('nostalgie.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve nostalgie"
                 class="arrow">
@@ -63,8 +69,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col2-txt w-col w-col-6">
         <h2>@lang('nostalgie.oven.h2')</h2>
         {!! __('nostalgie.oven.p') !!}
-        <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="button w-inline-block"
-            data-ix="button">
+        <a href="{{route('technologies-of-ovens')}}" class="button w-inline-block" data-ix="button">
             <div>@lang('nostalgie.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve nostalgie"
                 class="arrow">
@@ -87,7 +92,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
     <div class="col2-txt w-col w-col-6">
         <h2>@lang('nostalgie.star_column.h2')</h2>
         <p>@lang('nostalgie.star_column.p')</p>
-        <a href="/styles/nostalgie-en/colonna-stellata-cstarn" class="button w-inline-block" data-ix="button">
+        <a href="{{route('prod', ["nostalgie", "zirkova-kolona-cstarn"])}}" class="button w-inline-block"
+            data-ix="button">
             <div>@lang('nostalgie.discover')</div>
             <div class="line-link"></div><img src="{{Storage::url('static/')}}arrow.svg" width="18" alt="ilve nostalgie"
                 class="arrow">
@@ -303,22 +309,24 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <div class="col-correlati-l w-col w-col-6">
             <h2 class="white">@lang('nostalgie.plates.h2')</h2>
             <p class="paragraph-7 white">@lang('nostalgie.plates.p')</p>
-            <a href="/range-cookers/nostalgie" class="button dark small w-inline-block" data-ix="button">
+            <a href="{{route('category-style', ["range-cookers", "nostalgie"])}}"
+                class="button dark small w-inline-block" data-ix="button">
                 <div class="white">@lang('nostalgie.plates.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve nostalgie" class="arrow">
             </a>
         </div>
         <div class="col-correlati-r w-col w-col-6">
-            <img src="{{Storage::url('static/nostalgie/')}}P15SQN_MGP_HOOD_Gen_Front_Cat_Thumb.png" alt="ilve nostalgie">
+            <img src="{{Storage::url('static/nostalgie/')}}P15SQN_MGP_HOOD_Gen_Front_Cat_Thumb.png"
+                alt="ilve nostalgie">
         </div>
     </div>
     <div class="row-correlati w-row">
         <div class="col-correlati-l w-col w-col-6">
             <h2 class="white">@lang('nostalgie.hoob2.h2')</h2>
             <p class="paragraph-7 white">@lang('nostalgie.hoob2.p')</p>
-            <a href="/hoods/nostalgie"
-                class="button dark small w-inline-block" data-ix="button">
+            <a href="{{route('category-style', ["hoods", "nostalgie"])}}" class="button dark small w-inline-block"
+                data-ix="button">
                 <div class="white">@lang('nostalgie.hoob2.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve nostalgie" class="arrow">
@@ -332,8 +340,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <div class="col-correlati-l w-col w-col-6">
             <h2 class="white">@lang('nostalgie.star_column2.h2')</h2>
             <p class="paragraph-7 white">@lang('nostalgie.star_column2.p')</p>
-            <a href="/styles/nostalgie-en/colonna-stellata-cstarn"
-                class="button dark small w-inline-block" data-ix="button">
+            <a href="{{route('prod', ["nostalgie", "zirkova-kolona-cstarn"])}}" class="button dark small w-inline-block"
+                data-ix="button">
                 <div class="white">@lang('nostalgie.star_column2.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve nostalgie" class="arrow">
@@ -347,9 +355,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <div class="col-correlati-l w-col w-col-6">
             <h2 class="white">@lang('nostalgie.oven2.h2')</h2>
             <p class="paragraph-7 white">@lang('nostalgie.oven2.p')</p>
-            <a
-                href="/ovens-and-cooking-and-storage-systems/nostalgie" class="button dark small w-inline-block"
-                data-ix="button">
+            <a href="{{route('category-style', ["ovens-and-cooking-and-storage-systems", "nostalgie"])}}"
+                class="button dark small w-inline-block" data-ix="button">
                 <div class="white">@lang('nostalgie.oven2.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve nostalgie" class="arrow">
@@ -363,8 +370,8 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <div class="col-correlati-l w-col w-col-6">
             <h2 class="white">@lang('nostalgie.gas_panels.h2')</h2>
             <p class="paragraph-7 white">@lang('nostalgie.gas_panels.p')</p>
-            <a
-                href="/gas-hobs/nostalgie" class="button dark small w-inline-block" data-ix="button">
+            <a href="{{route('category-style', ["gas-hobs", "nostalgie"])}}" class="button dark small w-inline-block"
+                data-ix="button">
                 <div class="white">@lang('nostalgie.gas_panels.slogan')</div>
                 <div class="line-link"></div>
                 <img src="{{Storage::url('static/')}}arrow.svg" width="24" alt="ilve nostalgie" class="arrow">
@@ -378,7 +385,7 @@ background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)
         <div class="col-correlati-l w-col w-col-6">
             <h2 class="white">@lang('nostalgie.induction_panels.h2')</h2>
             <p class="paragraph-7 white">@lang('nostalgie.induction_panels.p')</p>
-            <a href="/induction-hobs/nostalgie"
+            <a href="{{route('category-style', ["induction-hobs", "nostalgie"])}}"
                 class="button dark small w-inline-block" data-ix="button">
                 <div class="white">@lang('nostalgie.induction_panels.slogan')</div>
                 <div class="line-link"></div>
