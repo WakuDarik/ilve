@@ -16,7 +16,15 @@ class SetLocale
      */
     public function handle($request, Closure $next)
     {
-        App::setlocale(session('locale'));
+        // dd(session('locale'));
+        if (session('locale') && !empty(session('locale'))) {
+            $langPrefix = session('locale');
+        } else {
+            $langPrefix = ltrim($request->route()->getPrefix(), '/');
+        }
+        if ($langPrefix) {
+            App::setlocale($langPrefix);
+        }
         return $next($request);
     }
 }

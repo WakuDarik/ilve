@@ -8,6 +8,7 @@ use App\Optcion;
 use App\Product;
 use App\Style;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Route;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Mail;
@@ -71,14 +72,40 @@ class MainController extends Controller
         return redirect()->back();
     }
 
+
+
     public function changeLocale($locale)
     {
+
+
         $avalibale = ['ua', 'ru'];
         if (!in_array($locale, $avalibale)) $locale = config('app.locale');
-
         session(['locale' => $locale]);
+
         App::setLocale($locale);
-        return redirect()->back();
+        $path = url()->previous();
+        if ($locale == 'ru') {
+            $path = $this->addToUrl($path, $locale);
+        } else {
+            $path = $this->removeFormUrl($path);
+        }
+        //dd($path);
+        return redirect($path);
+    }
+
+    protected function addToUrl($str, $item)
+    {
+        $parts = explode('/', $str);
+        array_splice($parts, 3, 0, $item);
+
+        return implode('/', $parts);
+    }
+    protected function removeFormUrl($str)
+    {
+        $parts = explode('/', $str);
+        array_splice($parts, 3, 1);
+
+        return implode('/', $parts);
     }
 
     public function test()

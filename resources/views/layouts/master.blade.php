@@ -71,7 +71,7 @@
 <body class="body-home">
     <div id="main-menu-back-to-black" @if(Request::route()->getName() == "index")
         class="menu menu-test home-load-menu " @else class="menu menu-test other-load " @endif>
-        <a href="/" class="logo w-inline-block">
+        <a href="{{route('index')}}" class="logo w-inline-block">
             @if(Request::route()->getName() == "index")
             <img id="back-to-black-logo" src="{{Storage::url('static/logo_1.svg')}}" width="120" height="39" alt="ilve">
             @else
@@ -91,13 +91,13 @@
                 <div data-ix='menu-product-open'>@lang('main.product')</div>
                 <div class="line-link"></div>
             </a>
-            {{-- <a href="//range-cookers?conf=t" @if(Request::route()->getName() == "index")
-                class="back-to-black-nav link-nav w-inline-block " @else class="back-to-black-nav link-nav
-                w-inline-block dark" @endif data-ix="button">
-                <div>Варіанти</div>
-                <div class="line-link"></div>
+            {{-- <a href="{{route('/range-cooker')}}s?conf=t" @if(Request::route()->getName() == "index")
+            class="back-to-black-nav link-nav w-inline-block " @else class="back-to-black-nav link-nav
+            w-inline-block dark" @endif data-ix="button">
+            <div>Варіанти</div>
+            <div class="line-link"></div>
             </a> --}}
-            <a href="/company" @if(Request::route()->getName() == "index")
+            <a href="{{route('company')}}" @if(Request::route()->getName() == "index")
                 class="back-to-black-nav link-nav w-inline-block " @else class="back-to-black-nav link-nav
                 w-inline-block dark" @endif data-ix="button">
                 <div>@lang('main.about_us')</div>
@@ -130,19 +130,20 @@
         <div class="space-close" data-ix="menu-linee-close"></div>
         <div class="content-link-menu-collection">
             <div class="link-mask">
-                <a href="/majestic" class="link-menu-collection" rel="page-4267">Majestic</a>
+                <a href="{{route('majestic')}}" class="link-menu-collection" rel="page-4267">Majestic</a>
             </div>
             <div class="link-mask">
-                <a href="/nostalgie" class="link-menu-collection" rel="page-4268">Nostalgie</a>
+                <a href="{{route('nostalgie')}}" class="link-menu-collection" rel="page-4268">Nostalgie</a>
             </div>
             <div class="link-mask">
-                <a href="/panoramagic" class="link-menu-collection" rel="page-4757">Panoramagic</a>
+                <a href="{{route('panoramagic')}}" class="link-menu-collection" rel="page-4757">Panoramagic</a>
             </div>
             <div class="link-mask">
-                <a href="/professional-plus" class="link-menu-collection" rel="page-4270">Professional Plus</a>
+                <a href="{{route('professional-plus')}}" class="link-menu-collection" rel="page-4270">Professional
+                    Plus</a>
             </div>
             <div class="link-mask">
-                <a href="/pro-line" class="link-menu-collection" rel="page-4269">Pro Line</a>
+                <a href="{{route('pro-line')}}" class="link-menu-collection" rel="page-4269">Pro Line</a>
             </div>
         </div>
         <div class="space-close" data-ix="menu-linee-close"></div>
@@ -183,11 +184,12 @@
                     <div data-ix='menu-product-open'>@lang('main.product')</div>
                     <div class="line-link"></div>
                 </a>
-                {{-- <a href="//range-cookers?conf=t" class="link-nav dark w-inline-block" data-ix="button">
-                    <div>Варіанти</div>
-                    <div class="line-link"></div>
+                {{-- <a href="{{route('/range-cooker')}}s?conf=t" class="link-nav dark w-inline-block"
+                data-ix="button">
+                <div>Варіанти</div>
+                <div class="line-link"></div>
                 </a> --}}
-                <a href="/distributors" class="link-nav dark w-inline-block" data-ix="button">
+                <a href="{{route('distributors')}}" class="link-nav dark w-inline-block" data-ix="button">
                     <div>@lang('main.about_us')</div>
                     <div class="line-link"></div>
                 </a>
@@ -320,77 +322,79 @@
 
             <div class="col-menu-azienda w-col w-col-4">
                 <div class="title-small">@lang('main.style')</div>
-                <a href="/majestic" class="link-nav grid w-inline-block">
+                <a href="{{route('majestic')}}" class="link-nav grid w-inline-block">
                     <div>Majestic</div>
                 </a>
-                <a href="/nostalgie" class="link-nav grid w-inline-block">
+                <a href="{{route('nostalgie')}}" class="link-nav grid w-inline-block">
                     <div>Nostalgie</div>
                 </a>
-                <a href="/panoramagic" class="link-nav grid w-inline-block">
+                <a href="{{route('panoramagic')}}" class="link-nav grid w-inline-block">
                     <div>Panoramagic</div>
                 </a>
-                <a href="/pro-line" class="link-nav grid w-inline-block">
+                <a href="{{route('pro-line')}}" class="link-nav grid w-inline-block">
                     <div>Pro Line</div>
                 </a>
-                <a href="/professional-plus" class="link-nav grid w-inline-block">
+                <a href="{{route('professional-plus')}}" class="link-nav grid w-inline-block">
                     <div>Professional Plus</div>
                 </a>
-                <a href="/colonna-stellata" class="link-nav grid w-inline-block">
+                <a href="{{route('colonna-stellata')}}" class="link-nav grid w-inline-block">
                     <div>@lang('main.kolona_steleta')</div>
                 </a>
                 <div class="title-small">@lang('main.quantity')</div>
-                <a href="/technologies-of-ovens-and-cooking-and-storage-systems" class="link-nav grid w-inline-block">
+                <a href="{{route('technologies-of-ovens')}}" class="link-nav grid w-inline-block">
                     <div>@lang('main.hubs_tehnologe')</div>
                 </a>
-                <a href="/hob-technologies" class="link-nav grid w-inline-block">
+                <a href="{{route('hob-technologies')}}" class="link-nav grid w-inline-block">
                     <div>@lang('main.surfaces_burners')</div>
                 </a>
-                <a href="/blast-chill-and-store" class="link-nav grid w-inline-block">
+                <a href="{{route('blast-chill-and-store')}}" class="link-nav grid w-inline-block">
                     <div>@lang('main.cooling_storage')</div>
                 </a>
-                <a href="/colours-and-finishes" class="link-nav grid w-inline-block">
+                <a href="{{route('colours-and-finishes')}}" class="link-nav grid w-inline-block">
                     <div>@lang('main.colors_decor')</div>
                 </a>
             </div>
             <div class="col-menu-azienda w-col w-col-4">
                 <div class="title-small">@lang('main.product')</div>
-                <a href="/range-cookers" class="link-nav grid w-inline-block">
+                <a href="{{route('category', $category = 'range-cookers')}}" class="link-nav grid w-inline-block">
                     <div>@lang('main.coock')</div>
                 </a>
-                <a href="/ovens-and-cooking-and-storage-systems" class="link-nav grid w-inline-block">
+                <a href="{{route('category', $category = 'ovens-and-cookin')}}g-and-storage-systems"
+                    class="link-nav grid w-inline-block">
                     <div>@lang('main.duhovki')</div>
                 </a>
-                <a href="/gas-hobs" class="link-nav grid w-inline-block">
+                <a href="{{route('category', $category = 'gas-hobs')}}" class="link-nav grid w-inline-block">
                     <div>@lang('main.gus_panel')</div>
                 </a>
-                <a href="/induction-hobs" class="link-nav grid w-inline-block">
+                <a href="{{route('category', $category = 'induction-hobs')}}" class="link-nav grid w-inline-block">
                     <div>@lang('main.indection_panel')</div>
                 </a>
-                <a href="/cooking-and-storage-systems" class="link-nav grid w-inline-block">
+                <a href="{{route('category', $category = 'cooking-and-storag')}}e-systems"
+                    class="link-nav grid w-inline-block">
                     <div>@lang('main.cook_and_storage')</div>
                 </a>
-                <a href="/hoods" class="link-nav grid w-inline-block">
+                <a href="{{route('category', $category = 'hoods')}}" class="link-nav grid w-inline-block">
                     <div>@lang('main.hoobs')</div>
                 </a>
-                <a href="/accessories" class="link-nav grid w-inline-block">
+                <a href="{{route('category', $category = 'accessories')}}" class="link-nav grid w-inline-block">
                     <div>@lang('main.accessories')</div>
                 </a>
-                <a href="/other-products" class="link-nav grid w-inline-block">
+                <a href="{{route('category', $category = 'other-products')}}" class="link-nav grid w-inline-block">
                     <div>@lang('main.other_products')</div>
                 </a>
             </div>
             <div class="col-menu-azienda w-col w-col-4">
                 {{-- <div class="title-small">Послуги</div>
-                <a href="/distributors" class="link-nav grid w-inline-block">
-                    <div>Дистриб'ютори</div>
+                <a href="{{route('distributors')}}" class="link-nav grid w-inline-block">
+                <div>Дистриб'ютори</div>
                 </a> --}}
                 <div class="title-small">Ilve</div>
-                <a href="/company" class="link-nav grid w-inline-block">
+                <a href="{{route('company')}}" class="link-nav grid w-inline-block">
                     <div>@lang('main.company')</div>
                 </a>
                 {{-- <div class="title-small">Завантажити</div>
-                <a href="/reserved-area" class="link-nav grid w-inline-block">
-                    <div>Reserved area</div>
+                <a href="{{route('reserved-area')}}" class="link-nav grid w-inline-block">
+                <div>Reserved area</div>
                 </a> --}}
             </div>
         </div>
@@ -401,12 +405,14 @@
                 <div class="title-menu">@lang('main.style')</div>
             </div>
             <nav class="dropdown-list-2 w-dropdown-list">
-                <a href="/majestic" class="link-menu-mobile w-dropdown-link">Majestic</a>
-                <a href="/nostalgie" class="link-menu-mobile w-dropdown-link">Nostalgie</a>
-                <a href="/panoramagic" class="link-menu-mobile w-dropdown-link">Panoramagic</a>
-                <a href="/pro-line" class="link-menu-mobile w-dropdown-link">Pro Line</a>
-                <a href="/professional-plus" class="link-menu-mobile w-dropdown-link">Professional Plus</a>
-                <a href="/colonna-stellata" class="link-menu-mobile w-dropdown-link">@lang('main.kolona_steleta')</a>
+                <a href="{{route('majestic')}}" class="link-menu-mobile w-dropdown-link">Majestic</a>
+                <a href="{{route('nostalgie')}}" class="link-menu-mobile w-dropdown-link">Nostalgie</a>
+                <a href="{{route('panoramagic')}}" class="link-menu-mobile w-dropdown-link">Panoramagic</a>
+                <a href="{{route('pro-line')}}" class="link-menu-mobile w-dropdown-link">Pro Line</a>
+                <a href="{{route('professional-plus')}}" class="link-menu-mobile w-dropdown-link">Professional
+                    Plus</a>
+                <a href="{{route('colonna-stellata')}}"
+                    class="link-menu-mobile w-dropdown-link">@lang('main.kolona_steleta')</a>
             </nav>
         </div>
         <div data-delay="0" class="dropdown-3 w-dropdown">
@@ -415,12 +421,14 @@
                 <div class="title-menu">@lang('main.quantity')</div>
             </div>
             <nav class="dropdown-list-2 w-dropdown-list">
-                <a href="/technologies-of-ovens-and-cooking-and-storage-systems"
+                <a href="{{route('technologies-of-ovens')}}"
                     class="link-menu-mobile w-dropdown-link">@lang('main.hubs_tehnologe')</a>
-                <a href="/hob-technologies" class="link-menu-mobile w-dropdown-link">@lang('main.hubs_tehnologe')</a>
-                <a href="/blast-chill-and-store"
+                <a href="{{route('hob-technologies')}}"
+                    class="link-menu-mobile w-dropdown-link">@lang('main.hubs_tehnologe')</a>
+                <a href="{{route('blast-chill-and-store')}}"
                     class="link-menu-mobile w-dropdown-link">@lang('main.cooling_storage')</a>
-                <a href="/colours-and-finishes" class="link-menu-mobile w-dropdown-link">@lang('main.colors_decor')</a>
+                <a href="{{route('colours-and-finishes')}}"
+                    class="link-menu-mobile w-dropdown-link">@lang('main.colors_decor')</a>
             </nav>
         </div>
         <div data-delay="0" class="dropdown-3 w-dropdown">
@@ -429,16 +437,22 @@
                 <div class="title-menu">@lang('main.product')</div>
             </div>
             <nav class="dropdown-list-2 w-dropdown-list">
-                <a href="/range-cookers" class="link-menu-mobile w-dropdown-link">@lang('main.coock')</a>
-                <a href="/ovens-and-cooking-and-storage-systems"
+                <a href="{{route('category', $category = 'range-cookers')}}"
+                    class="link-menu-mobile w-dropdown-link">@lang('main.coock')</a>
+                <a href="{{route('category', $category = 'ovens-and-cooking-and-storage-systems')}}"
                     class="link-menu-mobile w-dropdown-link">@lang('main.duhovki')</a>
-                <a href="/gas-hobs" class="link-menu-mobile w-dropdown-link">@lang('main.gus_panel')</a>
-                <a href="/induction-hobs" class="link-menu-mobile w-dropdown-link">@lang('main.indection_panel')</a>
-                <a href="/cooking-and-storage-systems"
+                <a href="{{route('category', $category = 'gas-hobs')}}"
+                    class="link-menu-mobile w-dropdown-link">@lang('main.gus_panel')</a>
+                <a href="{{route('category', $category = 'induction-hobs')}}"
+                    class="link-menu-mobile w-dropdown-link">@lang('main.indection_panel')</a>
+                <a href="{{route('category', $category = 'cooking-and-storage-systems')}}"
                     class="link-menu-mobile w-dropdown-link">@lang('main.cook_and_storage')</a>
-                <a href="/hoods" class="link-menu-mobile w-dropdown-link">@lang('main.hoobs')</a>
-                <a href="/accessories" class="link-menu-mobile w-dropdown-link">@lang('main.accessories')</a>
-                <a href="/other-products" class="link-menu-mobile w-dropdown-link">@lang('main.other_products')</a>
+                <a href="{{route('category', $category = 'hoods')}}"
+                    class="link-menu-mobile w-dropdown-link">@lang('main.hoobs')</a>
+                <a href="{{route('category', $category = 'accessories')}}"
+                    class="link-menu-mobile w-dropdown-link">@lang('main.accessories')</a>
+                <a href="{{route('category', $category = 'other-products')}}"
+                    class="link-menu-mobile w-dropdown-link">@lang('main.other_products')</a>
             </nav>
         </div>
         <div data-delay="0" class="dropdown-3 w-dropdown">
@@ -447,7 +461,8 @@
                 <div class="title-menu">@lang('main.offers')</div>
             </div>
             <nav class="dropdown-list-2 w-dropdown-list">
-                <a href="/distributors" class="link-menu-mobile w-dropdown-link">@lang('main.distributors')</a>
+                <a href="{{route('distributors')}}"
+                    class="link-menu-mobile w-dropdown-link">@lang('main.distributors')</a>
             </nav>
         </div>
         <div data-delay="0" class="dropdown-3 w-dropdown">
@@ -456,7 +471,7 @@
                 <div class="title-menu">Ilve</div>
             </div>
             <nav class="dropdown-list-2 w-dropdown-list">
-                <a href="/company" class="link-menu-mobile w-dropdown-link">@lang('main.company')</a>
+                <a href="{{route('company')}}" class="link-menu-mobile w-dropdown-link">@lang('main.company')</a>
             </nav>
         </div>
         <div data-delay="0" class="dropdown-3 w-dropdown">
@@ -465,7 +480,7 @@
                 <div class="title-menu">@lang('main.download')</div>
             </div>
             <nav class="dropdown-list-2 w-dropdown-list">
-                <a href="/reserved-area" class="link-menu-mobile w-dropdown-link">Reserved area</a>
+                <a href="{{route('reserved-area')}}" class="link-menu-mobile w-dropdown-link">Reserved area</a>
             </nav>
         </div>
 
@@ -487,7 +502,7 @@
                         <ul>
                             <li
                                 class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-it wpml-ls-first-item wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
-                                <a href="/" class="wpml-ls-link"><span class="wpml-ls-native"
+                                <a href="" class="wpml-ls-link"><span class="wpml-ls-native"
                                         lang="it">@lang('main.itali')</span></a>
                             </li>
                         </ul>
